@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Khám phá các sản phẩm Apple chính hãng: iPhone, Mac, iPad, Apple Watch, AirPods và phụ kiện với giá tốt nhất tại Anh Em Rọt Store.">
+    <meta name="keywords" content="Apple, iPhone, Mac, iPad, Apple Watch, AirPods, phụ kiện Apple, mua sắm Apple">
+    <meta name="author" content="Anh Em Rọt Store">
+    <link rel="icon" href="assets/logo/logo.png" type="image/png">
+    <title>Sản phẩm Apple Chính Hãng | Anh Em Rọt Store</title>
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/product_chinh.css">
+    <link rel="stylesheet" href="css/chatbot.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.1/css/all.min.css">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Sản phẩm Apple Chính Hãng",
+        "description": "Khám phá các sản phẩm Apple chính hãng với công nghệ tiên tiến và thiết kế đột phá.",
+        "url": "https://example.com/product.html",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Trang chủ",
+                    "item": "https://example.com"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Sản phẩm",
+                    "item": "https://example.com/product.html"
+                }
+            ]
+        }
+    }
+    </script>
+</head>
+
+<body>
+    <div class="top-bar">
+        <div class="top-bar-container">
+            <div class="top-bar-left">
+                <span><i class="fas fa-envelope"></i> anhemrotstore12chuaboc@hvnh.edu.vn</span>
+                <span><i class="fas fa-phone"></i> (+84) 827592304</span>
+            </div>
+            <div class="top-bar-center">
+                <span id="typewriter"></span>
+                <span id="weather" class="weather-info">⛅ Đang tải thời tiết...</span>
+            </div>
+            <div class="top-bar-right">
+                <a href="https://www.instagram.com/_yud.gnauq/"><i class="fab fa-instagram"></i> Instagram</a>
+                <a href="https://web.facebook.com/quys.hokage"><i class="fab fa-facebook"></i> Facebook</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Header -->
+    <header class="main-header">
+        <div class="header-container">
+            <div class="header-left">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="assets/logo/logo.png" alt="Anh Em Rọt Store Logo"
+                            style="transition: transform 0.3s ease; display: block;"
+                            onmouseover="this.style.transform='scale(1.05)'"
+                            onmouseout="this.style.transform='scale(1)'">
+                    </a>
+                </div>
+                <nav class="desktop-nav">
+                    <ul>
+                        <li><a href="index.html">Trang chủ</a></li>
+                        <li class="has-dropdown">
+                            <a href="#" aria-current="page">Sản Phẩm</a>
+                            <div id="products-dropdown">
+                                <div class="products-inner-content">
+                                    <div class="mega-menu-column main-categories-column">
+                                        <div class="category-item">
+                                            <a href="iphone.html" data-target-category="iphone-series">
+                                                <i class="fab fa-apple" style="margin-right: 8px;"></i>iPhone Series
+                                            </a>
+                                            <div class="subcategory-content" id="iphone-series-content">
+                                                <div class="subcategory-title">iPhone Series</div>
+                                                <div class="subcategory-grid-links">
+                                                    <a href="#">iPhone 16</a>
+                                                    <a href="#">iPhone 15</a>
+                                                    <a href="#">iPhone 14</a>
+                                                    <a href="#">iPhone 13</a>
+                                                    <a href="#">iPhone 12 Pro</a>
+                                                    <a href="#">iPhone SE</a>
+                                                    <a href="#">So sánh iPhone</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="category-item">
+                                            <a href="ipad.html" data-target-category="ipad-models">
+                                                <i class="fas fa-tablet-alt" style="margin-right: 8px;"></i>iPad Models
+                                            </a>
+                                            <div class="subcategory-content" id="ipad-models-content">
+                                                <div class="subcategory-title">iPad Models</div>
+                                                <div class="subcategory-grid-links">
+                                                    <a href="#">iPad Pro"</a>
+                                                    <a href="#">iPad Air</a>
+                                                    <a href="#">iPad</a>
+                                                    <a href="#">iPad mini</a>
+                                                    <a href="#">Apple Pencil</a>
+                                                    <a href="#">Magic Keyboard</a>
+                                                    <a href="#">So sánh iPad</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="category-item">
+                                            <a href="macbook.html" data-target-category="mac-devices">
+                                                <i class="fas fa-laptop" style="margin-right: 8px;"></i>Mac Devices
+                                            </a>
+                                            <div class="subcategory-content" id="mac-devices-content">
+                                                <div class="subcategory-title">Mac Devices</div>
+                                                <div class="subcategory-grid-links">
+                                                    <a href="#">MacBook Air</a>
+                                                    <a href="#">MacBook Pro</a>
+                                                    <a href="#">iMac</a>
+                                                    <a href="#">Mac mini</a>
+                                                    <a href="#">Mac Studio</a>
+                                                    <a href="#">Mac Pro</a>
+                                                    <a href="#">So sánh Mac</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="category-item">
+                                            <a href="watch.html" data-target-category="apple-watch">
+                                                <i class="fas fa-clock" style="margin-right: 8px;"></i>Apple Watch
+                                            </a>
+                                            <div class="subcategory-content" id="apple-watch-content">
+                                                <div class="subcategory-title">Apple Watch</div>
+                                                <div class="subcategory-grid-links">
+                                                    <a href="#">Apple Watch Ultra</a>
+                                                    <a href="#">Apple Watch SE</a>
+                                                    <a href="#">Apple Watch Nike</a>
+                                                    <a href="#">Dây đeo Sport</a>
+                                                    <a href="#">Dây đeo Leather</a>
+                                                    <a href="#">Dây đeo Milanese</a>
+                                                    <a href="#">So sánh Apple Watch</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="category-item">
+                                            <a href="accessory.html" data-target-category="accessories">
+                                                <i class="fas fa-headphones" style="margin-right: 8px;"></i>Accessories
+                                            </a>
+                                            <div class="subcategory-content" id="accessories-content">
+                                                <div class="subcategory-title">Accessories</div>
+                                                <div class="subcategory-grid-links">
+                                                    <a href="tainghe.html">AirPods</a>
+                                                    <a href="#">Apple TV 4K</a>
+                                                    <a href="#">MagSafe Charger</a>
+                                                    <a href="#">Ốp lưng iPhone</a>
+                                                    <a href="#">Magic Keyboard</a>
+                                                    <a href="#">Magic Mouse</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="mega-menu-column subcategory-display-column">
+                                        <div class="subcategory-content-placeholder">
+                                            <p>🖱️ Di chuột qua danh mục để xem chi tiết</p>
+                                        </div>
+                                    </div>
+                                    <div class="mega-menu-column promo-column">
+                                        <img src="assets/logo/logo.png" alt="Hot Products">
+                                        <p>🔥 Khám phá các sản phẩm hot nhất</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li><a href="promotion.html">Khuyến Mại</a></li>
+
+                        <li><a href="about.html">Về chúng tôi</a></li>
+                        <li><a href="news.html">Tin Tức</a></li>
+                        <li><a href="contact.html">Liên hệ</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="header-right">
+                <div class="search-box">
+                    <i class="fas fa-search search-icon" aria-label="Mở tìm kiếm"></i>
+                    <div class="search-input-container">
+                        <input type="text" class="search-input" placeholder="Tìm kiếm sản phẩm..."
+                            aria-label="Tìm kiếm sản phẩm">
+                        <button class="close-search-btn" aria-label="Đóng tìm kiếm">×</button>
+                    </div>
+                    <div class="search-results-container" role="listbox" style="display: none;"></div>
+                </div>
+                <div class="cart-icon">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="cart-count">0</span>
+                </div>
+                <div id="user-section">
+                    <!-- Dynamically updated by JavaScript -->
+                </div>
+                <div class="hamburger-menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Cart Modal Overlay -->
+    <div class="cart-modal-overlay"></div>
+
+    <!-- Cart Modal -->
+    <div class="cart-modal">
+        <div class="cart-modal-header">
+            <h3>Giỏ hàng của bạn</h3>
+            <button class="close-cart-modal"><i class="fas fa-times"></i></button>
+        </div>
+        <div class="cart-modal-body">
+            <div class="cart-empty">
+                <i class="fas fa-shopping-cart"></i>
+                <p>Giỏ hàng trống</p>
+            </div>
+            <!-- Cart items will be dynamically added here -->
+        </div>
+        <div class="cart-modal-footer">
+            <button class="view-cart-btn">Xem giỏ hàng</button>
+            <button class="checkout-btn">Thanh toán</button>
+        </div>
+    </div>
+
+    <!-- Mobile Overlay -->
+    <div class="mobile-overlay"></div>
+
+    <!-- Mobile Navigation -->
+    <nav class="mobile-nav">
+        <button class="close-mobile-nav"><i class="fas fa-times"></i></button>
+        <ul>
+            <li><a href="index.html">🏠 Trang chủ</a></li>
+            <li class="has-submenu">
+                <a href="#" aria-current="page">📱 Products</a>
+                <ul class="submenu">
+                    <li><a href="iphone.html">📱 iPhone Series</a></li>
+                    <li class="has-submenu">
+                        <a href="macbook.html">💻 Mac Devices</a>
+                        <ul class="submenu">
+                            <li><a href="#">MacBook Air</a></li>
+                            <li><a href="#">MacBook Pro</a></li>
+                            <li><a href="#">iMac</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="ipad.html">🎯 iPad Models</a></li>
+                    <li><a href="watch.html">⌚ Apple Watch</a></li>
+                    <li><a href="accessory.html">🎧 Accessories</a></li>
+                </ul>
+            </li>
+            <li><a href="about.html">ℹ️ Về chúng tôi</a></li>
+            <li><a href="promotion.html">🛠️ Khuyến mại</a></li>
+            <li><a href="news.html">📝 Tin tức</a></li>
+            <li><a href="contact.html">📞 Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="header" role="region" aria-labelledby="products-heading">
+            <h1 id="products-heading">Sản phẩm của chúng tôi</h1>
+            <p>Khám phá các sản phẩm Apple mới nhất với công nghệ tiên tiến và thiết kế đột phá.</p>
+        </section>
+
+        <section class="category-section" id="iphone-section" role="region" aria-labelledby="iphone-heading">
+            <h2 class="category-title" id="iphone-heading">
+                <img src="assets/icons/apple.ico" alt="Apple Logo"
+                    style="display: flex; justify-content: center; align-items: center;"> iPhone
+            </h2>
+            <button class="nav-btn" id="prev-iphone" aria-label="Sản phẩm trước"><i
+                    class="fas fa-chevron-left"></i></button>
+            <div class="carousel" id="iphone" role="list"></div>
+            <button class="nav-btn" id="next-iphone" aria-label="Sản phẩm tiếp theo"><i
+                    class="fas fa-chevron-right"></i></button>
+        </section>
+
+        <section class="category-section" id="mac-section" role="region" aria-labelledby="mac-heading">
+            <h2 class="category-title" id="mac-heading">
+                <img src="assets/icons/apple.ico" alt="Apple Logo"
+                    style="display: flex; justify-content: center; align-items: center;"> MacBook
+            </h2>
+            <button class="nav-btn" id="prev-mac" aria-label="Sản phẩm trước"><i
+                    class="fas fa-chevron-left"></i></button>
+            <div class="carousel" id="mac" role="list"></div>
+            <button class="nav-btn" id="next-mac" aria-label="Sản phẩm tiếp theo"><i
+                    class="fas fa-chevron-right"></i></button>
+        </section>
+
+        <section class="category-section" id="ipad-section" role="region" aria-labelledby="ipad-heading">
+            <h2 class="category-title" id="ipad-heading">
+                <img src="assets/icons/apple.ico" alt="Apple Logo"
+                    style="display: flex; justify-content: center; align-items: center;"> iPad
+            </h2>
+            <button class="nav-btn" id="prev-ipad" aria-label="Sản phẩm trước"><i
+                    class="fas fa-chevron-left"></i></button>
+            <div class="carousel" id="ipad" role="list"></div>
+            <button class="nav-btn" id="next-ipad" aria-label="Sản phẩm tiếp theo"><i
+                    class="fas fa-chevron-right"></i></button>
+        </section>
+
+        <section class="category-section" id="applewatch-section" role="region" aria-labelledby="applewatch-heading">
+            <h2 class="category-title" id="applewatch-heading">
+                <img src="assets/icons/apple.ico" alt="Apple Logo"
+                    style="display: flex; justify-content: center; align-items: center;"> Apple Watch
+            </h2>
+            <button class="nav-btn" id="prev-applewatch" aria-label="Sản phẩm trước"><i
+                    class="fas fa-chevron-left"></i></button>
+            <div class="carousel" id="applewatch" role="list"></div>
+            <button class="nav-btn" id="next-applewatch" aria-label="Sản phẩm tiếp theo"><i
+                    class="fas fa-chevron-right"></i></button>
+        </section>
+
+        <section class="category-section" id="airpod-section" role="region" aria-labelledby="airpod-heading">
+            <h2 class="category-title" id="airpod-heading">
+                <img src="assets/icons/apple.ico" alt="Apple Logo"
+                    style="display: flex; justify-content: center; align-items: center;"> AirPods
+            </h2>
+            <button class="nav-btn" id="prev-airpod" aria-label="Sản phẩm trước"><i
+                    class="fas fa-chevron-left"></i></button>
+            <div class="carousel" id="airpod" role="list"></div>
+            <button class="nav-btn" id="next-airpod" aria-label="Sản phẩm tiếp theo"><i
+                    class="fas fa-chevron-right"></i></button>
+        </section>
+
+        <section class="category-section" id="phukien-section" role="region" aria-labelledby="phukien-heading">
+            <h2 class="category-title" id="phukien-heading">
+                <img src="assets/icons/apple.ico" alt="Apple Logo"
+                    style="display: flex; justify-content: center; align-items: center;"> Phụ kiện
+            </h2>
+            <button class="nav-btn" id="prev-phukien" aria-label="Sản phẩm trước"><i
+                    class="fas fa-chevron-left"></i></button>
+            <div class="carousel" id="phukien" role="list"></div>
+            <button class="nav-btn" id="next-phukien" aria-label="Sản phẩm tiếp theo"><i
+                    class="fas fa-chevron-right"></i></button>
+        </section>
+
+        <div class="modal" id="productModal" role="dialog" aria-labelledby="modalProductName" aria-hidden="true">
+            <div class="modal-content">
+                <span class="close-button" aria-label="Đóng chi tiết sản phẩm">×</span>
+                <div class="modal-body">
+                    <div class="modal-image-gallery">
+                        <img src="" alt="" class="modal-image" id="modalMainImage">
+                        <div class="modal-thumbnails" id="modalThumbnails"></div>
+                    </div>
+                    <div class="modal-details">
+                        <h2 id="modalProductName"></h2>
+                        <p class="modal-price" id="modalProductPrice"></p>
+                        <p class="modal-original-price" id="modalProductOriginalPrice"></p>
+                        <p class="modal-discount" id="modalProductDiscount"></p>
+
+                        <h3>Mô tả:</h3>
+                        <div id="modalProductDescription"></div>
+
+                        <h3>Thông số kỹ thuật:</h3>
+                        <div id="modalProductSpecs"></div>
+
+                        <div id="modalProductConfigurations"></div>
+
+                        <div class="product-actions">
+                            <button class="btn add-to-cart-btn" aria-label="Thêm vào giỏ hàng">Thêm vào giỏ</button>
+                            <button class="btn buy-now-btn" aria-label="Mua ngay">Mua ngay</button>
+                        </div>
+
+                        <div id="modalProductPromotions">
+                            <h3>Khuyến mãi:</h3>
+                            <ul id="promotionsList"></ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div id="footer-placeholder"></div>
+    <script src="scripts/navbar.js" defer></script>
+    <script src="scripts/cart.js" defer></script>
+    <script src="scripts/product.js" defer></script>
+    <script defer src="scripts/page_loader.js"></script>
+    <script src="scripts/loadfooter.js"></script>
+    <script src="scripts/chatbot.js" defer></script>
+</body>
+
+</html>

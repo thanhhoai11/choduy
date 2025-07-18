@@ -1,0 +1,122 @@
+[
+    {
+      "id": "news01",
+      "title": "Apple chính thức ra mắt iPhone 15 tại Việt Nam",
+      "description": "Sự kiện ra mắt iPhone 15 với nhiều cải tiến mới về camera, pin và hiệu năng.",
+      "image": "assets/news/news01.png",
+      "startDate": "18/04/2025",
+      "details": "iPhone 15 đã chính thức có mặt tại các cửa hàng Anh Em Rọt trên toàn quốc. Nhiều ưu đãi dành cho khách hàng đặt trước, bao gồm giảm giá 10% và tặng kèm phụ kiện chính hãng. Phiên bản mới này được trang bị camera 48MP, chip A16 Bionic mạnh mẽ, và thời lượng pin kéo dài đến 2 ngày. Ngoài ra, Apple còn giới thiệu tính năng Dynamic Island mới, mang lại trải nghiệm tương tác độc đáo cho người dùng."
+    },
+    {
+      "id": "news02",
+      "title": "Apple Watch Ultra nhận bản cập nhật lớn",
+      "description": "Bản cập nhật phần mềm mới giúp nâng cấp tính năng thể thao và theo dõi sức khỏe cho Apple Watch Ultra.",
+      "image": "assets/news/news02.png",
+      "startDate": "17/04/2025",
+      "details": "Apple phát hành watchOS mới cho dòng Ultra với nhiều cải tiến đáng kể. Người dùng có thể theo dõi nhịp tim chính xác hơn nhờ thuật toán AI mới, GPS được tối ưu hóa để hoạt động tốt hơn trong môi trường đô thị. Bản cập nhật cũng bổ sung tính năng theo dõi giấc ngủ chi tiết, giúp phân tích các giai đoạn ngủ sâu, ngủ nông và REM. Ngoài ra, giao diện người dùng được làm mới với nhiều mặt đồng hồ thể thao hơn."
+    },
+    {
+      "id": "news03",
+      "title": "Apple ra mắt iPad Pro mới với chip M3",
+      "description": "iPad Pro mới với chip M3 mang lại hiệu suất vượt trội cho người dùng sáng tạo.",
+      "image": "assets/news/news03.png",
+      "startDate": "16/04/2025",
+      "details": "iPad Pro mới được trang bị chip M3, giúp tăng tốc độ xử lý lên đến 20% so với thế hệ trước. Đồ họa cũng được cải thiện đáng kể, hỗ trợ render 3D mượt mà và chỉnh sửa video 8K. Thời gian sử dụng pin lên đến 12 giờ liên tục, phù hợp cho các nhà thiết kế và nghệ sĩ. Màn hình Liquid Retina XDR với độ sáng 1600 nits mang lại trải nghiệm hình ảnh sống động. Apple cũng giới thiệu bút Apple Pencil thế hệ mới với độ trễ thấp hơn và khả năng tương tác chính xác hơn."
+    },
+    {
+      "id": "news04",
+      "title": "Apple Music ra mắt tính năng mới",
+      "description": "Tính năng phát nhạc theo chủ đề giúp người dùng dễ dàng tìm kiếm và thưởng thức âm nhạc.",
+      "image": "assets/news/news04.png",
+      "startDate": "15/04/2025",
+      "details": "Apple Music giới thiệu tính năng phát nhạc theo chủ đề, cho phép người dùng tìm kiếm và thưởng thức âm nhạc theo tâm trạng, hoạt động hoặc thời gian trong ngày. Tính năng này sử dụng AI để phân tích sở thích cá nhân và đề xuất playlist phù hợp. Ngoài ra, Apple còn hợp tác với các nghệ sĩ nổi tiếng để tạo ra các radio cá nhân hóa, nơi nghệ sĩ chia sẻ câu chuyện đằng sau các bài hát. Người dùng cũng có thể tạo playlist cộng tác, cho phép bạn bè cùng thêm bài hát vào danh sách chung."
+    },
+    {
+      "id": "news05",
+      "title": "Apple TV+ công bố loạt phim mới",
+      "description": "Nhiều bộ phim và chương trình truyền hình mới sẽ ra mắt trên Apple TV+ trong tháng tới.",
+      "image": "assets/news/news04.png",
+      "startDate": "14/04/2025",
+      "details": "Apple TV+ công bố danh sách các bộ phim và chương trình truyền hình mới sẽ ra mắt trong tháng tới, bao gồm nhiều thể loại hấp dẫn như khoa học viễn tưởng, tâm lý và tài liệu. Trong đó, phim 'Eternal Horizon' với sự tham gia của các diễn viên đoạt giải Oscar sẽ là tâm điểm. Ngoài ra, series hoạt hình 'Dreamland' dành cho trẻ em cũng được mong đợi. Apple còn đầu tư vào các dự án phim độc lập, mang lại nội dung đa dạng cho người xem."
+    },
+    {
+      "id": "news06",
+      "title": "Apple phát hành bản cập nhật iOS 17.5",
+      "description": "Bản cập nhật mới mang lại nhiều tính năng và cải tiến cho người dùng iPhone.",
+      "image": "assets/news/news05.png",
+      "startDate": "13/04/2025",
+      "details": "Bản cập nhật iOS 17.5 đã chính thức được phát hành với nhiều tính năng mới và sửa lỗi. Trong đó, tính năng 'Focus Mode' được cải tiến, cho phép người dùng tùy chỉnh sâu hơn các thông báo và ứng dụng được phép hiển thị. Hệ thống bảo mật cũng được nâng cấp, bổ sung tính năng quét mã độc trong thời gian thực. Ngoài ra, Apple còn tối ưu hóa hiệu suất cho các dòng iPhone cũ, giúp thiết bị chạy mượt mà hơn. Người dùng nên cập nhật ngay để trải nghiệm những cải tiến này."
+    },
+    {
+      "id": "news07",
+      "title": "Apple ra mắt dịch vụ Apple Pay tại Việt Nam",
+      "description": "Người dùng có thể thanh toán dễ dàng và nhanh chóng qua Apple Pay.",
+      "image": "assets/news/news06.png",
+      "startDate": "12/04/2025",
+      "details": "Apple Pay đã chính thức có mặt tại Việt Nam, cho phép người dùng thanh toán nhanh chóng và an toàn qua iPhone và Apple Watch. Dịch vụ này hỗ trợ liên kết với các ngân hàng lớn như Vietcombank, Techcombank và VPBank. Người dùng có thể thanh toán tại các cửa hàng, ứng dụng hoặc trên web chỉ với một lần chạm. Apple cũng áp dụng công nghệ bảo mật Face ID hoặc Touch ID để đảm bảo giao dịch an toàn. Ngoài ra, nhiều ưu đãi và hoàn tiền sẽ được áp dụng cho các giao dịch đầu tiên."
+    },
+    {
+      "id": "news08",
+      "title": "Apple công bố kế hoạch bảo vệ môi trường",
+      "description": "Apple cam kết giảm thiểu tác động đến môi trường và sử dụng năng lượng tái tạo.",
+      "image": "assets/news/news07.png",
+      "startDate": "11/04/2025",
+      "details": "Apple công bố kế hoạch bảo vệ môi trường với nhiều sáng kiến mới nhằm giảm thiểu tác động đến môi trường. Công ty cam kết sử dụng 100% năng lượng tái tạo cho tất cả các cơ sở sản xuất và văn phòng vào năm 2030. Apple cũng đầu tư vào các dự án tái chế, trong đó robot Daisy có thể tháo rời 200 iPhone mỗi giờ để thu hồi nguyên liệu. Ngoài ra, bao bì sản phẩm sẽ được làm từ vật liệu tái chế hoặc có nguồn gốc bền vững."
+    },
+    {
+      "id": "news09",
+      "title": "Apple phát hành bản cập nhật macOS 14",
+      "description": "Bản cập nhật mới mang lại nhiều tính năng và cải tiến cho người dùng Mac.",
+      "image": "assets/news/news08.png",
+      "startDate": "10/04/2025",
+      "details": "Bản cập nhật macOS 14 đã chính thức được phát hành với nhiều tính năng mới và sửa lỗi. Giao diện hệ thống được làm mới với các widget có thể tùy biến và hiệu ứng chuyển động mượt mà. Tính năng Universal Control nay hỗ trợ nhiều thiết bị hơn, cho phép người dùng điều khiển nhiều Mac và iPad cùng lúc. Hiệu suất đồ họa được cải thiện, đặc biệt trên các dòng MacBook Pro. Ngoài ra, bảo mật được nâng cao với tính năng quét phần mềm độc hại trong thời gian thực."
+    },
+    {
+      "id": "news10",
+      "title": "Apple công bố sự kiện WWDC 2025",
+      "description": "Sự kiện thường niên dành cho các nhà phát triển sẽ diễn ra vào tháng 6 tới.",
+      "image": "assets/news/news09.png",
+      "startDate": "09/04/2025",
+      "details": "Apple công bố sự kiện WWDC 2025 sẽ diễn ra vào tháng 6 tới, nơi giới thiệu các công nghệ và sản phẩm mới dành cho các nhà phát triển. Sự kiện sẽ được tổ chức trực tuyến và miễn phí cho tất cả người tham gia. Apple dự kiến ra mắt các phiên bản hệ điều hành mới như iOS 18, macOS 15 và watchOS 11. Ngoài ra, công ty có thể giới thiệu phần cứng mới như MacBook Air với chip M3. Các nhà phát triển sẽ có cơ hội tham gia các buổi hội thảo kỹ thuật và nhận hỗ trợ từ chuyên gia Apple."
+    },
+    {
+      "id": "news11",
+      "title": "Apple ra mắt dịch vụ Apple Arcade tại Việt Nam",
+      "description": "Người dùng có thể trải nghiệm hàng trăm trò chơi mới trên Apple Arcade.",
+      "image": "assets/news/news11.png",
+      "startDate": "08/04/2025",
+      "details": "Apple Arcade đã chính thức có mặt tại Việt Nam, cho phép người dùng trải nghiệm hàng trăm trò chơi mới và độc quyền trên iPhone, iPad, Mac và Apple TV. Dịch vụ này không chứa quảng cáo và không yêu cầu mua hàng trong ứng dụng. Người dùng đăng ký sẽ được chơi không giới hạn các tựa game chất lượng cao như 'Fantasian', 'The Pathless' và nhiều game mới ra mắt hàng tháng. Apple cũng hợp tác với các nhà phát triển game nổi tiếng để mang lại nội dung độc đáo cho người chơi."
+    },
+    {
+      "id": "news12",
+      "title": "Apple phát triển công nghệ thực tế ảo AR mới",
+      "description": "Apple đang nghiên cứu công nghệ AR tiên tiến, hứa hẹn thay đổi cách chúng ta tương tác với thế giới.",
+      "image": "assets/news/news12.png",
+      "startDate": "07/04/2025",
+      "details": "Theo nguồn tin nội bộ, Apple đang phát triển công nghệ thực tế ảo AR (Augmented Reality) với kính thông minh có khả năng hiển thị thông tin đa chiều. Sản phẩm dự kiến tích hợp với iPhone và các thiết bị Apple khác, mang lại trải nghiệm liền mạch. Công nghệ này sẽ ứng dụng trong nhiều lĩnh vực như giáo dục, y tế và giải trí. Apple cũng hợp tác với các nhà phát triển ứng dụng để tạo ra nội dung AR độc đáo, hứa hẹn một cuộc cách mạng trong ngành công nghiệp này."
+    },
+    {
+      "id": "news13",
+      "title": "Apple mở rộng chuỗi cửa hàng tại Việt Nam",
+      "description": "Apple dự kiến mở thêm 3 cửa hàng tại Hà Nội và TP.HCM trong năm nay.",
+      "image": "assets/news/news13.png",
+      "startDate": "06/04/2025",
+      "details": "Apple đã công bố kế hoạch mở rộng chuỗi cửa hàng tại Việt Nam với 3 địa điểm mới tại Hà Nội và TP.HCM. Các cửa hàng này sẽ được thiết kế theo tiêu chuẩn toàn cầu, với không gian trải nghiệm rộng rãi và dịch vụ khách hàng chuyên nghiệp. Ngoài ra, Apple cũng sẽ tổ chức các sự kiện cộng đồng như hội thảo sáng tạo và lớp học lập trình miễn phí. Đây là một phần trong chiến lược mở rộng thị trường của Apple tại khu vực Đông Nam Á."
+    },
+    {
+      "id": "news14",
+      "title": "Apple ra mắt chương trình trao đổi thiết bị cũ",
+      "description": "Người dùng có thể đổi thiết bị cũ lấy phiếu mua hàng để giảm giá khi mua sản phẩm mới.",
+      "image": "assets/news/news14.png",
+      "startDate": "05/04/2025",
+      "details": "Apple chính thức ra mắt chương trình trao đổi thiết bị cũ tại Việt Nam. Người dùng có thể mang iPhone, iPad hoặc Mac cũ đến các cửa hàng ủy quyền để nhận phiếu mua hàng có giá trị lên đến 10 triệu đồng. Thiết bị cũ sẽ được tái chế hoặc tân trang để bán lại, góp phần bảo vệ môi trường. Chương trình này áp dụng cho cả các sản phẩm không phải của Apple, nhưng giá trị trao đổi sẽ thấp hơn."
+    },
+    {
+      "id": "news15",
+      "title": "Apple hợp tác với các trường đại học tại Việt Nam",
+      "description": "Apple công bố chương trình hợp tác đào tạo lập trình và thiết kế ứng dụng.",
+      "image": "assets/news/news15.png",
+      "startDate": "04/04/2025",
+      "details": "Apple đã ký kết hợp tác với 5 trường đại học hàng đầu tại Việt Nam để đào tạo lập trình viên và nhà thiết kế ứng dụng. Chương trình sẽ cung cấp học bổng, tài liệu giảng dạy và phòng lab trang bị thiết bị Apple hiện đại. Sinh viên tham gia sẽ có cơ hội tiếp cận với nền tảng phát triển của Apple như Swift và ARKit. Sau khóa học, các dự án xuất sắc sẽ được giới thiệu trên App Store, mở ra cơ hội nghề nghiệp trong lĩnh vực công nghệ."
+    }
+]

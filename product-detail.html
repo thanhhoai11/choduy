@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chi tiết sản phẩm - Anh Em Rọt Store</title>
+  <link rel="icon" href="assets/logo/logo.png" type="image/png">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/navbar.css">
+  <link rel="stylesheet" href="css/product-detail.css">
+  <link rel="stylesheet" href="css/chatbot.css">
+</head>
+
+<body>
+  <!-- Loading Overlay -->
+  <div id="loadingOverlay" class="loading-overlay">
+    <div class="loading-spinner">
+      <i class="fas fa-spinner fa-spin"></i>
+      <p>Đang tải sản phẩm...</p>
+    </div>
+  </div>
+
+  <!-- Include Navbar -->
+  <!-- <div id="navbar-placeholder"></div> -->
+  <div class="top-bar">
+    <div class="top-bar-container">
+      <div class="top-bar-left">
+        <span><i class="fas fa-envelope"></i> anhemrotstore12chuaboc@hvnh.edu.vn</span>
+        <span><i class="fas fa-phone"></i> (+84) 827592304</span>
+      </div>
+      <div class="top-bar-center">
+        <span id="typewriter"></span>
+        <span id="weather" class="weather-info">⛅ Đang tải thời tiết...</span>
+      </div>
+      <div class="top-bar-right">
+        <a href="https://www.instagram.com/_yud.gnauq/"><i class="fab fa-instagram"></i> Instagram</a>
+        <a href="https://web.facebook.com/quys.hokage"><i class="fab fa-facebook"></i> Facebook</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Header -->
+  <header class="main-header">
+    <div class="header-container">
+      <div class="header-left">
+        <div class="logo">
+          <a href="index.html">
+            <img src="assets/logo/logo.png" alt="Anh Em Rọt Store Logo"
+              style="transition: transform 0.3s ease; display: block;" onmouseover="this.style.transform='scale(1.05)'"
+              onmouseout="this.style.transform='scale(1)'">
+          </a>
+        </div>
+        <nav class="desktop-nav">
+          <ul>
+            <li><a href="index.html">Trang chủ</a></li>
+            <li class="has-dropdown">
+              <a href="#" aria-current="page">Sản Phẩm</a>
+              <div id="products-dropdown">
+                <div class="products-inner-content">
+                  <div class="mega-menu-column main-categories-column">
+                    <div class="category-item">
+                      <a href="iphone.html" data-target-category="iphone-series">
+                        <i class="fab fa-apple" style="margin-right: 8px;"></i>iPhone Series
+                      </a>
+                      <div class="subcategory-content" id="iphone-series-content">
+                        <div class="subcategory-title">iPhone Series</div>
+                        <div class="subcategory-grid-links">
+                          <a href="#">iPhone 16</a>
+                          <a href="#">iPhone 15</a>
+                          <a href="#">iPhone 14</a>
+                          <a href="#">iPhone 13</a>
+                          <a href="#">iPhone 12 Pro</a>
+                          <a href="#">iPhone SE</a>
+                          <a href="#">So sánh iPhone</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="category-item">
+                      <a href="ipad.html" data-target-category="ipad-models">
+                        <i class="fas fa-tablet-alt" style="margin-right: 8px;"></i>iPad Models
+                      </a>
+                      <div class="subcategory-content" id="ipad-models-content">
+                        <div class="subcategory-title">iPad Models</div>
+                        <div class="subcategory-grid-links">
+                          <a href="#">iPad Pro"</a>
+                          <a href="#">iPad Air</a>
+                          <a href="#">iPad</a>
+                          <a href="#">iPad mini</a>
+                          <a href="#">Apple Pencil</a>
+                          <a href="#">Magic Keyboard</a>
+                          <a href="#">So sánh iPad</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="category-item">
+                      <a href="macbook.html" data-target-category="mac-devices">
+                        <i class="fas fa-laptop" style="margin-right: 8px;"></i>Mac Devices
+                      </a>
+                      <div class="subcategory-content" id="mac-devices-content">
+                        <div class="subcategory-title">Mac Devices</div>
+                        <div class="subcategory-grid-links">
+                          <a href="#">MacBook Air</a>
+                          <a href="#">MacBook Pro</a>
+                          <a href="#">iMac</a>
+                          <a href="#">Mac mini</a>
+                          <a href="#">Mac Studio</a>
+                          <a href="#">Mac Pro</a>
+                          <a href="#">So sánh Mac</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="category-item">
+                      <a href="watch.html" data-target-category="apple-watch">
+                        <i class="fas fa-clock" style="margin-right: 8px;"></i>Apple Watch
+                      </a>
+                      <div class="subcategory-content" id="apple-watch-content">
+                        <div class="subcategory-title">Apple Watch</div>
+                        <div class="subcategory-grid-links">
+                          <a href="#">Apple Watch Ultra</a>
+                          <a href="#">Apple Watch SE</a>
+                          <a href="#">Apple Watch Nike</a>
+                          <a href="#">Dây đeo Sport</a>
+                          <a href="#">Dây đeo Leather</a>
+                          <a href="#">Dây đeo Milanese</a>
+                          <a href="#">So sánh Apple Watch</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="category-item">
+                      <a href="accessory.html" data-target-category="accessories">
+                        <i class="fas fa-headphones" style="margin-right: 8px;"></i>Accessories
+                      </a>
+                      <div class="subcategory-content" id="accessories-content">
+                        <div class="subcategory-title">Accessories</div>
+                        <div class="subcategory-grid-links">
+                          <a href="tainghe.html">AirPods</a>
+                          <a href="#">Apple TV 4K</a>
+                          <a href="#">MagSafe Charger</a>
+                          <a href="#">Ốp lưng iPhone</a>
+                          <a href="#">Magic Keyboard</a>
+                          <a href="#">Magic Mouse</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="mega-menu-column subcategory-display-column">
+                    <div class="subcategory-content-placeholder">
+                      <p>🖱️ Di chuột qua danh mục để xem chi tiết</p>
+                    </div>
+                  </div>
+                  <div class="mega-menu-column promo-column">
+                    <img src="assets/logo/logo.png" alt="Hot Products">
+                    <p>🔥 Khám phá các sản phẩm hot nhất</p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li><a href="promotion.html">Khuyến Mại</a></li>
+
+            <li><a href="about.html">Về chúng tôi</a></li>
+            <li><a href="news.html">Tin Tức</a></li>
+            <li><a href="contact.html">Liên hệ</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="header-right">
+        <div class="search-box">
+          <i class="fas fa-search search-icon" aria-label="Mở tìm kiếm"></i>
+          <div class="search-input-container">
+            <input type="text" class="search-input" placeholder="Tìm kiếm sản phẩm..." aria-label="Tìm kiếm sản phẩm">
+            <button class="close-search-btn" aria-label="Đóng tìm kiếm">×</button>
+          </div>
+          <div class="search-results-container" role="listbox" style="display: none;"></div>
+        </div>
+        <div class="cart-icon">
+          <i class="fas fa-shopping-cart"></i>
+          <span class="cart-count">0</span>
+        </div>
+        <div id="user-section">
+          <!-- Dynamically updated by JavaScript -->
+        </div>
+        <div class="hamburger-menu">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Cart Modal Overlay -->
+  <div class="cart-modal-overlay"></div>
+
+  <!-- Cart Modal -->
+  <div class="cart-modal">
+    <div class="cart-modal-header">
+      <h3>Giỏ hàng của bạn</h3>
+      <button class="close-cart-modal"><i class="fas fa-times"></i></button>
+    </div>
+    <div class="cart-modal-body">
+      <div class="cart-empty">
+        <i class="fas fa-shopping-cart"></i>
+        <p>Giỏ hàng trống</p>
+      </div>
+      <!-- Cart items will be dynamically added here -->
+    </div>
+    <div class="cart-modal-footer">
+      <button class="view-cart-btn">Xem giỏ hàng</button>
+      <button class="checkout-btn">Thanh toán</button>
+    </div>
+  </div>
+
+  <!-- Mobile Overlay -->
+  <div class="mobile-overlay"></div>
+
+  <!-- Mobile Navigation -->
+  <nav class="mobile-nav">
+    <button class="close-mobile-nav"><i class="fas fa-times"></i></button>
+    <ul>
+      <li><a href="index.html">🏠 Trang chủ</a></li>
+      <li class="has-submenu">
+        <a href="#" aria-current="page">📱 Products</a>
+        <ul class="submenu">
+          <li><a href="iphone.html">📱 iPhone Series</a></li>
+          <li class="has-submenu">
+            <a href="macbook.html">💻 Mac Devices</a>
+            <ul class="submenu">
+              <li><a href="#">MacBook Air</a></li>
+              <li><a href="#">MacBook Pro</a></li>
+              <li><a href="#">iMac</a></li>
+            </ul>
+          </li>
+          <li><a href="ipad.html">🎯 iPad Models</a></li>
+          <li><a href="watch.html">⌚ Apple Watch</a></li>
+          <li><a href="accessory.html">🎧 Accessories</a></li>
+        </ul>
+      </li>
+      <li><a href="about.html">ℹ️ Về chúng tôi</a></li>
+      <li><a href="promotion.html">🛠️ Khuyến mại</a></li>
+      <li><a href="news.html">📝 Tin tức</a></li>
+      <li><a href="contact.html">📞 Contact</a></li>
+    </ul>
+  </nav>
+  <div class="container">
+    <!-- Back Button -->
+    <div class="back-navigation">
+      <button class="back-btn" onclick="history.back()">
+        <i class="fas fa-arrow-left"></i>
+        <span>Quay lại</span>
+      </button>
+    </div>
+
+    <!-- Breadcrumb -->
+    <nav class="breadcrumb">
+      <a href="index.html">
+        <i class="fas fa-home"></i>
+        Trang chủ
+      </a>
+      <i class="fas fa-chevron-right"></i>
+      <span id="categoryBreadcrumb">Danh mục</span>
+      <i class="fas fa-chevron-right"></i>
+      <span id="productBreadcrumb">Chi tiết sản phẩm</span>
+    </nav>
+
+    <!-- Main Product Detail -->
+    <div class="main-content fade-in">
+      <div class="product-detail">
+        <!-- Image Gallery -->
+        <div class="image-gallery">
+          <div class="main-image-container">
+            <img src="assets/icons/apple.ico" alt="Sản phẩm" class="main-image" id="mainImage">
+            <div class="image-badges">
+              <div class="badge badge-new" style="display: none;" id="newBadge">
+                <i class="fas fa-star"></i> Mới
+              </div>
+              <div class="badge badge-discount" style="display: none;" id="discountBadge">
+                -25%
+              </div>
+              <div class="badge badge-hot" style="display: none;" id="hotBadge">
+                <i class="fas fa-fire"></i> Hot
+              </div>
+            </div>
+            <button class="zoom-btn" id="zoomBtn">
+              <i class="fas fa-search-plus"></i>
+            </button>
+          </div>
+
+          <div class="thumbnails" id="thumbnails">
+            <!-- Thumbnails will be generated here -->
+          </div>
+
+          <!-- Image Navigation -->
+          <div class="image-nav">
+            <button class="nav-btn prev-btn" id="prevImage">
+              <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="nav-btn next-btn" id="nextImage">
+              <i class="fas fa-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- Product Info -->
+        <div class="product-info">
+          <div class="product-header">
+            <h1 class="product-title" id="productTitle">Đang tải...</h1>
+            <div class="product-meta">
+              <div class="rating-section">
+                <div class="stars" id="productStars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <span class="rating-text" id="ratingText">4.8 (156 đánh giá)</span>
+              </div>
+              <div class="social-share">
+                <button class="share-btn" id="shareBtn">
+                  <i class="fas fa-share-alt"></i>
+                  Chia sẻ
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="price-section">
+            <div class="price-main">
+              <span class="current-price" id="currentPrice">0₫</span>
+              <span class="original-price" id="originalPrice" style="display: none;">0₫</span>
+            </div>
+            <div class="discount-info" id="discountInfo" style="display: none;">
+              <span class="discount-percent" id="discountPercent">-0%</span>
+              <span class="save-amount">Tiết kiệm: <span id="saveAmount">0₫</span></span>
+            </div>
+          </div>
+
+          <!-- Product Options -->
+          <div class="options-section">
+            <div class="option-group" id="storageGroup" style="display: none;">
+              <div class="option-label">
+                <i class="fas fa-hdd"></i>
+                <span>Dung lượng:</span>
+              </div>
+              <div class="option-buttons" id="storageOptions">
+                <!-- Storage options will be generated here -->
+              </div>
+            </div>
+
+            <div class="option-group" id="colorGroup" style="display: none;">
+              <div class="option-label">
+                <i class="fas fa-palette"></i>
+                <span>Màu sắc:</span>
+              </div>
+              <div class="option-buttons" id="colorOptions">
+                <!-- Color options will be generated here -->
+              </div>
+            </div>
+          </div>
+
+          <!-- Stock Status -->
+          <div class="stock-status">
+            <div class="stock-info">
+              <i class="fas fa-check-circle"></i>
+              <span>Còn hàng</span>
+            </div>
+            <div class="delivery-info">
+              <i class="fas fa-shipping-fast"></i>
+              <span>Giao hàng nhanh trong 2-4h</span>
+            </div>
+          </div>
+
+          <!-- Promotions -->
+          <div class="promotions">
+            <h3>
+              <i class="fas fa-gift"></i>
+              Ưu đãi đặc biệt
+            </h3>
+            <ul class="promotion-list" id="promotionList">
+              <!-- Promotions will be generated here -->
+            </ul>
+          </div>
+
+          <!-- Action Buttons -->
+          <div class="action-buttons">
+            <div class="quantity-selector">
+              <button class="qty-btn minus" id="qtyMinus">
+                <i class="fas fa-minus"></i>
+              </button>
+              <input type="number" class="qty-input" id="qtyInput" value="1" min="1" max="10">
+              <button class="qty-btn plus" id="qtyPlus">
+                <i class="fas fa-plus"></i>
+              </button>
+            </div>
+
+            <button class="btn btn-secondary" id="addToCartBtn">
+              <i class="fas fa-cart-plus"></i>
+              <span>Thêm vào giỏ</span>
+            </button>
+
+            <button class="btn btn-primary" id="buyNowBtn">
+              <i class="fas fa-bolt"></i>
+              <span>Mua ngay</span>
+            </button>
+          </div>
+
+          <!-- Additional Actions -->
+          <div class="additional-actions">
+            <button class="action-btn" id="favoriteBtn">
+              <i class="far fa-heart"></i>
+              <span>Yêu thích</span>
+            </button>
+            <button class="action-btn" id="compareBtn">
+              <i class="fas fa-balance-scale"></i>
+              <span>So sánh</span>
+            </button>
+            <button class="action-btn" id="callBtn">
+              <i class="fas fa-phone"></i>
+              <span>Gọi tư vấn</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Product Details Tabs -->
+    <div class="product-tabs">
+      <div class="tab-nav">
+        <button class="tab-btn active" data-tab="description">
+          <i class="fas fa-align-left"></i>
+          Mô tả sản phẩm
+        </button>
+        <button class="tab-btn" data-tab="specs">
+          <i class="fas fa-cogs"></i>
+          Thông số kỹ thuật
+        </button>
+        <button class="tab-btn" data-tab="reviews">
+          <i class="fas fa-star"></i>
+          Đánh giá
+        </button>
+        <button class="tab-btn" data-tab="accessories">
+          <i class="fas fa-puzzle-piece"></i>
+          Phụ kiện
+        </button>
+      </div>
+
+      <div class="tab-content">
+        <!-- Description Tab -->
+        <div class="tab-pane active" id="description">
+          <div class="description-content" id="descriptionContent">
+            <!-- Description will be generated here -->
+          </div>
+        </div>
+
+        <!-- Specifications Tab -->
+        <div class="tab-pane" id="specs">
+          <div class="specs-content" id="specsContent">
+            <!-- Specifications will be generated here -->
+          </div>
+        </div>
+
+        <!-- Reviews Tab -->
+        <div class="tab-pane" id="reviews">
+          <div class="reviews-content">
+            <div class="reviews-summary">
+              <div class="rating-overview">
+                <div class="overall-rating">4.8</div>
+                <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <p class="rating-text">Dựa trên 156 đánh giá</p>
+              </div>
+
+              <div class="rating-bars">
+                <div class="rating-bar">
+                  <span class="rating-label">5 sao</span>
+                  <div class="rating-fill">
+                    <div class="rating-progress" style="width: 85%"></div>
+                  </div>
+                  <span>85%</span>
+                </div>
+                <div class="rating-bar">
+                  <span class="rating-label">4 sao</span>
+                  <div class="rating-fill">
+                    <div class="rating-progress" style="width: 12%"></div>
+                  </div>
+                  <span>12%</span>
+                </div>
+                <div class="rating-bar">
+                  <span class="rating-label">3 sao</span>
+                  <div class="rating-fill">
+                    <div class="rating-progress" style="width: 2%"></div>
+                  </div>
+                  <span>2%</span>
+                </div>
+                <div class="rating-bar">
+                  <span class="rating-label">2 sao</span>
+                  <div class="rating-fill">
+                    <div class="rating-progress" style="width: 1%"></div>
+                  </div>
+                  <span>1%</span>
+                </div>
+                <div class="rating-bar">
+                  <span class="rating-label">1 sao</span>
+                  <div class="rating-fill">
+                    <div class="rating-progress" style="width: 0%"></div>
+                  </div>
+                  <span>0%</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="review-list" id="reviewList">
+              <!-- Reviews will be generated here -->
+            </div>
+          </div>
+        </div>
+
+        <!-- Accessories Tab -->
+        <div class="tab-pane" id="accessories">
+          <div class="accessories-content">
+            <h3>Phụ kiện đi kèm</h3>
+            <div class="accessories-grid" id="accessoriesGrid">
+              <!-- Accessories will be generated here -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Product Suggestions -->
+    <div class="suggestions">
+      <h2 class="section-title">
+        <i class="fas fa-lightbulb"></i>
+        Sản phẩm gợi ý
+      </h2>
+
+      <div class="suggestion-tabs">
+        <button class="suggestion-tab-btn active" data-tab="related">Sản phẩm liên quan</button>
+        <button class="suggestion-tab-btn" data-tab="viewed">Đã xem gần đây</button>
+        <button class="suggestion-tab-btn" data-tab="bestseller">Bán chạy nhất</button>
+      </div>
+
+      <div class="suggestion-content">
+        <div class="suggestion-grid" id="suggestionGrid">
+          <!-- Product suggestions will be generated here -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Floating Elements -->
+  <button class="back-to-top" id="backToTop">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <!-- Modals -->
+  <!-- Image Zoom Modal -->
+  <div class="modal" id="imageModal">
+    <div class="modal-content">
+      <span class="modal-close" id="closeImageModal">&times;</span>
+      <img src="" alt="" id="modalImage">
+    </div>
+  </div>
+
+  <!-- Share Modal -->
+  <div class="modal" id="shareModal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3>Chia sẻ sản phẩm</h3>
+        <span class="modal-close" id="closeShareModal">&times;</span>
+      </div>
+      <div class="modal-body">
+        <div class="share-options">
+          <button class="share-option" data-platform="facebook">
+            <i class="fab fa-facebook-f"></i>
+            Facebook
+          </button>
+          <button class="share-option" data-platform="twitter">
+            <i class="fab fa-twitter"></i>
+            Twitter
+          </button>
+          <button class="share-option" data-platform="zalo">
+            <i class="fas fa-comment"></i>
+            Zalo
+          </button>
+          <button class="share-option" data-platform="copy">
+            <i class="fas fa-copy"></i>
+            Copy Link
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <button id="CompareBtn" class="compare-btn">
+    <i class="fas fa-balance-scale"></i>
+    <span id="compareCount" class="compare-count">0</span>
+  </button>
+
+  <!-- Thanh so sánh (sẽ được tạo động bởi JS) -->
+  <div id="compareBar" class="compare-bar">
+    <div class="container">
+      <div class="compare-bar-content">
+        <div class="compare-bar-title">
+          <i class="fas fa-balance-scale me-2"></i>
+          So sánh (<span id="compareCount">0</span>)
+        </div>
+        <div class="compare-items" id="compareItems"></div>
+        <div class="compare-actions">
+          <button id="clearCompareBtn" class="btn btn-sm btn-outline-light">
+            <i class="fas fa-trash me-2"></i>Xóa tất cả
+          </button>
+          <button id="goCompareBtn" class="btn btn-sm btn-light">
+            <i class="fas fa-balance-scale me-2"></i>So sánh ngay
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notifications -->
+  <div class="toast-container" id="toastContainer"></div>
+
+  <!-- Footer -->
+  <div id="footer-placeholder"></div>
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script defer src="scripts/page_loader.js"></script>
+  <script src="scripts/cart.js"></script>
+  <script src="scripts/navbar.js"></script>
+  <script src="scripts/product_detail.js"></script>
+  <script src="scripts/image_zoom.js"></script>
+  <script src="scripts/product_compare.js"></script>
+  <script defer src="scripts/rating_review.js"></script>
+  <script src="scripts/loadfooter.js"></script>
+  <script src="scripts/chatbot.js"></script>
+</body>
+
+</html>

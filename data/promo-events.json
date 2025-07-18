@@ -1,0 +1,264 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "title": "Flash Sale",
+      "description": "Special discount event",
+      "startDate": "2023-12-01T09:00:00",
+      "endDate": "2023-12-01T21:00:00",
+      "type": "flash-sale",
+      "url": "#flash-sale",
+      "imageUrl": "assets/promotion_event/1.png"
+    },
+    {
+      "id": 2,
+      "title": "New Collection Launch",
+      "description": "Discover our latest arrivals!",
+      "startDate": "2023-12-05T10:00:00",
+      "endDate": "2023-12-05T23:59:59",
+      "type": "new-collection",
+      "url": "#new-collection",
+      "imageUrl": "assets/promotion_event/2.png"
+    },
+    {
+      "id": 3,
+      "title": "Weekend Mega Sale",
+      "description": "Huge discounts on selected items all weekend!",
+      "startDate": "2023-12-08T00:00:00",
+      "endDate": "2023-12-10T23:59:59",
+      "type": "mega-sale",
+      "url": "#weekend-sale",
+      "imageUrl": "assets/promotion_event/3.png"
+    },
+    {
+      "id": 4,
+      "title": "Holiday Gift Guide",
+      "description": "Find the perfect gifts for everyone on your list.",
+      "startDate": "2023-12-12T09:00:00",
+      "endDate": "2023-12-24T23:59:59",
+      "type": "guide",
+      "url": "#holiday-gifts",
+      "imageUrl": "assets/promotion_event/4.png"
+    },
+    {
+      "id": 5,
+      "title": "Free Shipping Offer",
+      "description": "Enjoy free shipping on all orders for a limited time.",
+      "startDate": "2023-12-15T00:00:00",
+      "endDate": "2023-12-17T23:59:59",
+      "type": "shipping-promo",
+      "url": "#free-shipping",
+      "imageUrl": "assets/promotion_event/5.png"
+    },
+    {
+      "id": 6,
+      "title": "Christmas Eve Countdown",
+      "description": "Daily deals leading up to Christmas!",
+      "startDate": "2023-12-18T00:00:00",
+      "endDate": "2023-12-24T23:59:59",
+      "type": "countdown",
+      "url": "#christmas-countdown",
+      "imageUrl": "assets/promotion_event/6.png"
+    },
+    {
+      "id": 7,
+      "title": "New Year's Kickoff Sale",
+      "description": "Start the new year with amazing savings!",
+      "startDate": "2024-01-01T00:00:00",
+      "endDate": "2024-01-07T23:59:59",
+      "type": "new-year-sale",
+      "url": "#new-year-sale",
+      "imageUrl": "assets/promotion_event/7.png"
+    },
+    {
+      "id": 8,
+      "title": "Winter Clearance",
+      "description": "Last chance for winter styles at unbeatable prices.",
+      "startDate": "2024-01-10T09:00:00",
+      "endDate": "2024-01-31T21:00:00",
+      "type": "clearance",
+      "url": "#winter-clearance",
+      "imageUrl": "assets/promotion_event/8.png"
+    },
+    {
+      "id": 9,
+      "title": "Valentine's Day Specials",
+      "description": "Gifts for your loved ones, just in time for Valentine's Day.",
+      "startDate": "2024-02-01T09:00:00",
+      "endDate": "2024-02-14T23:59:59",
+      "type": "holiday-promo",
+      "url": "#valentines-day",
+      "imageUrl": "assets/promotion_event/9.png"
+    },
+    {
+      "id": 10,
+      "title": "Spring Collection Preview",
+      "description": "Get a sneak peek at our upcoming spring styles.",
+      "startDate": "2024-02-20T10:00:00",
+      "endDate": "2024-02-28T23:59:59",
+      "type": "new-collection",
+      "url": "#spring-preview",
+      "imageUrl": "assets/promotion_event/10.png"
+    },
+    {
+      "id": 11,
+      "title": "Easter Basket Bonanza",
+      "description": "Hop into savings with our Easter specials!",
+      "startDate": "2024-03-20T09:00:00",
+      "endDate": "2024-03-31T21:00:00",
+      "type": "holiday-promo",
+      "url": "#easter-bonanza",
+      "imageUrl": "assets/promotion_event/11.png"
+    },
+    {
+      "id": 12,
+      "title": "Mid-Season Sale",
+      "description": "Fresh discounts on your favorite items for a limited time.",
+      "startDate": "2024-04-05T00:00:00",
+      "endDate": "2024-04-15T23:59:59",
+      "type": "mid-season-sale",
+      "url": "#mid-season-sale",
+      "imageUrl": "assets/promotion_event/12.png"
+    },
+    {
+      "id": 13,
+      "title": "Mother's Day Gift Ideas",
+      "description": "Show appreciation with our special Mother's Day selection.",
+      "startDate": "2024-05-01T09:00:00",
+      "endDate": "2024-05-12T23:59:59",
+      "type": "guide",
+      "url": "#mothers-day-gifts",
+      "imageUrl": "assets/promotion_event/13.png"
+    },
+    {
+      "id": 14,
+      "title": "Summer Kickoff Sale",
+      "description": "Get ready for summer with hot deals!",
+      "startDate": "2024-06-01T00:00:00",
+      "endDate": "2024-06-10T23:59:59",
+      "type": "seasonal-sale",
+      "url": "#summer-kickoff",
+      "imageUrl": "assets/promotion_event/14.png"
+    },
+    {
+      "id": 15,
+      "title": "Father's Day Finds",
+      "description": "Perfect presents for every dad.",
+      "startDate": "2024-06-05T09:00:00",
+      "endDate": "2024-06-16T21:00:00",
+      "type": "guide",
+      "url": "#fathers-day-finds",
+      "imageUrl": "assets/promotion_event/15.png"
+    },
+    {
+      "id": 16,
+      "title": "Independence Day Blast",
+      "description": "Celebrate with patriotic savings!",
+      "startDate": "2024-07-01T00:00:00",
+      "endDate": "2024-07-05T23:59:59",
+      "type": "holiday-sale",
+      "url": "#independence-day",
+      "imageUrl": "assets/promotion_event/16.png"
+    },
+    {
+      "id": 17,
+      "title": "Back to School Bonanza",
+      "description": "Everything you need for a new school year.",
+      "startDate": "2024-08-01T09:00:00",
+      "endDate": "2024-08-15T21:00:00",
+      "type": "seasonal-sale",
+      "url": "#back-to-school",
+      "imageUrl": "assets/promotion_event/17.png"
+    },
+    {
+      "id": 18,
+      "title": "Fall Collection Unveiling",
+      "description": "Embrace the new season with our latest fall styles.",
+      "startDate": "2024-09-01T10:00:00",
+      "endDate": "2024-09-30T23:59:59",
+      "type": "new-collection",
+      "url": "#fall-collection",
+      "imageUrl": "assets/promotion_event/18.png"
+    },
+    {
+      "id": 19,
+      "title": "Halloween Haul",
+      "description": "Spooky deals for a bewitching season!",
+      "startDate": "2024-10-15T00:00:00",
+      "endDate": "2024-10-31T23:59:59",
+      "type": "holiday-promo",
+      "url": "#halloween-haul",
+      "imageUrl": "assets/promotion_event/19.png"
+    },
+    {
+      "id": 20,
+      "title": "Black Friday Sneak Peek",
+      "description": "Get ready for the biggest savings event of the year!",
+      "startDate": "2024-11-15T09:00:00",
+      "endDate": "2024-11-28T21:00:00",
+      "type": "preview",
+      "url": "#black-friday-preview",
+      "imageUrl": "assets/promotion_event/20.png"
+    },
+    {
+      "id": 21,
+      "title": "Year-End Clearance",
+      "description": "Our final sale of the year with massive discounts!",
+      "startDate": "2024-12-26T00:00:00",
+      "endDate": "2024-12-31T23:59:59",
+      "type": "clearance",
+      "url": "#year-end-clearance",
+      "imageUrl": "assets/promotion_event/21.png"
+    },
+    {
+      "id": 22,
+      "title": "New Year, New You Sale",
+      "description": "Kickstart your resolutions with amazing deals in 2025!",
+      "startDate": "2025-01-01T00:00:00",
+      "endDate": "2025-01-10T23:59:59",
+      "type": "new-year-sale",
+      "url": "#new-year-new-you",
+      "imageUrl": "assets/promotion_event/22.png"
+    },
+    {
+      "id": 23,
+      "title": "Lunar New Year Celebration",
+      "description": "Celebrate the Lunar New Year with special promotions!",
+      "startDate": "2025-01-20T09:00:00",
+      "endDate": "2025-02-05T21:00:00",
+      "type": "holiday-promo",
+      "url": "#lunar-new-year",
+      "imageUrl": "assets/promotion_event/23.png"
+    },
+    {
+      "id": 24,
+      "title": "Spring Refresh Sale",
+      "description": "Refresh your look for spring with our fantastic discounts.",
+      "startDate": "2025-03-01T00:00:00",
+      "endDate": "2025-03-15T23:59:59",
+      "type": "seasonal-sale",
+      "url": "#spring-refresh",
+      "imageUrl": "assets/promotion_event/24.png"
+    },
+    {
+      "id": 25,
+      "title": "Earth Day Eco-Friendly Deals",
+      "description": "Shop sustainably with discounts on our eco-friendly products.",
+      "startDate": "2025-04-22T09:00:00",
+      "endDate": "2025-04-22T23:59:59",
+      "type": "awareness",
+      "url": "#earth-day-deals",
+      "imageUrl": "assets/promotion_event/25.png"
+    },
+    {
+      "id": 26,
+      "title": "Memorial Day Weekend Sale",
+      "description": "Big savings to kick off your summer!",
+      "startDate": "2025-05-23T00:00:00",
+      "endDate": "2025-05-26T23:59:59",
+      "type": "holiday-sale",
+      "url": "#memorial-day-sale",
+      "imageUrl": "assets/promotion_event/26.png"
+    }
+  ]
+}

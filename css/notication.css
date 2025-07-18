@@ -1,0 +1,479 @@
+/* CSS cho Thông báo và Hiệu ứng - Anh Em Rọt */
+
+:root {
+  --success-color: #4caf50;
+  --error-color: #f44336;
+  --info-color: #2196f3;
+  --warning-color: #ff9800;
+  --primary-color: #d40000;
+  --accent-color: #ffcc00;
+  --bg-light: #ffffff;
+  --text-dark: #212121;
+  --text-light: #ffffff;
+  --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 4px 8px rgba(0, 0, 0, 0.15);
+  --shadow-lg: 0 8px 16px rgba(0, 0, 0, 0.18);
+  --border-radius-sm: 4px;
+  --border-radius-md: 8px;
+  --transition-fast: all 0.2s ease;
+  --transition-normal: all 0.3s ease;
+  --animation-duration: 0.3s;
+}
+
+/* ===== THÔNG BÁO TOAST ===== */
+.notification-toast {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  min-width: 300px;
+  max-width: 350px;
+  background-color: var(--bg-light);
+  color: var(--text-dark);
+  border-radius: var(--border-radius-md);
+  box-shadow: var(--shadow-md);
+  padding: 0;
+  z-index: 9999;
+  overflow: hidden;
+  transform: translateX(110%);
+  opacity: 0;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.notification-toast.show {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.notification-toast.hide {
+  transform: translateX(110%);
+  opacity: 0;
+}
+
+.notification-content {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+  border-left: 4px solid var(--primary-color);
+}
+
+.notification-toast.success .notification-content {
+  border-left-color: var(--success-color);
+}
+
+.notification-toast.error .notification-content {
+  border-left-color: var(--error-color);
+}
+
+.notification-toast.info .notification-content {
+  border-left-color: var(--info-color);
+}
+
+.notification-toast.warning .notification-content {
+  border-left-color: var(--warning-color);
+}
+
+.notification-content i {
+  font-size: 20px;
+  margin-right: 12px;
+}
+
+.notification-toast.success i {
+  color: var(--success-color);
+}
+
+.notification-toast.error i {
+  color: var(--error-color);
+}
+
+.notification-toast.info i {
+  color: var(--info-color);
+}
+
+.notification-toast.warning i {
+  color: var(--warning-color);
+}
+
+.notification-content span {
+  flex-grow: 1;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.notification-close {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: transparent;
+  border: none;
+  color: #999;
+  font-size: 14px;
+  cursor: pointer;
+  transition: var(--transition-fast);
+}
+
+.notification-close:hover {
+  color: var(--text-dark);
+}
+
+/* Thanh tiến độ tự động đóng */
+.notification-toast::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 3px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.notification-toast::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 3px;
+  width: 0;
+  background-color: var(--primary-color);
+  z-index: 1;
+  animation: progressBar 3s linear;
+}
+
+.notification-toast.success::before {
+  background-color: var(--success-color);
+}
+
+.notification-toast.error::before {
+  background-color: var(--error-color);
+}
+
+.notification-toast.info::before {
+  background-color: var(--info-color);
+}
+
+.notification-toast.warning::before {
+  background-color: var(--warning-color);
+}
+
+@keyframes progressBar {
+  0% { width: 100%; }
+  100% { width: 0%; }
+}
+
+/* ===== HIỆU ỨNG TIM BAY LÊN ===== */
+.heart-effect {
+  position: fixed;
+  z-index: 9999;
+  pointer-events: none;
+  animation: flyingHeart 1s ease-out forwards;
+}
+
+.heart-effect i {
+  color: var(--primary-color);
+  font-size: 20px;
+  filter: drop-shadow(0 0 2px rgba(0, 0, 0, 0.3));
+}
+
+@keyframes flyingHeart {
+  0% {
+    opacity: 1;
+    transform: scale(0) rotate(0deg);
+  }
+  20% {
+    opacity: 0.8;
+    transform: scale(1.5) rotate(20deg);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1) translateY(-80px) rotate(-30deg);
+  }
+}
+
+/* ===== HIỆU ỨNG NÚT NHẤN ===== */
+/* Hiệu ứng nút Thêm vào giỏ hàng */
+.add-to-cart.clicked, .quick-buy.clicked {
+  animation: buttonClick 0.3s ease forwards;
+}
+
+@keyframes buttonClick {
+  0% { transform: scale(1); }
+  50% { transform: scale(0.95); }
+  100% { transform: scale(1); }
+}
+
+/* Hiệu ứng nút Yêu thích */
+.add-to-wishlist, .wishlist-btn {
+  transition: var(--transition-normal);
+}
+
+.add-to-wishlist.active, .wishlist-btn.active {
+  color: var(--primary-color);
+  transform: scale(1.1);
+}
+
+.add-to-wishlist.active i, .wishlist-btn.active i {
+  animation: heartBeat 0.6s ease;
+}
+
+@keyframes heartBeat {
+  0% { transform: scale(1); }
+  25% { transform: scale(1.3); }
+  50% { transform: scale(1); }
+  75% { transform: scale(1.2); }
+  100% { transform: scale(1); }
+}
+
+/* ===== HIỆU ỨNG SẢN PHẨM ===== */
+.product-card {
+  position: relative;
+  transition: var(--transition-normal);
+  background-color: var(--bg-light);
+  border-radius: var(--border-radius-md);
+  box-shadow: var(--shadow-sm);
+  overflow: hidden;
+}
+
+.product-card:hover {
+  box-shadow: var(--shadow-md);
+}
+
+.product-image {
+  overflow: hidden;
+  position: relative;
+}
+
+.product-image img {
+  transition: transform 0.5s ease;
+}
+
+.product-card:hover .product-image img {
+  transform: scale(1.05);
+}
+
+/* Nút mua nhanh */
+.quick-buy {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%) translateY(10px);
+  background-color: var(--primary-color);
+  color: var(--text-light);
+  padding: 8px 16px;
+  border-radius: 50px;
+  font-size: 13px;
+  font-weight: 600;
+  opacity: 0;
+  visibility: hidden;
+  transition: var(--transition-normal);
+  box-shadow: var(--shadow-md);
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  white-space: nowrap;
+}
+
+.quick-buy i {
+  font-size: 14px;
+}
+
+.product-card:hover .quick-buy {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(-50%) translateY(0);
+}
+
+.quick-buy:hover {
+  background-color: var(--primary-dark);
+}
+
+/* Badge trên sản phẩm */
+.product-badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 4px 10px;
+  font-size: 11px;
+  font-weight: 700;
+  border-radius: 50px;
+  z-index: 2;
+  background-color: var(--primary-color);
+  color: var(--text-light);
+}
+
+.product-badge.new {
+  background-color: var(--success-color);
+}
+
+.product-badge.sale {
+  background-color: var(--primary-color);
+}
+
+.product-badge.hot {
+  background-color: var(--warning-color);
+  color: var(--text-dark);
+}
+
+/* Action buttons */
+.product-actions {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  z-index: 2;
+}
+
+.action-btn {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: var(--bg-light);
+  color: var(--text-dark);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  transition: var(--transition-fast);
+  cursor: pointer;
+  border: none;
+  box-shadow: var(--shadow-sm);
+  opacity: 0;
+  transform: translateX(10px);
+}
+
+.product-card:hover .action-btn {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.action-btn:nth-child(1) {
+  transition-delay: 0.05s;
+}
+
+.action-btn:nth-child(2) {
+  transition-delay: 0.1s;
+}
+
+.action-btn:nth-child(3) {
+  transition-delay: 0.15s;
+}
+
+.action-btn:hover {
+  background-color: var(--primary-color);
+  color: var(--text-light);
+  transform: translateY(-3px);
+}
+
+.action-btn.active {
+  background-color: var(--primary-color);
+  color: var(--text-light);
+}
+
+/* Giá sản phẩm */
+.product-price {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.current-price {
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--primary-color);
+}
+
+.old-price {
+  font-size: 13px;
+  text-decoration: line-through;
+  color: var(--text-secondary);
+}
+
+.discount-percent {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--success-color);
+}
+
+/* ===== HIỆU ỨNG SỐ LƯỢNG ===== */
+.cart-count, .wishlist-count {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 18px;
+  height: 18px;
+  background-color: var(--primary-color);
+  color: var(--text-light);
+  font-size: 10px;
+  font-weight: 700;
+  border-radius: 50%;
+  position: absolute;
+  top: -5px;
+  right: -5px;
+}
+
+.cart-count.pulse, .wishlist-count.pulse {
+  animation: countPulse 0.3s ease;
+}
+
+@keyframes countPulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.3); }
+  100% { transform: scale(1); }
+}
+
+/* Hiệu ứng khác */
+.pulse {
+  animation: pulsate 1s infinite;
+}
+
+@keyframes pulsate {
+  0% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.05); opacity: 0.8; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+/* Hiệu ứng fade-in cho các phần tử */
+.fade-in {
+  animation: fadeIn 0.5s ease forwards;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Hiệu ứng khi trang tải xong */
+.page-loaded .fade-in {
+  animation-play-state: running;
+}
+
+/* ===== RESPONSIVE STYLES ===== */
+@media (max-width: 768px) {
+  .notification-toast {
+    top: auto;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    width: calc(100% - 40px);
+    max-width: none;
+    min-width: 0;
+  }
+  
+  @keyframes flyingHeart {
+    0% {
+      opacity: 1;
+      transform: scale(0) rotate(0deg);
+    }
+    20% {
+      opacity: 0.8;
+      transform: scale(1.2) rotate(20deg);
+    }
+    100% {
+      opacity: 0;
+      transform: scale(1) translateY(-40px) rotate(-30deg);
+    }
+  }
+}

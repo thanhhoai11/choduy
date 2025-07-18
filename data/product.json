@@ -1,0 +1,4712 @@
+
+{
+  "categories": [  
+    {
+      "id": "iphone",
+      "products": [
+      {
+  "id": "iphone-16-pro-max",
+  "name": "iPhone 16 Pro Max",
+  "defaultImage": "assets/products/iphone/iphone16prm_titanden.png",
+  "description": {
+    "paragraphs": [
+      "iPhone 16 Pro Max là chiếc điện thoại mạnh mẽ nhất của Apple, sở hữu màn hình lớn nhất, hiệu năng đỉnh cao với chip A18 Pro và hệ thống camera tiên tiến nhất. Đây là lựa chọn hoàn hảo cho những người dùng chuyên nghiệp và những ai muốn trải nghiệm công nghệ di động tốt nhất.",
+      "Màn hình LTPO Super Retina XDR 6.9 inch với công nghệ ProMotion và Always-On Display mang lại không gian hiển thị rộng lớn, mượt mà và sắc nét tuyệt đối. Độ sáng tối đa 2000 nits cùng công nghệ HDR10 và Dolby Vision cho phép bạn thưởng thức nội dung với chất lượng hình ảnh không thể tin được.",
+      "Hệ thống camera Pro Max được nâng cấp với camera chính 48MP, camera Ultra Wide 48MP và camera Telephoto 12MP (zoom quang học 5x). Khả năng chụp ảnh thiếu sáng vượt trội, quay video 4K Pro Res lên đến 120fps và tính năng Spatial Video mang đến khả năng sáng tạo không giới hạn.",
+      "iPhone 16 Pro Max hỗ trợ Wi-Fi 7 tiên tiến nhất và Bluetooth 5.3, đảm bảo tốc độ kết nối siêu nhanh và ổn định. Viên pin dung lượng lớn nhất trong dòng iPhone cùng công nghệ sạc nhanh và sạc MagSafe cung cấp thời lượng sử dụng bền bỉ cho cả ngày dài làm việc và giải trí.",
+      "Thiết bị còn được trang bị nút Tác vụ (Action Button) tùy chỉnh, Face ID, và các tính năng kết nối vệ tinh nâng cao, biến iPhone 16 Pro Max thành một công cụ không thể thiếu cho mọi nhu cầu."
+    ]
+  },
+  "specs": {
+    "Màn hình": {
+      "Công nghệ màn hình": "LTPO Super Retina XDR OLED",
+      "Độ phân giải": "2868 x 1320 Pixels",
+      "Màn hình rộng": "6.9 inch",
+      "Độ sáng tối đa": "2000 nits",
+      "Kính cảm ứng": "Kính cường lực Ceramic Shield",
+      "Tần số quét": "120Hz (ProMotion)"
+    },
+    "Camera": {
+      "Camera sau": "Chính 48MP, Ultra Wide 48MP, Telephoto 12MP (zoom quang học 5x)",
+      "Camera trước": "12 MP"
+    },
+    "Hệ điều hành & CPU": {
+      "Hệ điều hành": "iOS 18",
+      "Chip xử lý (CPU)": "Apple A18 Pro",
+      "Tốc độ CPU": "Không công bố",
+      "Chip đồ họa (GPU)": "Apple GPU 6 lõi"
+    },
+    "Bộ nhớ & Lưu trữ": {
+      "RAM": "8 GB",
+      "Bộ nhớ trong": "256 GB, 512 GB, 1 TB",
+      "Hỗ trợ thẻ nhớ ngoài": "Không"
+    },
+    "Kết nối": {
+      "Mạng di động": "5G, 4G, 3G",
+      "SIM": "Nano SIM và eSIM",
+      "Thực hiện cuộc gọi": "Có",
+      "Cổng kết nối": "USB-C (USB 3.2 Gen 2)",
+      "Jack tai nghe": "Không",
+      "Kết nối khác": "NFC, Ultra Wideband (thế hệ 2), Thread, Kết nối vệ tinh"
+    },
+    "Pin & Sạc": {
+      "Loại pin": "Li-Ion",
+      "Dung lượng pin": "4685 mAh",
+      "Công nghệ pin": "Sạc nhanh 30W, Sạc MagSafe, Sạc không dây Qi2"
+    },
+    "Tiện ích": {
+      "Tính năng đặc biệt": "Nút Tác vụ (Action Button), Mở khóa bằng khuôn mặt Face ID, Apple Intelligence, Spatial Video, LiDAR Scanner",
+      "Ghi âm": "Có",
+      "Radio": "Không"
+    },
+    "Thông tin chung": {
+      "Thiết kế": "Nguyên khối",
+      "Chất liệu": "Khung Titanium, mặt lưng kính mờ",
+      "Kích thước, khối lượng": "Dài 163 mm - Ngang 77.6 mm - Dày 8.3 mm - Nặng 227 g",
+      "Thời điểm ra mắt": "09/2024"
+    }
+  },
+  "configurations": {
+    "256GB": {
+      "Titan Tự nhiên": { "price": 34990000, "originalPrice": 36990000, "discount": 5 },
+      "Titan Đen": { "price": 34990000, "originalPrice": 36990000, "discount": 5 },
+      "Titan Trắng": { "price": 34990000, "originalPrice": 36990000, "discount": 5 },
+      "Titan Sa mạc": { "price": 34990000, "originalPrice": 36990000, "discount": 5 }
+    },
+    "512GB": {
+      "Titan Tự nhiên": { "price": 38990000, "originalPrice": 40990000, "discount": 5 },
+      "Titan Đen": { "price": 38990000, "originalPrice": 40990000, "discount": 5 },
+      "Titan Trắng": { "price": 38990000, "originalPrice": 40990000, "discount": 5 },
+      "Titan Sa mạc": { "price": 38990000, "originalPrice": 40990000, "discount": 5 }
+    },
+    "1TB": {
+      "Titan Tự nhiên": { "price": 42990000, "originalPrice": 44990000, "discount": 4 },
+      "Titan Đen": { "price": 42990000, "originalPrice": 44990000, "discount": 4 },
+      "Titan Trắng": { "price": 42990000, "originalPrice": 44990000, "discount": 4 },
+      "Titan Sa mạc": { "price": 42990000, "originalPrice": 44990000, "discount": 4 }
+    }
+  },
+  "images": {
+    "256GB": {
+      "Titan Tự nhiên": "assets/products/iphone/iphone16prm_titantunhien.png",
+      "Titan Đen": "assets/products/iphone/iphone16prm_titanden.png",
+      "Titan Trắng": "assets/products/iphone/iphone16prm_titantrang.png",
+      "Titan Sa mạc": "assets/products/iphone/iphone16prm_titansamac.png"
+    },
+    "512GB": {
+      "Titan Tự nhiên": "assets/products/iphone/iphone16prm_titantunhien.png",
+      "Titan Đen": "assets/products/iphone/iphone16prm_titanden.png",
+      "Titan Trắng": "assets/products/iphone/iphone16prm_titantrang.png",
+      "Titan Sa mạc": "assets/products/iphone/iphone16prm_titansamac.png"
+    },
+    "1TB": {
+      "Titan Tự nhiên": "assets/products/iphone/iphone16prm_titantunhien.png",
+      "Titan Đen": "assets/products/iphone/iphone16prm_titanden.png",
+      "Titan Trắng": "assets/products/iphone/iphone16prm_titantrang.png",
+      "Titan Sa mạc": "assets/products/iphone/iphone16prm_titansamac.png"
+    }
+  },
+  "accessories": [
+    {
+      "id": "airpods-4",
+      "name": "AirPods 4 chống ồn",
+      "image": "assets/products/tainghe/Airpods4_chongon.png",
+      "price": 5990000,
+      "originalPrice": 6490000,
+      "discount": 8
+    },
+    {
+      "id": "apple-watch-ultra-2",
+      "name": "Apple Watch Ultra 2",
+      "image": "assets/products/watch/applewatch_ultra2_dayocean.png",
+      "price": 22990000,
+      "originalPrice": 23990000,
+      "discount": 4
+    },
+    {
+      "id": "desackhongday-typeC",
+      "name": "Đế sạc không dây type C",
+      "image": "assets/products/phukien/desackhongday_TypeC.png",
+      "price": 1290000,
+      "originalPrice": 1490000,
+      "discount": 13
+    }
+  ],
+  "promotions": [
+    "Giảm 10% khi mua kèm AirPods Pro (Thế hệ 2) hoặc Apple Watch Ultra 2",
+    "Tặng gói bảo hành 12 tháng tại các trung tâm ủy quyền của Apple",
+    "Hỗ trợ trả góp 0% lãi suất qua thẻ tín dụng"
+  ]
+},
+{
+  "id": "iphone-16-pro",
+  "name": "iPhone 16 Pro",
+  "defaultImage": "assets/products/iphone/iphone16pro_titantunhien.png",
+  "description": {
+    "paragraphs": [
+      "iPhone 16 Pro là đỉnh cao của công nghệ di động, mang đến hiệu năng vượt trội với chip A18 Pro mạnh mẽ và hệ thống camera chuyên nghiệp. Thiết kế sang trọng với khung viền Titanium và màn hình ProMotion là những điểm nhấn ấn tượng của chiếc điện thoại này.",
+      "Màn hình LTPO Super Retina XDR 6.3 inch với công nghệ ProMotion và Always-On Display mang lại trải nghiệm hình ảnh mượt mà, sống động và chi tiết. Độ sáng tối đa lên đến 2000 nits đảm bảo hiển thị rõ ràng ngay cả trong môi trường sáng nhất.",
+      "Hệ thống camera Pro được nâng cấp đáng kể với camera chính 48MP, camera Ultra Wide 48MP và camera Telephoto 12MP (zoom quang học 5x). Khả năng quay video 4K Pro Res và tính năng Spatial Video cho phép bạn ghi lại những thước phim chất lượng điện ảnh.",
+      "iPhone 16 Pro hỗ trợ Wi-Fi 7 và Bluetooth 5.3, mang lại tốc độ kết nối không dây nhanh chóng và ổn định. Dung lượng pin tối ưu cùng công nghệ sạc nhanh giúp bạn luôn sẵn sàng cho mọi tác vụ.",
+      "Ngoài ra, thiết bị còn có nút Tác vụ (Action Button) tùy chỉnh, Face ID, và khả năng kết nối vệ tinh để liên lạc trong trường hợp khẩn cấp. iPhone 16 Pro là lựa chọn hoàn hảo cho những người dùng đòi hỏi hiệu năng cao và khả năng chụp ảnh chuyên nghiệp."
+    ]
+  },
+  "specs": {
+    "Màn hình": {
+      "Công nghệ màn hình": "LTPO Super Retina XDR OLED",
+      "Độ phân giải": "2622 x 1206 Pixels",
+      "Màn hình rộng": "6.3 inch",
+      "Độ sáng tối đa": "2000 nits",
+      "Kính cảm ứng": "Kính cường lực Ceramic Shield",
+      "Tần số quét": "120Hz (ProMotion)"
+    },
+    "Camera": {
+      "Camera sau": "Chính 48MP, Ultra Wide 48MP, Telephoto 12MP (zoom quang học 5x)",
+      "Camera trước": "12 MP"
+    },
+    "Hệ điều hành & CPU": {
+      "Hệ điều hành": "iOS 18",
+      "Chip xử lý (CPU)": "Apple A18 Pro",
+      "Tốc độ CPU": "Không công bố",
+      "Chip đồ họa (GPU)": "Apple GPU 6 lõi"
+    },
+    "Bộ nhớ & Lưu trữ": {
+      "RAM": "8 GB",
+      "Bộ nhớ trong": "128 GB, 256 GB, 512 GB, 1 TB",
+      "Hỗ trợ thẻ nhớ ngoài": "Không"
+    },
+    "Kết nối": {
+      "Mạng di động": "5G, 4G, 3G",
+      "SIM": "Nano SIM và eSIM",
+      "Thực hiện cuộc gọi": "Có",
+      "Cổng kết nối": "USB-C (USB 3.2 Gen 2)",
+      "Jack tai nghe": "Không",
+      "Kết nối khác": "NFC, Ultra Wideband (thế hệ 2), Thread, Kết nối vệ tinh"
+    },
+    "Pin & Sạc": {
+      "Loại pin": "Li-Ion",
+      "Dung lượng pin": "3582 mAh",
+      "Công nghệ pin": "Sạc nhanh 30W, Sạc MagSafe, Sạc không dây Qi2"
+    },
+    "Tiện ích": {
+      "Tính năng đặc biệt": "Nút Tác vụ (Action Button), Mở khóa bằng khuôn mặt Face ID, Apple Intelligence, Spatial Video, LiDAR Scanner",
+      "Ghi âm": "Có",
+      "Radio": "Không"
+    },
+    "Thông tin chung": {
+      "Thiết kế": "Nguyên khối",
+      "Chất liệu": "Khung Titanium, mặt lưng kính mờ",
+      "Kích thước, khối lượng": "Dài 149.6 mm - Ngang 71.5 mm - Dày 8.3 mm - Nặng 199 g",
+      "Thời điểm ra mắt": "09/2024"
+    }
+  },
+  "configurations": {
+    "128GB": {
+      "Titan Tự nhiên": { "price": 28990000, "originalPrice": 30990000, "discount": 6 },
+      "Titan Đen": { "price": 28990000, "originalPrice": 30990000, "discount": 6 },
+      "Titan Trắng": { "price": 28990000, "originalPrice": 30990000, "discount": 6 },
+      "Titan Sa mạc": { "price": 28990000, "originalPrice": 30990000, "discount": 6 }
+    },
+    "256GB": {
+      "Titan Tự nhiên": { "price": 31990000, "originalPrice": 33990000, "discount": 6 },
+      "Titan Đen": { "price": 31990000, "originalPrice": 33990000, "discount": 6 },
+      "Titan Trắng": { "price": 31990000, "originalPrice": 33990000, "discount": 6 },
+      "Titan Sa mạc": { "price": 31990000, "originalPrice": 33990000, "discount": 6 }
+    },
+    "512GB": {
+      "Titan Tự nhiên": { "price": 35990000, "originalPrice": 37990000, "discount": 5 },
+      "Titan Đen": { "price": 35990000, "originalPrice": 37990000, "discount": 5 },
+      "Titan Trắng": { "price": 35990000, "originalPrice": 37990000, "discount": 5 },
+      "Titan Sa mạc": { "price": 35990000, "originalPrice": 37990000, "discount": 5 }
+    },
+    "1TB": {
+      "Titan Tự nhiên": { "price": 39990000, "originalPrice": 41990000, "discount": 4 },
+      "Titan Đen": { "price": 39990000, "originalPrice": 41990000, "discount": 4 },
+      "Titan Trắng": { "price": 39990000, "originalPrice": 41990000, "discount": 4 },
+      "Titan Sa mạc": { "price": 39990000, "originalPrice": 41990000, "discount": 4 }
+    }
+  },
+  "images": {
+    "128GB": {
+      "Titan Tự nhiên": "assets/products/iphone/iphone16pro_titantunhien.png",
+      "Titan Đen": "assets/products/iphone/iphone16pro_titanden.png",
+      "Titan Trắng": "assets/products/iphone/iphone16pro_titantrang.png",
+      "Titan Sa mạc": "assets/products/iphone/iphone16pro_titansamac.png"
+    },
+    "256GB": {
+      "Titan Tự nhiên": "assets/products/iphone/iphone16pro_titantunhien.png",
+      "Titan Đen": "assets/products/iphone/iphone16pro_titanden.png",
+      "Titan Trắng": "assets/products/iphone/iphone16pro_titantrang.png",
+      "Titan Sa mạc": "assets/products/iphone/iphone16pro_titansamac.png"
+    },
+    "512GB": {
+      "Titan Tự nhiên": "assets/products/iphone/iphone16pro_titantunhien.png",
+      "Titan Đen": "assets/products/iphone/iphone16pro_titanden.png",
+      "Titan Trắng": "assets/products/iphone/iphone16pro_titantrang.png",
+      "Titan Sa mạc": "assets/products/iphone/iphone16pro_titansamac.png"
+    },
+    "1TB": {
+      "Titan Tự nhiên": "assets/products/iphone/iphone16pro_titantunhien.png",
+      "Titan Đen": "assets/products/iphone/iphone16pro_titanden.png",
+      "Titan Trắng": "assets/products/iphone/iphone16pro_titantrang.png",
+      "Titan Sa mạc": "assets/products/iphone/iphone16pro_titansamac.png"
+    }
+  },
+  "accessories": [
+    {
+      "id": "airpods-pro-usb-C",
+      "name": "AirPods Pro (USB-C)",
+      "image": "assets/products/tainghe/Airpods_pro_usb_c.png",
+      "price": 5990000,
+      "originalPrice": 6490000,
+      "discount": 8
+    },
+    {
+      "id": "apple-watch-series-10",
+      "name": "Apple Watch Series 10",
+      "image": "assets/products/watch/applewatch_series10_bac.png",
+      "price": 22990000,
+      "originalPrice": 23990000,
+      "discount": 4
+    },
+    {
+      "id": "Chuot-Laptop",
+      "name": "Chuột Laptop",
+      "image": "assets/products/phukien/chuotlaptop.png",
+      "price": 1290000,
+      "originalPrice": 1490000,
+      "discount": 13
+    }
+  ],
+  "promotions": [
+    "Giảm 10% khi mua kèm AirPods Pro (Thế hệ 2) hoặc Apple Watch Series 10",
+    "Tặng gói bảo hành 12 tháng tại các trung tâm ủy quyền của Apple",
+    "Hỗ trợ trả góp 0% lãi suất qua thẻ tín dụng"
+  ]
+},
+{
+  "id": "iphone-16-plus",
+  "name": "iPhone 16 Plus",
+  "defaultImage": "assets/products/iphone/iphone16plus_hong.png",
+  "description": {
+    "paragraphs": [
+      "iPhone 16 Plus mang đến trải nghiệm di động lớn hơn và mạnh mẽ hơn, được trang bị chip A18 tiên tiến của Apple. Với màn hình rộng rãi và thời lượng pin ấn tượng, đây là lựa chọn lý tưởng cho những ai yêu thích giải trí và làm việc trên một thiết bị lớn hơn.",
+      "Màn hình Super Retina XDR 6.7 inch với công nghệ Dynamic Island mang lại không gian hiển thị rộng lớn, màu sắc chân thực và độ sáng cao, lý tưởng cho việc xem phim, chơi game và đa nhiệm. Tận hưởng hình ảnh sắc nét và rõ ràng trong mọi điều kiện ánh sáng.",
+      "Hệ thống camera kép được nâng cấp với camera chính 48MP và camera Ultra Wide 12MP cho phép bạn chụp ảnh và quay video 4K tuyệt đẹp. Chế độ chụp đêm và các tính năng chụp ảnh chuyên nghiệp giúp bạn ghi lại mọi khoảnh khắc với chất lượng cao nhất.",
+      "Khả năng kết nối Wi-Fi 7 và Bluetooth 5.3 đảm bảo tốc độ truyền tải dữ liệu cực nhanh và kết nối ổn định. Viên pin dung lượng lớn cung cấp thời lượng sử dụng cả ngày dài, cùng với công nghệ sạc nhanh tiện lợi.",
+      "iPhone 16 Plus cũng tích hợp nút Tác vụ (Action Button) và tính năng Face ID, mang lại sự tiện lợi và bảo mật tối ưu. Đây là một thiết bị đa năng, hoàn hảo cho cả công việc và giải trí."
+    ]
+  },
+  "specs": {
+    "Màn hình": {
+      "Công nghệ màn hình": "Super Retina XDR OLED",
+      "Độ phân giải": "2796 x 1290 Pixels",
+      "Màn hình rộng": "6.7 inch",
+      "Độ sáng tối đa": "2000 nits",
+      "Kính cảm ứng": "Kính cường lực Ceramic Shield"
+    },
+    "Camera": {
+      "Camera sau": "Chính 48MP, Ultra Wide 12MP",
+      "Camera trước": "12 MP"
+    },
+    "Hệ điều hành & CPU": {
+      "Hệ điều hành": "iOS 18",
+      "Chip xử lý (CPU)": "Apple A18",
+      "Tốc độ CPU": "Không công bố",
+      "Chip đồ họa (GPU)": "Apple GPU 5 lõi"
+    },
+    "Bộ nhớ & Lưu trữ": {
+      "RAM": "8 GB",
+      "Bộ nhớ trong": "128 GB, 256 GB, 512 GB",
+      "Hỗ trợ thẻ nhớ ngoài": "Không"
+    },
+    "Kết nối": {
+      "Mạng di động": "5G, 4G, 3G",
+      "SIM": "Nano SIM và eSIM",
+      "Thực hiện cuộc gọi": "Có",
+      "Cổng kết nối": "USB-C",
+      "Jack tai nghe": "Không",
+      "Kết nối khác": "NFC, Ultra Wideband (thế hệ 2)"
+    },
+    "Pin & Sạc": {
+      "Loại pin": "Li-Ion",
+      "Dung lượng pin": "4674 mAh",
+      "Công nghệ pin": "Sạc nhanh 30W, Sạc MagSafe, Sạc không dây Qi2"
+    },
+    "Tiện ích": {
+      "Tính năng đặc biệt": "Nút Tác vụ (Action Button), Mở khóa bằng khuôn mặt Face ID, Apple Intelligence",
+      "Ghi âm": "Có",
+      "Radio": "Không"
+    },
+    "Thông tin chung": {
+      "Thiết kế": "Nguyên khối",
+      "Chất liệu": "Khung nhôm, mặt lưng kính màu",
+      "Kích thước, khối lượng": "Dài 160.9 mm - Ngang 77.8 mm - Dày 7.8 mm - Nặng 199 g",
+      "Thời điểm ra mắt": "09/2024"
+    }
+  },
+  "configurations": {
+    "128GB": {
+      "Đen": { "price": 25990000, "originalPrice": 27990000, "discount": 7 },
+      "Trắng": { "price": 25990000, "originalPrice": 27990000, "discount": 7 },
+      "Hồng": { "price": 25990000, "originalPrice": 27990000, "discount": 7 },
+      "Xanh Lục": { "price": 25990000, "originalPrice": 27990000, "discount": 7 },
+      "Xanh Lam": { "price": 25990000, "originalPrice": 27990000, "discount": 7 }
+    },
+    "256GB": {
+      "Đen": { "price": 28990000, "originalPrice": 30990000, "discount": 6 },
+      "Trắng": { "price": 28990000, "originalPrice": 30990000, "discount": 6 },
+      "Hồng": { "price": 28990000, "originalPrice": 30990000, "discount": 6 },
+      "Xanh Lục": { "price": 28990000, "originalPrice": 30990000, "discount": 6 },
+      "Xanh Lam": { "price": 28990000, "originalPrice": 30990000, "discount": 6 }
+    },
+    "512GB": {
+      "Đen": { "price": 32990000, "originalPrice": 34990000, "discount": 5 },
+      "Trắng": { "price": 32990000, "originalPrice": 34990000, "discount": 5 },
+      "Hồng": { "price": 32990000, "originalPrice": 34990000, "discount": 5 },
+      "Xanh Lục": { "price": 32990000, "originalPrice": 34990000, "discount": 5 },
+      "Xanh Lam": { "price": 32990000, "originalPrice": 34990000, "discount": 5 }
+    }
+  },
+  "images": {
+    "128GB": {
+      "Đen": "assets/products/iphone/iphone16plus_den.png",
+      "Trắng": "assets/products/iphone/iphone16plus_trang.png",
+      "Hồng": "assets/products/iphone/iphone16plus_hong.png",
+      "Xanh Lục": "assets/products/iphone/iphone16plus_xanhmongket.png",
+      "Xanh Lam": "assets/products/iphone/iphone16plus_xanhluuly.png"
+    },
+    "256GB": {
+      "Đen": "assets/products/iphone/iphone16plus_den.png",
+      "Trắng": "assets/products/iphone/iphone16plus_trang.png",
+      "Hồng": "assets/products/iphone/iphone16plus_hong.png",
+      "Xanh Lục": "assets/products/iphone/iphone16plus_xanhmongket.png",
+      "Xanh Lam": "assets/products/iphone/iphone16plus_xanhluuly.png"
+    },
+    "512GB": {
+      "Đen": "assets/products/iphone/iphone16plus_den.png",
+      "Trắng": "assets/products/iphone/iphone16plus_trang.png",
+      "Hồng": "assets/products/iphone/iphone16plus_hong.png",
+      "Xanh Lục": "assets/products/iphone/iphone16plus_xanhmongket.png",
+      "Xanh Lam": "assets/products/iphone/iphone16plus_xanhluuly.png"
+    }
+  },
+  "accessories": [
+    {
+      "id": "airpods-3",
+      "name": "AirPods 3 (Lightning)",
+      "image": "assets/products/tainghe/Airpod3_Lightning.png",
+      "price": 5990000,
+      "originalPrice": 6490000,
+      "discount": 8
+    },
+    {
+      "id": "apple-watch-se-2",
+      "name": "Apple Watch SE (Thế hệ 2)",
+      "image": "assets/products/watch/applewatch_se2_xanhden",
+      "price": 6990000,
+      "originalPrice": 7490000,
+      "discount": 7
+    },
+    {
+      "id": "cuongluc-Mac",
+      "name": "Cường lực Mac",
+      "image": "assets/products/phukien/cuonglucMac.png",
+      "price": 1290000,
+      "originalPrice": 1490000,
+      "discount": 13
+    }
+  ],
+  "promotions": [
+    "Giảm 10% khi mua kèm AirPods Pro (Thế hệ 3)",
+    "Tặng gói bảo hành 12 tháng tại các trung tâm ủy quyền của Apple",
+    "Hỗ trợ trả góp 0% lãi suất qua thẻ tín dụng"
+  ]
+},
+{
+  "id": "iphone-16",
+  "name": "iPhone 16",
+  "defaultImage": "assets/products/iphone/iphone16_trang.png",
+  "description": {
+    "paragraphs": [
+      "iPhone 16 là phiên bản mới nhất của Apple, tích hợp chip A18 mạnh mẽ, mang đến hiệu năng vượt trội cho mọi tác vụ từ làm việc đến giải trí. Với thiết kế sang trọng và bền bỉ, chiếc điện thoại này hứa hẹn sẽ nâng tầm trải nghiệm di động của bạn.",
+      "Màn hình Super Retina XDR 6.1 inch sắc nét với độ phân giải cao và công nghệ Dynamic Island mang lại hình ảnh sống động, màu sắc chân thực. Độ sáng tối đa lên đến 2000 nits giúp hiển thị rõ ràng ngay cả dưới ánh nắng mặt trời gay gắt.",
+      "Hệ thống camera kép tiên tiến của iPhone 16 cho phép bạn chụp ảnh và quay video 4K chất lượng cao. Camera chính 48MP và camera Ultra Wide 12MP được cải tiến giúp ghi lại mọi khoảnh khắc với độ chi tiết và màu sắc ấn tượng. Camera trước 12MP hỗ trợ FaceTime và các cuộc gọi video chất lượng cao.",
+      "iPhone 16 tương thích với Wi-Fi 7 siêu tốc và Bluetooth 5.3, đảm bảo kết nối ổn định và nhanh chóng. Dung lượng pin lớn cùng công nghệ sạc nhanh giúp bạn thoải mái sử dụng suốt cả ngày dài mà không lo gián đoạn.",
+      "Ngoài ra, iPhone 16 còn tích hợp nút Tác vụ (Action Button) tùy chỉnh, cho phép bạn truy cập nhanh các tính năng yêu thích chỉ với một lần nhấn. Tính năng nhận diện khuôn mặt Face ID an toàn và tiện lợi, bảo vệ thông tin cá nhân của bạn."
+    ]
+  },
+  "specs": {
+    "Màn hình": {
+      "Công nghệ màn hình": "Super Retina XDR OLED",
+      "Độ phân giải": "2556 x 1179 Pixels",
+      "Màn hình rộng": "6.1 inch",
+      "Độ sáng tối đa": "2000 nits",
+      "Kính cảm ứng": "Kính cường lực Ceramic Shield"
+    },
+    "Camera": {
+      "Camera sau": "Chính 48MP, Ultra Wide 12MP",
+      "Camera trước": "12 MP"
+    },
+    "Hệ điều hành & CPU": {
+      "Hệ điều hành": "iOS 18",
+      "Chip xử lý (CPU)": "Apple A18",
+      "Tốc độ CPU": "Không công bố",
+      "Chip đồ họa (GPU)": "Apple GPU 5 lõi"
+    },
+    "Bộ nhớ & Lưu trữ": {
+      "RAM": "8 GB",
+      "Bộ nhớ trong": "128 GB, 256 GB, 512 GB",
+      "Hỗ trợ thẻ nhớ ngoài": "Không"
+    },
+    "Kết nối": {
+      "Mạng di động": "5G, 4G, 3G",
+      "SIM": "Nano SIM và eSIM",
+      "Thực hiện cuộc gọi": "Có",
+      "Cổng kết nối": "USB-C",
+      "Jack tai nghe": "Không",
+      "Kết nối khác": "NFC, Ultra Wideband (thế hệ 2)"
+    },
+    "Pin & Sạc": {
+      "Loại pin": "Li-Ion",
+      "Dung lượng pin": "3561 mAh",
+      "Công nghệ pin": "Sạc nhanh 30W, Sạc MagSafe, Sạc không dây Qi2"
+    },
+    "Tiện ích": {
+      "Tính năng đặc biệt": "Nút Tác vụ (Action Button), Mở khóa bằng khuôn mặt Face ID, Apple Intelligence",
+      "Ghi âm": "Có",
+      "Radio": "Không"
+    },
+    "Thông tin chung": {
+      "Thiết kế": "Nguyên khối",
+      "Chất liệu": "Khung nhôm, mặt lưng kính màu",
+      "Kích thước, khối lượng": "Dài 147.6 mm - Ngang 71.6 mm - Dày 7.8 mm - Nặng 170 g",
+      "Thời điểm ra mắt": "09/2024"
+    }
+  },
+  "configurations": {
+    "128GB": {
+      "Đen": { "price": 22990000, "originalPrice": 24990000, "discount": 8 },
+      "Trắng": { "price": 22990000, "originalPrice": 24990000, "discount": 8 },
+      "Hồng": { "price": 22990000, "originalPrice": 24990000, "discount": 8 },
+      "Xanh Lục": { "price": 22990000, "originalPrice": 24990000, "discount": 8 },
+      "Xanh Lam": { "price": 22990000, "originalPrice": 24990000, "discount": 8 }
+    },
+    "256GB": {
+      "Đen": { "price": 25990000, "originalPrice": 27990000, "discount": 7 },
+      "Trắng": { "price": 25990000, "originalPrice": 27990000, "discount": 7 },
+      "Hồng": { "price": 25990000, "originalPrice": 27990000, "discount": 7 },
+      "Xanh Lục": { "price": 25990000, "originalPrice": 27990000, "discount": 7 },
+      "Xanh Lam": { "price": 25990000, "originalPrice": 27990000, "discount": 7 }
+    },
+    "512GB": {
+      "Đen": { "price": 29990000, "originalPrice": 31990000, "discount": 6 },
+      "Trắng": { "price": 29990000, "originalPrice": 31990000, "discount": 6 },
+      "Hồng": { "price": 29990000, "originalPrice": 31990000, "discount": 6 },
+      "Xanh Lục": { "price": 29990000, "originalPrice": 31990000, "discount": 6 },
+      "Xanh Lam": { "price": 29990000, "originalPrice": 31990000, "discount": 6 }
+    }
+  },
+  "images": {
+    "128GB": {
+      "Đen": "assets/products/iphone/iphone16_den.png",
+      "Trắng": "assets/products/iphone/iphone16_trang.png",
+      "Hồng": "assets/products/iphone/iphone16_hong.png",
+      "Xanh Lục": "assets/products/iphone/iphone16_xanhmongket.png" ,
+      "Xanh Lam": "assets/products/iphone/iphone16_xanhluuly.png"
+    },
+    "256GB": {
+      "Đen": "assets/products/iphone/iphone16_den.png",
+      "Trắng": "assets/products/iphone/iphone16_trang.png",
+      "Hồng": "assets/products/iphone/iphone16_hong.png",
+      "Xanh Lục": "assets/products/iphone/iphone16_xanhmongket.png",
+      "Xanh Lam": "assets/products/iphone/iphone16_xanhluuly.png"
+    },
+    "512GB": {
+      "Đen": "assets/products/iphone/iphone16_den.png",
+      "Trắng": "assets/products/iphone/iphone16_trang.png",
+      "Hồng": "assets/products/iphone/iphone16_hong.png",
+      "Xanh Lục": "assets/products/iphone/iphone16_xanhmongket.png",
+      "Xanh Lam": "assets/products/iphone/iphone16_xanhluuly.png"
+    }
+  },
+  "accessories": [
+    {
+      "id": "earpods-usb-c",
+      "name": "EarPods USB-C",
+      "image": "assets/products/tainghe/earpods_usb_c",
+      "price": 5990000,
+      "originalPrice": 6490000,
+      "discount": 8
+    },
+    {
+      "id": "apple-watch-series-10",
+      "name": "Apple Watch Series 10",
+      "image": "assets/products/watch/applewatch_series10_denbong.png",
+      "price": 6990000,
+      "originalPrice": 7490000,
+      "discount": 7
+    },
+    {
+      "id": "cuongluc-Iphone",
+      "name": "Cường lực Iphone",
+      "image": "assets/products/phukien/cuonglucIphone.png",
+      "price": 1290000,
+      "originalPrice": 1490000,
+      "discount": 13
+    }
+  ],
+  "promotions": [
+    "Giảm 10% khi mua kèm AirPods Pro (Thế hệ 2)",
+    "Tặng gói bảo hành 12 tháng tại các trung tâm ủy quyền của Apple",
+    "Hỗ trợ trả góp 0% lãi suất qua thẻ tín dụng"
+  ]
+},
+{
+  "id": "iphone-16e",
+  "name": "iPhone 16e",
+  "defaultImage": "assets/products/iphone/iphone16e_trang.png",
+  "description": {
+    "paragraphs": [
+      "iPhone 16e là phiên bản 'essential' của dòng iPhone 16, mang đến trải nghiệm Apple cốt lõi với mức giá phải chăng hơn. Được trang bị chip A17 Bionic (tiếp bước chip của thế hệ trước), thiết bị này vẫn đảm bảo hiệu năng mượt mà cho các tác vụ hàng ngày, từ lướt web, mạng xã hội đến chơi game nhẹ và xem phim.",
+      "Màn hình Liquid Retina HD 6.1 inch của iPhone 16e cung cấp màu sắc sống động và độ rõ nét tuyệt vời cho mọi nội dung. Viền màn hình có thể sẽ dày hơn một chút so với các mẫu cao cấp, nhưng vẫn mang lại trải nghiệm xem thoải mái và trực quan.",
+      "Hệ thống camera đơn hoặc kép được tối ưu hóa với camera chính 12MP sẽ giúp bạn chụp ảnh và quay video chất lượng tốt trong nhiều điều kiện. Camera trước cũng được cải tiến để có những cuộc gọi video sắc nét và ảnh selfie đẹp.",
+      "iPhone 16e hỗ trợ kết nối 5G và Wi-Fi 6, đảm bảo bạn luôn có tốc độ truy cập internet nhanh chóng và đáng tin cậy. Dung lượng pin được cải thiện đáng kể so với các mẫu iPhone SE trước đây, cho phép bạn sử dụng thoải mái trong suốt cả ngày.",
+      "Thiết kế của iPhone 16e sẽ vẫn giữ nguyên sự chắc chắn và sang trọng đặc trưng của Apple, với khung nhôm và mặt lưng kính. Máy cũng sẽ tích hợp các tính năng bảo mật quen thuộc như Face ID hoặc Touch ID (nếu sử dụng nút nguồn tích hợp)."
+    ]
+  },
+  "specs": {
+    "Màn hình": {
+      "Công nghệ màn hình": "Liquid Retina HD (LCD)",
+      "Độ phân giải": "1792 x 828 Pixels",
+      "Màn hình rộng": "6.1 inch",
+      "Độ sáng tối đa": "625 nits (tiêu chuẩn)",
+      "Kính cảm ứng": "Kính cường lực"
+    },
+    "Camera": {
+      "Camera sau": "12 MP (đơn hoặc kép)",
+      "Camera trước": "12 MP"
+    },
+    "Hệ điều hành & CPU": {
+      "Hệ điều hành": "iOS 18",
+      "Chip xử lý (CPU)": "Apple A17 Bionic",
+      "Tốc độ CPU": "Không công bố",
+      "Chip đồ họa (GPU)": "Apple GPU 4 lõi"
+    },
+    "Bộ nhớ & Lưu trữ": {
+      "RAM": "6 GB",
+      "Bộ nhớ trong": "128 GB, 256 GB",
+      "Hỗ trợ thẻ nhớ ngoài": "Không"
+    },
+    "Kết nối": {
+      "Mạng di động": "5G, 4G, 3G",
+      "SIM": "Nano SIM và eSIM",
+      "Thực hiện cuộc gọi": "Có",
+      "Cổng kết nối": "USB-C",
+      "Jack tai nghe": "Không",
+      "Kết nối khác": "NFC"
+    },
+    "Pin & Sạc": {
+      "Loại pin": "Li-Ion",
+      "Dung lượng pin": "Ước tính 3200 mAh",
+      "Công nghệ pin": "Sạc nhanh 18W, Sạc không dây Qi"
+    },
+    "Tiện ích": {
+      "Tính năng đặc biệt": "Mở khóa bằng khuôn mặt Face ID hoặc Touch ID (nút nguồn)",
+      "Ghi âm": "Có",
+      "Radio": "Không"
+    },
+    "Thông tin chung": {
+      "Thiết kế": "Nguyên khối",
+      "Chất liệu": "Khung nhôm, mặt lưng kính",
+      "Kích thước, khối lượng": "Ước tính Dài 150.9 mm - Ngang 75.7 mm - Dày 8.3 mm - Nặng 194 g",
+      "Thời điểm ra mắt": "Có thể là giữa năm 2025 (nếu có)"
+    }
+  },
+  "configurations": {
+    "128GB": {
+      "Trắng": { "price": 17990000, "originalPrice": 19990000, "discount": 10 },
+      "Đen": { "price": 17990000, "originalPrice": 19990000, "discount": 10 }
+    },
+    "256GB": {
+      "Trắng": { "price": 19990000, "originalPrice": 21990000, "discount": 9 },
+      "Đen": { "price": 19990000, "originalPrice": 21990000, "discount": 9 }     
+    }
+  },
+  "images": {
+    "128GB": {
+      "Trắng": "assets/products/iphone/iphone16e_trang.png",
+      "Đen": "assets/products/iphone/iphone16e_den.png"
+    },
+    "256GB": {
+      "Trắng": "assets/products/iphone/iphone16e_trang.png",
+      "Đen": "assets/products/iphone/iphone16e_den.png"
+    }
+  },
+  "accessories": [
+    {
+      "id": "earpods-usb-c",
+      "name": "EarPods với Cổng USB-C",
+      "image": "assets/products/tainghe/earpods_usb_c",
+      "price": 690000,
+      "originalPrice": 690000,
+      "discount": 0
+    },
+    {
+      "id": "usb-c-adapter",
+      "name": "Adapter sạc usb-C",
+      "image": "assets/products/phukien/Adapter_sacusbC.png",
+      "price": 490000,
+      "originalPrice": 490000,
+      "discount": 0
+    }
+  ],
+  "promotions": [
+    "Tặng cáp sạc USB-C khi mua kèm",
+    "Giảm 5% khi mua kèm phụ kiện chính hãng",
+    "Hỗ trợ trả góp 0% lãi suất qua thẻ tín dụng"
+  ]
+},
+{
+  "id": "iphone-15-pro-max",
+  "name": "iPhone 15 Pro Max",
+  "defaultImage": "assets/products/iphone/iphone15prm_titanden.png",
+  "description": {
+    "paragraphs": [
+      "iPhone 15 Pro Max là chiếc điện thoại mạnh mẽ và tiên tiến nhất của Apple, sở hữu màn hình lớn nhất, hiệu năng đỉnh cao với chip A17 Pro và hệ thống camera chuyên nghiệp hàng đầu. Đây là lựa chọn tối ưu cho những người dùng yêu cầu khắt khe nhất về hiệu suất và khả năng chụp ảnh.",
+      "Màn hình Super Retina XDR 6.7 inch với công nghệ ProMotion và Always-On Display mang lại trải nghiệm hiển thị tuyệt vời, mượt mà và cực kỳ sắc nét. Khung viền Titanium bền bỉ và nhẹ hơn đáng kể, tạo nên một thiết kế cao cấp và thoải mái khi cầm nắm.",
+      "Hệ thống camera Pro Max với camera chính 48MP, camera Ultra Wide 12MP và đặc biệt là camera Telephoto 12MP với khả năng zoom quang học 5x, cho phép bạn chụp những bức ảnh và quay video chất lượng đỉnh cao, kể cả từ xa. Chế độ Cinematic Mode, ProRes video và khả năng quay video không gian (Spatial Video) mở ra những khả năng sáng tạo mới.",
+      "iPhone 15 Pro Max được trang bị cổng USB-C với tốc độ USB 3, giúp truyền dữ liệu cực nhanh. Khả năng kết nối Wi-Fi 6E và 5G tiên tiến nhất đảm bảo tốc độ internet và độ trễ thấp tối đa cho mọi hoạt động trực tuyến.",
+      "Nút Tác vụ (Action Button) mới có thể tùy chỉnh, Face ID bảo mật, và thời lượng pin vượt trội giúp bạn thoải mái sử dụng cả ngày dài mà không cần lo lắng. iPhone 15 Pro Max là biểu tượng của sự kết hợp hoàn hảo giữa công nghệ, thiết kế và trải nghiệm người dùng."
+    ]
+  },
+  "specs": {
+    "Màn hình": {
+      "Công nghệ màn hình": "LTPO Super Retina XDR OLED",
+      "Độ phân giải": "2796 x 1290 Pixels",
+      "Màn hình rộng": "6.7 inch",
+      "Độ sáng tối đa": "2000 nits (peak)",
+      "Kính cảm ứng": "Kính cường lực Ceramic Shield",
+      "Tần số quét": "120Hz (ProMotion)"
+    },
+    "Camera": {
+      "Camera sau": "Chính 48MP, Ultra Wide 12MP, Telephoto 12MP (zoom quang học 5x)",
+      "Camera trước": "12 MP"
+    },
+    "Hệ điều hành & CPU": {
+      "Hệ điều hành": "iOS 17",
+      "Chip xử lý (CPU)": "Apple A17 Pro",
+      "Tốc độ CPU": "Không công bố",
+      "Chip đồ họa (GPU)": "Apple GPU 6 lõi"
+    },
+    "Bộ nhớ & Lưu trữ": {
+      "RAM": "8 GB",
+      "Bộ nhớ trong": "256 GB, 512 GB, 1 TB",
+      "Hỗ trợ thẻ nhớ ngoài": "Không"
+    },
+    "Kết nối": {
+      "Mạng di động": "5G, 4G, 3G",
+      "SIM": "Nano SIM và eSIM",
+      "Thực hiện cuộc gọi": "Có",
+      "Cổng kết nối": "USB-C (USB 3)",
+      "Jack tai nghe": "Không",
+      "Kết nối khác": "NFC, Ultra Wideband (thế hệ 2), LiDAR Scanner"
+    },
+    "Pin & Sạc": {
+      "Loại pin": "Li-Ion",
+      "Dung lượng pin": "4422 mAh",
+      "Công nghệ pin": "Sạc nhanh 20W, Sạc MagSafe, Sạc không dây Qi2"
+    },
+    "Tiện ích": {
+      "Tính năng đặc biệt": "Nút Tác vụ (Action Button), Mở khóa bằng khuôn mặt Face ID, Dynamic Island, Always-On Display",
+      "Ghi âm": "Có",
+      "Radio": "Không"
+    },
+    "Thông tin chung": {
+      "Thiết kế": "Nguyên khối",
+      "Chất liệu": "Khung Titanium, mặt lưng kính nhám",
+      "Kích thước, khối lượng": "Dài 159.9 mm - Ngang 76.7 mm - Dày 8.25 mm - Nặng 221 g",
+      "Thời điểm ra mắt": "09/2023"
+    }
+  },
+  "configurations": {
+    "256GB": {
+      "Titan Tự nhiên": { "price": 31990000, "originalPrice": 34990000, "discount": 9 },
+      "Titan Đen": { "price": 31990000, "originalPrice": 34990000, "discount": 9 },
+      "Titan Trắng": { "price": 31990000, "originalPrice": 34990000, "discount": 9 },
+      "Titan Xanh": { "price": 31990000, "originalPrice": 34990000, "discount": 9 }
+    },
+    "512GB": {
+      "Titan Tự nhiên": { "price": 36990000, "originalPrice": 39990000, "discount": 8 },
+      "Titan Đen": { "price": 36990000, "originalPrice": 39990000, "discount": 8 },
+      "Titan Trắng": { "price": 36990000, "originalPrice": 39990000, "discount": 8 },
+      "Titan Xanh": { "price": 36990000, "originalPrice": 39990000, "discount": 8 }
+    },
+    "1TB": {
+      "Titan Tự nhiên": { "price": 41990000, "originalPrice": 44990000, "discount": 7 },
+      "Titan Đen": { "price": 41990000, "originalPrice": 44990000, "discount": 7 },
+      "Titan Trắng": { "price": 41990000, "originalPrice": 44990000, "discount": 7 },
+      "Titan Xanh": { "price": 41990000, "originalPrice": 44990000, "discount": 7 }
+    }
+  },
+  "images": {
+    "256GB": {
+      "Titan Tự nhiên": "assets/products/iphone/iphone15prm_titantunhien.png",
+      "Titan Đen": "assets/products/iphone/iphone15prm_titanden.png",
+      "Titan Trắng": "assets/products/iphone/iphone15prm_titantrang.png",
+      "Titan Xanh": "assets/products/iphone/iphone15prm_titanxanh.png"
+    },
+    "512GB": {
+      "Titan Tự nhiên": "assets/products/iphone/iphone15prm_titantunhien.png",
+      "Titan Đen": "assets/products/iphone/iphone15prm_titanden.png",
+      "Titan Trắng": "assets/products/iphone/iphone15prm_titantrang.png",
+      "Titan Xanh": "assets/products/iphone/iphone15prm_titanxanh.png"
+    },
+    "1TB": {
+      "Titan Tự nhiên": "assets/products/iphone/iphone15prm_titantunhien.png",
+      "Titan Đen": "assets/products/iphone/iphone15prm_titanden.png",
+      "Titan Trắng": "assets/products/iphone/iphone15prm_titantrang.png",
+      "Titan Xanh": "assets/products/iphone/iphone15prm_titanxanh.png"
+    }
+  },
+  "accessories": [
+    {
+      "id": "airpods-max",
+      "name": "AirPods Max",
+      "image": "assets/products/tainghe/AirpodsMax_Hong",
+      "price": 5490000,
+      "originalPrice": 5990000,
+      "discount": 8
+    },
+    {
+      "id": "apple-watch-ultra-2",
+      "name": "Apple Watch Ultra 2",
+      "image": "assets/products/watch/applewatch_ultra2_daytrail.png",
+      "price": 21990000,
+      "originalPrice": 22990000,
+      "discount": 4
+    }
+  ],
+  "promotions": [
+    "Giảm 10% khi mua kèm AirPods hoặc Apple Watch",
+    "Tặng gói bảo hành 12 tháng tại các trung tâm ủy quyền của Apple",
+    "Hỗ trợ trả góp 0% lãi suất qua thẻ tín dụng"
+  ]
+},
+{
+  "id": "iphone-15-pro",
+  "name": "iPhone 15 Pro",
+  "defaultImage": "assets/products/iphone/iphone15pro_titanden.png",
+  "description": {
+    "paragraphs": [
+      "iPhone 15 Pro là dòng sản phẩm cao cấp của Apple, được thiết kế cho những người dùng đòi hỏi hiệu năng tối đa và khả năng chụp ảnh chuyên nghiệp. Máy được trang bị chip A17 Pro siêu mạnh, mang đến hiệu năng đồ họa và xử lý chưa từng có trên điện thoại thông minh.",
+      "Màn hình Super Retina XDR 6.1 inch với công nghệ ProMotion và Always-On Display mang lại trải nghiệm hiển thị mượt mà, sống động và cực kỳ chi tiết. Khung viền mỏng hơn và chất liệu Titanium cao cấp tạo nên sự sang trọng và bền bỉ.",
+      "Hệ thống camera Pro được nâng cấp vượt bậc với camera chính 48MP, camera Ultra Wide 12MP và camera Telephoto 12MP (zoom quang học 3x). Khả năng chụp ảnh thiếu sáng, quay video ProRes và chế độ Cinematic Mode cho phép bạn ghi lại những thước phim chất lượng điện ảnh.",
+      "iPhone 15 Pro tích hợp cổng USB-C tốc độ cao (USB 3), cho phép truyền dữ liệu cực nhanh. Khả năng kết nối Wi-Fi 6E và 5G tiên tiến đảm bảo tốc độ internet và độ trễ thấp tối đa.",
+      "Nút Tác vụ (Action Button) mới có thể tùy chỉnh giúp truy cập nhanh vào các tính năng yêu thích. Pin được tối ưu hóa cho thời lượng sử dụng cả ngày dài, cùng với công nghệ sạc nhanh và MagSafe tiện lợi. Đây là chiếc iPhone dành cho những người dùng chuyên nghiệp và sáng tạo."
+    ]
+  },
+  "specs": {
+    "Màn hình": {
+      "Công nghệ màn hình": "LTPO Super Retina XDR OLED",
+      "Độ phân giải": "2556 x 1179 Pixels",
+      "Màn hình rộng": "6.1 inch",
+      "Độ sáng tối đa": "2000 nits (peak)",
+      "Kính cảm ứng": "Kính cường lực Ceramic Shield",
+      "Tần số quét": "120Hz (ProMotion)"
+    },
+    "Camera": {
+      "Camera sau": "Chính 48MP, Ultra Wide 12MP, Telephoto 12MP (zoom quang học 3x)",
+      "Camera trước": "12 MP"
+    },
+    "Hệ điều hành & CPU": {
+      "Hệ điều hành": "iOS 17",
+      "Chip xử lý (CPU)": "Apple A17 Pro",
+      "Tốc độ CPU": "Không công bố",
+      "Chip đồ họa (GPU)": "Apple GPU 6 lõi"
+    },
+    "Bộ nhớ & Lưu trữ": {
+      "RAM": "8 GB",
+      "Bộ nhớ trong": "128 GB, 256 GB, 512 GB, 1 TB",
+      "Hỗ trợ thẻ nhớ ngoài": "Không"
+    },
+    "Kết nối": {
+      "Mạng di động": "5G, 4G, 3G",
+      "SIM": "Nano SIM và eSIM",
+      "Thực hiện cuộc gọi": "Có",
+      "Cổng kết nối": "USB-C (USB 3)",
+      "Jack tai nghe": "Không",
+      "Kết nối khác": "NFC, Ultra Wideband (thế hệ 2), LiDAR Scanner"
+    },
+    "Pin & Sạc": {
+      "Loại pin": "Li-Ion",
+      "Dung lượng pin": "3274 mAh",
+      "Công nghệ pin": "Sạc nhanh 20W, Sạc MagSafe, Sạc không dây Qi2"
+    },
+    "Tiện ích": {
+      "Tính năng đặc biệt": "Nút Tác vụ (Action Button), Mở khóa bằng khuôn mặt Face ID, Dynamic Island, Always-On Display",
+      "Ghi âm": "Có",
+      "Radio": "Không"
+    },
+    "Thông tin chung": {
+      "Thiết kế": "Nguyên khối",
+      "Chất liệu": "Khung Titanium, mặt lưng kính nhám",
+      "Kích thước, khối lượng": "Dài 146.6 mm - Ngang 70.6 mm - Dày 8.25 mm - Nặng 187 g",
+      "Thời điểm ra mắt": "09/2023"
+    }
+  },
+  "configurations": {
+    "128GB": {
+      "Titan Tự nhiên": { "price": 25990000, "originalPrice": 28990000, "discount": 10 },
+      "Titan Đen": { "price": 25990000, "originalPrice": 28990000, "discount": 10 },
+      "Titan Trắng": { "price": 25990000, "originalPrice": 28990000, "discount": 10 },
+      "Titan Xanh": { "price": 25990000, "originalPrice": 28990000, "discount": 10 }
+    },
+    "256GB": {
+      "Titan Tự nhiên": { "price": 28990000, "originalPrice": 31990000, "discount": 9 },
+      "Titan Đen": { "price": 28990000, "originalPrice": 31990000, "discount": 9 },
+      "Titan Trắng": { "price": 28990000, "originalPrice": 31990000, "discount": 9 },
+      "Titan Xanh": { "price": 28990000, "originalPrice": 31990000, "discount": 9 }
+    },
+    "512GB": {
+      "Titan Tự nhiên": { "price": 33990000, "originalPrice": 36990000, "discount": 8 },
+      "Titan Đen": { "price": 33990000, "originalPrice": 36990000, "discount": 8 },
+      "Titan Trắng": { "price": 33990000, "originalPrice": 36990000, "discount": 8 },
+      "Titan Xanh": { "price": 33990000, "originalPrice": 36990000, "discount": 8 }
+    },
+    "1TB": {
+      "Titan Tự nhiên": { "price": 38990000, "originalPrice": 41990000, "discount": 7 },
+      "Titan Đen": { "price": 38990000, "originalPrice": 41990000, "discount": 7 },
+      "Titan Trắng": { "price": 38990000, "originalPrice": 41990000, "discount": 7 },
+      "Titan Xanh": { "price": 38990000, "originalPrice": 41990000, "discount": 7 }
+    }
+  },
+  "images": {
+    "128GB": {
+      "Titan Tự nhiên": "assets/products/iphone/iphone15pro_titantunhien.png",
+      "Titan Đen": "assets/products/iphone/iphone15pro_titanden.png",
+      "Titan Trắng": "assets/products/iphone/iphone15pro_titantrang.png",
+      "Titan Xanh": "assets/products/iphone/iphone15pro_titanxanh.png"
+    },
+    "256GB": {
+      "Titan Tự nhiên": "assets/products/iphone/iphone15pro_titantunhien.png",
+      "Titan Đen": "assets/products/iphone/iphone15pro_titanden.png",
+      "Titan Trắng": "assets/products/iphone/iphone15pro_titantrang.png",
+      "Titan Xanh": "assets/products/iphone/iphone15pro_titanxanh.png"
+    },
+    "512GB": {
+      "Titan Tự nhiên": "assets/products/iphone/iphone15pro_titantunhien.png",
+      "Titan Đen": "assets/products/iphone/iphone15pro_titanden.png",
+      "Titan Trắng": "assets/products/iphone/iphone15pro_titantrang.png",
+      "Titan Xanh": "assets/products/iphone/iphone15pro_titanxanh.png"
+    },
+    "1TB": {
+      "Titan Tự nhiên": "assets/products/iphone/iphone15pro_titantunhien.png",
+      "Titan Đen": "assets/products/iphone/iphone15pro_titanden.png",
+      "Titan Xanh": "assets/products/iphone/iphone15pro_titanxanh.png"
+    }
+  },
+  "accessories": [
+    {
+      "id": "airpods-pro-usb-c",
+      "name": "AirPods Pro với Hộp sạc USB-C",
+      "image": "assets/products/tainghe/Airpods_pro_usb_c.png",
+      "price": 5490000,
+      "originalPrice": 5990000,
+      "discount": 8
+    },
+    {
+      "id": "apple-watch-ultra-2",
+      "name": "Apple Watch Ultra 2",
+      "image": "assets/products/watch/applewatch_ultra2_dayalpine.png",
+      "price": 21990000,
+      "originalPrice": 22990000,
+      "discount": 4
+    }
+
+  ],
+  "promotions": [
+    "Giảm 10% khi mua kèm AirPods hoặc Apple Watch",
+    "Tặng gói bảo hành 12 tháng tại các trung tâm ủy quyền của Apple",
+    "Hỗ trợ trả góp 0% lãi suất qua thẻ tín dụng"
+  ]
+},
+{
+  "id": "iphone-15-plus",
+  "name": "iPhone 15 Plus",
+  "defaultImage": "assets/products/iphone/iphone15plus_hongnhat.png",
+  "description": {
+    "paragraphs": [
+      "iPhone 15 Plus mang đến trải nghiệm màn hình lớn hơn và thời lượng pin ấn tượng, lý tưởng cho những ai yêu thích không gian giải trí và làm việc rộng rãi. Máy được trang bị chip A16 Bionic mạnh mẽ, đảm bảo hiệu năng mượt mà cho mọi tác vụ.",
+      "Màn hình Super Retina XDR 6.7 inch với công nghệ Dynamic Island mở rộng không gian hiển thị, mang lại hình ảnh sắc nét, sống động. Đây là lựa chọn hoàn hảo để xem phim, chơi game hay làm việc đa nhiệm.",
+      "Hệ thống camera kép với camera chính 48MP và camera Ultra Wide 12MP giúp bạn chụp ảnh và quay video chất lượng cao với độ chi tiết ấn tượng. Khả năng chụp ảnh chân dung được cải thiện và các tính năng thông minh giúp bạn dễ dàng có được những bức ảnh đẹp.",
+      "Với cổng USB-C tiện lợi, iPhone 15 Plus giúp việc sạc và truyền dữ liệu trở nên dễ dàng hơn bao giờ hết. Khả năng kết nối 5G và Wi-Fi 6 siêu tốc đảm bảo bạn luôn được kết nối ổn định và nhanh chóng.",
+      "Thiết kế bền bỉ với mặt lưng kính màu sắc được xử lý đặc biệt và khung nhôm chắc chắn. Viên pin dung lượng lớn mang lại thời lượng sử dụng dài, giúp bạn thoải mái trải nghiệm suốt cả ngày dài mà không cần lo lắng về việc sạc pin."
+    ]
+  },
+  "specs": {
+    "Màn hình": {
+      "Công nghệ màn hình": "Super Retina XDR OLED",
+      "Độ phân giải": "2796 x 1290 Pixels",
+      "Màn hình rộng": "6.7 inch",
+      "Độ sáng tối đa": "2000 nits (peak)",
+      "Kính cảm ứng": "Kính cường lực Ceramic Shield"
+    },
+    "Camera": {
+      "Camera sau": "Chính 48MP, Ultra Wide 12MP",
+      "Camera trước": "12 MP"
+    },
+    "Hệ điều hành & CPU": {
+      "Hệ điều hành": "iOS 17",
+      "Chip xử lý (CPU)": "Apple A16 Bionic",
+      "Tốc độ CPU": "Không công bố",
+      "Chip đồ họa (GPU)": "Apple GPU 5 lõi"
+    },
+    "Bộ nhớ & Lưu trữ": {
+      "RAM": "6 GB",
+      "Bộ nhớ trong": "128 GB, 256 GB, 512 GB",
+      "Hỗ trợ thẻ nhớ ngoài": "Không"
+    },
+    "Kết nối": {
+      "Mạng di động": "5G, 4G, 3G",
+      "SIM": "Nano SIM và eSIM",
+      "Thực hiện cuộc gọi": "Có",
+      "Cổng kết nối": "USB-C",
+      "Jack tai nghe": "Không",
+      "Kết nối khác": "NFC, Ultra Wideband (thế hệ 2)"
+    },
+    "Pin & Sạc": {
+      "Loại pin": "Li-Ion",
+      "Dung lượng pin": "4383 mAh",
+      "Công nghệ pin": "Sạc nhanh 20W, Sạc MagSafe, Sạc không dây Qi2"
+    },
+    "Tiện ích": {
+      "Tính năng đặc biệt": "Dynamic Island, Mở khóa bằng khuôn mặt Face ID",
+      "Ghi âm": "Có",
+      "Radio": "Không"
+    },
+    "Thông tin chung": {
+      "Thiết kế": "Nguyên khối",
+      "Chất liệu": "Khung nhôm, mặt lưng kính màu",
+      "Kích thước, khối lượng": "Dài 160.9 mm - Ngang 77.8 mm - Dày 7.8 mm - Nặng 201 g",
+      "Thời điểm ra mắt": "09/2023"
+    }
+  },
+  "configurations": {
+    "128GB": {
+      "Đen": { "price": 22990000, "originalPrice": 25990000, "discount": 12 },
+      "Xanh Lá": { "price": 22990000, "originalPrice": 25990000, "discount": 12 },
+      "Hồng": { "price": 22990000, "originalPrice": 25990000, "discount": 12 },
+      "Vàng": { "price": 22990000, "originalPrice": 25990000, "discount": 12 },
+      "Xanh Dương": { "price": 22990000, "originalPrice": 25990000, "discount": 12 }
+    },
+    "256GB": {
+      "Đen": { "price": 25990000, "originalPrice": 28990000, "discount": 10 },
+      "Xanh Lá": { "price": 25990000, "originalPrice": 28990000, "discount": 10 },
+      "Hồng": { "price": 25990000, "originalPrice": 28990000, "discount": 10 },
+      "Vàng": { "price": 25990000, "originalPrice": 28990000, "discount": 10 },
+      "Xanh Dương": { "price": 25990000, "originalPrice": 28990000, "discount": 10 }
+    },
+    "512GB": {
+      "Đen": { "price": 30990000, "originalPrice": 33990000, "discount": 9 },
+      "Xanh Lá": { "price": 30990000, "originalPrice": 33990000, "discount": 9 },
+      "Hồng": { "price": 30990000, "originalPrice": 33990000, "discount": 9 },
+      "Vàng": { "price": 30990000, "originalPrice": 33990000, "discount": 9 },
+      "Xanh Dương": { "price": 30990000, "originalPrice": 33990000, "discount": 9 }
+    }
+  },
+  "images": {
+    "128GB": {
+      "Đen": "assets/products/iphone/iphone15plus_den.png",
+      "Xanh Lá": "assets/products/iphone/iphone15plus_xanhlanhat.png",
+      "Hồng": "assets/products/iphone/iphone15plus_hongnhat.png",
+      "Vàng": "assets/products/iphone/iphone15_vangnhat.png",
+      "Xanh Dương": "assets/products/iphone/iphone15plus_xanhduongnhat.png"
+    },
+    "256GB": {
+      "Đen": "assets/products/iphone/iphone15plus_den.png",
+      "Xanh Lá": "assets/products/iphone/iphone15plus_xanhlanhat.png",
+      "Hồng": "assets/products/iphone/iphone15plus_hongnhat.png",
+      "Vàng": "assets/products/iphone/iphone15_vangnhat.png",
+      "Xanh Dương": "assets/products/iphone/iphone15plus_xanhduongnhat.png"
+    },
+    "512GB": {
+      "Đen": "assets/products/iphone/iphone15plus_den.png",
+      "Xanh Lá": "assets/products/iphone/iphone15plus_xanhlanhat.png",
+      "Hồng": "assets/products/iphone/iphone15plus_hongnhat.png",
+      "Vàng": "assets/products/iphone/iphone15_vangnhat.png",
+      "Xanh Dương": "assets/products/iphone/iphone15plus_xanhduongnhat.png"
+    }
+  },
+  "accessories": [
+    {
+      "id": "airpods-pro-usb-c",
+      "name": "AirPods Pro với Hộp sạc USB-C",
+      "image": "assets/products/tainghe/Airpods_pro_usb_c.png",
+      "price": 5490000,
+      "originalPrice": 5990000,
+      "discount": 8
+    },
+    {
+      "id": "apple-watch-se-2",
+      "name": "Apple Watch SE (Thế hệ 2)",
+      "image": "assets/products/watch/applewatch_se2_bac.png",
+      "price": 5990000,
+      "originalPrice": 6490000,
+      "discount": 7
+    }
+  ],
+  "promotions": [
+    "Giảm 10% khi mua kèm AirPods hoặc Apple Watch",
+    "Tặng gói bảo hành 12 tháng tại các trung tâm ủy quyền của Apple",
+    "Hỗ trợ trả góp 0% lãi suất qua thẻ tín dụng"
+  ]
+},
+{
+  "id": "iphone-15",
+  "name": "iPhone 15",
+  "defaultImage": "assets/products/iphone/iphone15_xanhduongnhat.png",
+  "description": {
+    "paragraphs": [
+      "iPhone 15 là mẫu điện thoại mới nhất của Apple, kế thừa những tinh hoa thiết kế và công nghệ. Máy được trang bị chip A16 Bionic mạnh mẽ, mang đến hiệu năng vượt trội và khả năng xử lý đồ họa ấn tượng, đáp ứng mọi nhu cầu từ công việc đến giải trí.",
+      "Màn hình Super Retina XDR 6.1 inch sắc nét với công nghệ Dynamic Island độc đáo, mang lại trải nghiệm tương tác trực quan và thú vị. Độ sáng tối đa cao giúp hiển thị rõ ràng ngay cả dưới ánh nắng mặt trời gay gắt.",
+      "Hệ thống camera kép được nâng cấp đáng kể với camera chính 48MP và camera Ultra Wide 12MP, cho phép bạn chụp ảnh chi tiết hơn và quay video 4K chất lượng cao. Chế độ chân dung thế hệ mới và các tính năng chụp ảnh thông minh khác giúp bạn ghi lại mọi khoảnh khắc một cách chuyên nghiệp.",
+      "iPhone 15 tích hợp cổng USB-C, mang lại sự tiện lợi và tương thích cao với nhiều thiết bị. Khả năng kết nối 5G siêu tốc và Wi-Fi 6 giúp bạn luôn duy trì kết nối ổn định và truyền tải dữ liệu nhanh chóng.",
+      "Với thiết kế bền bỉ, mặt lưng kính màu sắc được xử lý bằng phương pháp mới và khung nhôm chuẩn hàng không vũ trụ, iPhone 15 không chỉ đẹp mà còn chắc chắn. Thời lượng pin được cải thiện đáng kể, cho phép bạn sử dụng thiết bị suốt cả ngày dài mà không lo hết pin."
+    ]
+  },
+  "specs": {
+    "Màn hình": {
+      "Công nghệ màn hình": "Super Retina XDR OLED",
+      "Độ phân giải": "2556 x 1179 Pixels",
+      "Màn hình rộng": "6.1 inch",
+      "Độ sáng tối đa": "2000 nits (peak)",
+      "Kính cảm ứng": "Kính cường lực Ceramic Shield"
+    },
+    "Camera": {
+      "Camera sau": "Chính 48MP, Ultra Wide 12MP",
+      "Camera trước": "12 MP"
+    },
+    "Hệ điều hành & CPU": {
+      "Hệ điều hành": "iOS 17",
+      "Chip xử lý (CPU)": "Apple A16 Bionic",
+      "Tốc độ CPU": "Không công bố",
+      "Chip đồ họa (GPU)": "Apple GPU 5 lõi"
+    },
+    "Bộ nhớ & Lưu trữ": {
+      "RAM": "6 GB",
+      "Bộ nhớ trong": "128 GB, 256 GB, 512 GB",
+      "Hỗ trợ thẻ nhớ ngoài": "Không"
+    },
+    "Kết nối": {
+      "Mạng di động": "5G, 4G, 3G",
+      "SIM": "Nano SIM và eSIM",
+      "Thực hiện cuộc gọi": "Có",
+      "Cổng kết nối": "USB-C",
+      "Jack tai nghe": "Không",
+      "Kết nối khác": "NFC, Ultra Wideband (thế hệ 2)"
+    },
+    "Pin & Sạc": {
+      "Loại pin": "Li-Ion",
+      "Dung lượng pin": "3349 mAh",
+      "Công nghệ pin": "Sạc nhanh 20W, Sạc MagSafe, Sạc không dây Qi2"
+    },
+    "Tiện ích": {
+      "Tính năng đặc biệt": "Dynamic Island, Mở khóa bằng khuôn mặt Face ID",
+      "Ghi âm": "Có",
+      "Radio": "Không"
+    },
+    "Thông tin chung": {
+      "Thiết kế": "Nguyên khối",
+      "Chất liệu": "Khung nhôm, mặt lưng kính màu",
+      "Kích thước, khối lượng": "Dài 147.6 mm - Ngang 71.6 mm - Dày 7.8 mm - Nặng 171 g",
+      "Thời điểm ra mắt": "09/2023"
+    }
+  },
+  "configurations": {
+    "128GB": {
+      "Đen": { "price": 19990000, "originalPrice": 22990000, "discount": 13 },
+      "Xanh Lá": { "price": 19990000, "originalPrice": 22990000, "discount": 13 },
+      "Hồng": { "price": 19990000, "originalPrice": 22990000, "discount": 13 },
+      "Vàng": { "price": 19990000, "originalPrice": 22990000, "discount": 13 },
+      "Xanh Dương": { "price": 19990000, "originalPrice": 22990000, "discount": 13 }
+    },
+    "256GB": {
+      "Đen": { "price": 22990000, "originalPrice": 25990000, "discount": 11 },
+      "Xanh Lá": { "price": 22990000, "originalPrice": 25990000, "discount": 11 },
+      "Hồng": { "price": 22990000, "originalPrice": 25990000, "discount": 11 },
+      "Vàng": { "price": 22990000, "originalPrice": 25990000, "discount": 11 },
+      "Xanh Dương": { "price": 22990000, "originalPrice": 25990000, "discount": 11 }
+    },
+    "512GB": {
+      "Đen": { "price": 27990000, "originalPrice": 30990000, "discount": 9 },
+      "Xanh Lá": { "price": 27990000, "originalPrice": 30990000, "discount": 9 },
+      "Hồng": { "price": 27990000, "originalPrice": 30990000, "discount": 9 },
+      "Vàng": { "price": 27990000, "originalPrice": 30990000, "discount": 9 },
+      "Xanh Dương": { "price": 27990000, "originalPrice": 30990000, "discount": 9 }
+    }
+  },
+  "images": {
+    "128GB": {
+      "Đen": "assets/products/iphone/iphone15_den.png",
+      "Xanh Lá": "assets/products/iphone/iphone15_xanhlanhat.png",
+      "Hồng": "assets/products/iphone/iphone15_hongnhat.png",
+      "Vàng": "assets/products/iphone/iphone15_vangnhat.png",
+      "Xanh Dương": "assets/products/iphone/iphone15_xanhduongnhat.png"
+    },
+    "256GB": {
+      "Đen": "assets/products/iphone/iphone15_den.png",
+      "Xanh Lá": "assets/products/iphone/iphone15_xanhlanhat.png",
+      "Hồng": "assets/products/iphone/iphone15_hongnhat.png",
+      "Vàng": "assets/products/iphone/iphone15_vangnhat.png",
+      "Xanh Dương": "assets/products/iphone/iphone15_xanhduongnhat.png"
+    },
+    "512GB": {
+      "Đen": "assets/products/iphone/iphone15_den.png",
+      "Xanh Lá": "assets/products/iphone/iphone15_xanhlanhat.png",
+      "Hồng": "assets/products/iphone/iphone15_hongnhat.png",
+      "Vàng": "assets/products/iphone/iphone15_vangnhat.png",
+      "Xanh Dương": "assets/products/iphone/iphone15_xanhduongnhat.png"
+    }
+  },
+  "accessories": [
+    {
+      "id": "airpods-pro-usb-c",
+      "name": "AirPods Pro với Hộp sạc USB-C",
+      "image": "assets/products/tainghe/Airpods_pro_usb_c.png",
+      "price": 5490000,
+      "originalPrice": 5990000,
+      "discount": 8
+    },
+    {
+      "id": "apple-watch-se-2",
+      "name": "Apple Watch SE (Thế hệ 2)",
+      "image": "assets/products/watch/applewatch_se2_trangstarlight.png",
+      "price": 5990000,
+      "originalPrice": 6490000,
+      "discount": 7
+    },
+    {
+      "id": "Airtag",
+      "name": "Airtag",
+      "image": "assets/products/phukien/Airtag.png",
+      "price": 1290000,
+      "originalPrice": 1490000,
+      "discount": 13
+    }
+  ],
+  "promotions": [
+    "Giảm 10% khi mua kèm AirPods hoặc Apple Watch",
+    "Tặng gói bảo hành 12 tháng tại các trung tâm ủy quyền của Apple",
+    "Hỗ trợ trả góp 0% lãi suất qua thẻ tín dụng"
+  ]
+},
+{
+  "id": "iphone-14-pro-max",
+  "name": "iPhone 14 Pro Max",
+  "defaultImage": "assets/products/iphone/iphone14prm_vang.png",
+  "description": {
+    "paragraphs": [
+      "iPhone 14 Pro Max là siêu phẩm cao cấp nhất của Apple với màn hình lớn 6.7 inch và công nghệ Dynamic Island hiện đại, mang đến trải nghiệm tương tác hoàn toàn mới.",
+      "Trang bị màn hình Super Retina XDR với ProMotion 120Hz, thiết bị hiển thị hình ảnh mượt mà, sắc nét, ngay cả khi bạn cuộn hoặc chơi game tốc độ cao.",
+      "Cụm camera chuyên nghiệp với cảm biến chính 48MP, hỗ trợ chụp ảnh RAW, chế độ điện ảnh và quay video 4K giúp bạn sáng tạo như một nhiếp ảnh gia thực thụ.",
+      "Chip A16 Bionic siêu mạnh mẽ đảm bảo mọi thao tác đều mượt mà, đồng thời tiết kiệm điện năng, tối ưu hiệu suất sử dụng lâu dài.",
+      "Máy có thiết kế thép không gỉ bền bỉ, mặt lưng kính nhám sang trọng và hỗ trợ sạc nhanh cùng các kết nối hiện đại như 5G, Wi-Fi 6, và Lightning."
+    ]
+  },
+  "specs": {
+    "Màn hình": {
+      "Công nghệ màn hình": "Super Retina XDR OLED, ProMotion 120Hz",
+      "Độ phân giải": "2796 x 1290 Pixels",
+      "Màn hình rộng": "6.7 inch",
+      "Độ sáng tối đa": "2000 nits (peak)",
+      "Kính cảm ứng": "Kính cường lực Ceramic Shield"
+    },
+    "Camera": {
+      "Camera sau": "Chính 48MP, Tele 12MP, Ultra Wide 12MP",
+      "Camera trước": "12 MP"
+    },
+    "Hệ điều hành & CPU": {
+      "Hệ điều hành": "iOS 16",
+      "Chip xử lý (CPU)": "Apple A16 Bionic",
+      "Tốc độ CPU": "Không công bố",
+      "Chip đồ họa (GPU)": "Apple GPU 5 lõi"
+    },
+    "Bộ nhớ & Lưu trữ": {
+      "RAM": "6 GB",
+      "Bộ nhớ trong": "128 GB, 256 GB, 512 GB, 1 TB",
+      "Hỗ trợ thẻ nhớ ngoài": "Không"
+    },
+    "Kết nối": {
+      "Mạng di động": "5G, 4G, 3G",
+      "SIM": "Nano SIM và eSIM",
+      "Thực hiện cuộc gọi": "Có",
+      "Cổng kết nối": "Lightning",
+      "Jack tai nghe": "Không",
+      "Kết nối khác": "NFC, Ultra Wideband"
+    },
+    "Pin & Sạc": {
+      "Loại pin": "Li-Ion",
+      "Dung lượng pin": "4323 mAh",
+      "Công nghệ pin": "Sạc nhanh 20W, MagSafe, sạc không dây Qi"
+    },
+    "Tiện ích": {
+      "Tính năng đặc biệt": "Dynamic Island, Face ID, Always-On Display",
+      "Ghi âm": "Có",
+      "Radio": "Không"
+    },
+    "Thông tin chung": {
+      "Thiết kế": "Nguyên khối",
+      "Chất liệu": "Khung thép không gỉ, mặt lưng kính nhám",
+      "Kích thước, khối lượng": "Dài 160.7 mm - Ngang 77.6 mm - Dày 7.85 mm - Nặng 240 g",
+      "Thời điểm ra mắt": "09/2022"
+    }
+  },
+  "configurations": {
+    "128GB": {
+      "Đen": { "price": 27990000, "originalPrice": 30990000, "discount": 10 },
+      "Bạc": { "price": 27990000, "originalPrice": 30990000, "discount": 10 },
+      "Vàng": { "price": 27990000, "originalPrice": 30990000, "discount": 10 },
+      "Tím": { "price": 27990000, "originalPrice": 30990000, "discount": 10 }
+    },
+    "256GB": {
+      "Đen": { "price": 30990000, "originalPrice": 33990000, "discount": 9 },
+      "Bạc": { "price": 30990000, "originalPrice": 33990000, "discount": 9 },
+      "Vàng": { "price": 30990000, "originalPrice": 33990000, "discount": 9 },
+      "Tím": { "price": 30990000, "originalPrice": 33990000, "discount": 9 }
+    }
+  },
+  "images": {
+    "128GB": {
+      "Đen": "assets/products/iphone/iphone14prm_den.png",
+      "Bạc": "assets/products/iphone/iphone14prm_bac.png",
+      "Vàng": "assets/products/iphone/iphone14prm_vang.png",
+      "Tím": "assets/products/iphone/iphone14prm_tim.png"
+    },
+    "256GB": {
+      "Đen": "assets/products/iphone/iphone14prm_den.png",
+      "Bạc": "assets/products/iphone/iphone14prm_bac.png",
+      "Vàng": "assets/products/iphone/iphone14prm_vang.png",
+      "Tím": "assets/products/iphone/iphone14prm_tim.png"
+    }
+  },
+  "accessories": [
+    {
+      "id": "airpods-pro-4",
+      "name": "AirPods Pro4 (chống ồn)",
+      "image": "assets/products/tainghe/Airpods4_chongon.png",
+      "price": 5290000,
+      "originalPrice": 5990000,
+      "discount": 12
+    },
+    {
+      "id": "apple-watch-series-10",
+      "name": "Apple Watch Series 10",
+      "image": "assets/products/watch/applewatch_series10_vanghong.png",
+      "price": 9990000,
+      "originalPrice": 10990000,
+      "discount": 9
+    }
+
+  ],
+  "promotions": [
+    "Tặng ốp lưng Silicon chính hãng trị giá 1.290.000đ",
+    "Hỗ trợ trả góp 0% qua thẻ tín dụng",
+    "Giảm 5% khi mua kèm AirPods Pro hoặc Apple Watch"
+  ]
+},
+{
+  "id": "iphone-14-pro",
+  "name": "iPhone 14 Pro",
+  "defaultImage": "assets/products/iphone/iphone14pro_vang.png",
+  "description": {
+    "paragraphs": [
+      "iPhone 14 Pro mang đến thiết kế đột phá với Dynamic Island – khu vực tương tác mới thông minh và đầy sáng tạo.",
+      "Màn hình Super Retina XDR 6.1 inch kết hợp công nghệ ProMotion 120Hz cho trải nghiệm mượt mà, màu sắc rực rỡ và chi tiết cao.",
+      "Camera chính 48MP hỗ trợ chụp ảnh ProRAW cùng chế độ ban đêm, điện ảnh, giúp bạn lưu giữ mọi khoảnh khắc sắc nét và sống động.",
+      "Bên trong là chip A16 Bionic mạnh mẽ, tối ưu hiệu năng và tiết kiệm pin, phù hợp cả chơi game, làm việc lẫn chỉnh sửa ảnh/video chuyên nghiệp.",
+      "Thiết kế với khung thép không gỉ, mặt kính nhám chống bám vân tay, đi kèm khả năng chống nước IP68 cao cấp."
+    ]
+  },
+  "specs": {
+    "Màn hình": {
+      "Công nghệ màn hình": "Super Retina XDR OLED, ProMotion 120Hz",
+      "Độ phân giải": "2556 x 1179 Pixels",
+      "Màn hình rộng": "6.1 inch",
+      "Độ sáng tối đa": "2000 nits (peak)",
+      "Kính cảm ứng": "Kính cường lực Ceramic Shield"
+    },
+    "Camera": {
+      "Camera sau": "Chính 48MP, Tele 12MP, Ultra Wide 12MP",
+      "Camera trước": "12 MP"
+    },
+    "Hệ điều hành & CPU": {
+      "Hệ điều hành": "iOS 16",
+      "Chip xử lý (CPU)": "Apple A16 Bionic",
+      "Tốc độ CPU": "Không công bố",
+      "Chip đồ họa (GPU)": "Apple GPU 5 lõi"
+    },
+    "Bộ nhớ & Lưu trữ": {
+      "RAM": "6 GB",
+      "Bộ nhớ trong": "128 GB, 256 GB, 512 GB, 1 TB",
+      "Hỗ trợ thẻ nhớ ngoài": "Không"
+    },
+    "Kết nối": {
+      "Mạng di động": "5G, 4G, 3G",
+      "SIM": "Nano SIM và eSIM",
+      "Thực hiện cuộc gọi": "Có",
+      "Cổng kết nối": "Lightning",
+      "Jack tai nghe": "Không",
+      "Kết nối khác": "NFC, Ultra Wideband"
+    },
+    "Pin & Sạc": {
+      "Loại pin": "Li-Ion",
+      "Dung lượng pin": "3200 mAh",
+      "Công nghệ pin": "Sạc nhanh 20W, MagSafe, sạc không dây Qi"
+    },
+    "Tiện ích": {
+      "Tính năng đặc biệt": "Dynamic Island, Face ID, Always-On Display",
+      "Ghi âm": "Có",
+      "Radio": "Không"
+    },
+    "Thông tin chung": {
+      "Thiết kế": "Nguyên khối",
+      "Chất liệu": "Khung thép không gỉ, mặt lưng kính nhám",
+      "Kích thước, khối lượng": "Dài 147.5 mm - Ngang 71.5 mm - Dày 7.85 mm - Nặng 206 g",
+      "Thời điểm ra mắt": "09/2022"
+    }
+  },
+  "configurations": {
+    "128GB": {
+      "Đen": { "price": 25990000, "originalPrice": 28990000, "discount": 10 },
+      "Bạc": { "price": 25990000, "originalPrice": 28990000, "discount": 10 },
+      "Vàng": { "price": 25990000, "originalPrice": 28990000, "discount": 10 },
+      "Tím": { "price": 25990000, "originalPrice": 28990000, "discount": 10 }
+    },
+    "256GB": {
+      "Đen": { "price": 28990000, "originalPrice": 31990000, "discount": 9 },
+      "Bạc": { "price": 28990000, "originalPrice": 31990000, "discount": 9 },
+      "Vàng": { "price": 28990000, "originalPrice": 31990000, "discount": 9 },
+      "Tím": { "price": 28990000, "originalPrice": 31990000, "discount": 9 }
+    }
+  },
+  "images": {
+    "128GB": {
+      "Đen": "assets/products/iphone/iphone14pro_den.png",
+      "Bạc": "assets/products/iphone/iphone14pro_bac.png",
+      "Vàng": "assets/products/iphone/iphone14pro_vang.png",
+      "Tím": "assets/products/iphone/iphone14pro_tim.png"
+    },
+    "256GB": {
+      "Đen": "assets/products/iphone/iphone14pro_den.png",
+      "Bạc": "assets/products/iphone/iphone14pro_bac.png",
+      "Vàng": "assets/products/iphone/iphone14pro_vang.png",
+      "Tím": "assets/products/iphone/iphone14pro_tim.png"
+    }
+  },
+  "accessories": [
+    {
+      "id": "airpods-3",
+      "name": "AirPods (3rd Gen)",
+      "image": "assets/products/tainghe/Airpod3_Lightning.png",
+      "price": 4390000,
+      "originalPrice": 4990000,
+      "discount": 12
+    },
+    {
+      "id": "apple-watch-se-2",
+      "name": "Apple Watch SE 2022",
+      "image": "assets/products/watch/applewatch_se2_bac.png",
+      "price": 7290000,
+      "originalPrice": 7990000,
+      "discount": 9
+    },
+    {
+      "id": "usb-c-adapter",
+      "name": "Adapter USB-C",
+      "image": "assets/products/phukien/Adapter_sacusbC.png",
+      "price": 590000,
+      "originalPrice": 690000,
+      "discount": 14
+    }
+  ],
+  "promotions": [
+    "Giảm thêm 500.000đ khi mua kèm phụ kiện",
+    "Trả góp lãi suất 0%, thủ tục dễ dàng",
+    "Tặng phiếu mua hàng trị giá 1.000.000đ"
+  ]
+},
+{
+  "id": "iphone-14-plus",
+  "name": "iPhone 14 Plus",
+  "defaultImage": "assets/products/iphone/iphone14plus_vang_256v128.png",
+  "description": {
+    "paragraphs": [
+      "iPhone 14 Plus sở hữu màn hình lớn 6.7 inch cùng thời lượng pin vượt trội, lý tưởng cho người dùng yêu thích xem phim, chơi game hay làm việc cả ngày dài.",
+      "Trang bị chip A15 Bionic mạnh mẽ với GPU 5 lõi, iPhone 14 Plus xử lý mượt mà mọi tác vụ từ đa nhiệm đến giải trí nặng như game 3D hay chỉnh sửa video.",
+      "Camera kép 12MP với công nghệ Photonic Engine cải thiện khả năng chụp thiếu sáng, mang lại ảnh và video sắc nét, sống động trong mọi điều kiện ánh sáng.",
+      "Thiết kế nguyên khối với khung nhôm bền bỉ và mặt kính bóng bẩy. Mặt trước là kính Ceramic Shield tăng cường độ bền và chống va đập.",
+      "Hỗ trợ 5G, Wi-Fi 6 cùng cổng Lightning quen thuộc, mang đến trải nghiệm kết nối nhanh và ổn định trong mọi tình huống."
+    ]
+  },
+  "specs": {
+    "Màn hình": {
+      "Công nghệ màn hình": "Super Retina XDR OLED",
+      "Độ phân giải": "2778 x 1284 Pixels",
+      "Màn hình rộng": "6.7 inch",
+      "Độ sáng tối đa": "1200 nits (HDR)",
+      "Kính cảm ứng": "Kính cường lực Ceramic Shield"
+    },
+    "Camera": {
+      "Camera sau": "Chính 12MP, Ultra Wide 12MP",
+      "Camera trước": "12 MP"
+    },
+    "Hệ điều hành & CPU": {
+      "Hệ điều hành": "iOS 16",
+      "Chip xử lý (CPU)": "Apple A15 Bionic",
+      "Tốc độ CPU": "Không công bố",
+      "Chip đồ họa (GPU)": "Apple GPU 5 lõi"
+    },
+    "Bộ nhớ & Lưu trữ": {
+      "RAM": "6 GB",
+      "Bộ nhớ trong": "128 GB, 256 GB, 512 GB",
+      "Hỗ trợ thẻ nhớ ngoài": "Không"
+    },
+    "Kết nối": {
+      "Mạng di động": "5G, 4G, 3G",
+      "SIM": "Nano SIM và eSIM",
+      "Thực hiện cuộc gọi": "Có",
+      "Cổng kết nối": "Lightning",
+      "Jack tai nghe": "Không",
+      "Kết nối khác": "NFC, Bluetooth 5.3"
+    },
+    "Pin & Sạc": {
+      "Loại pin": "Li-Ion",
+      "Dung lượng pin": "4325 mAh",
+      "Công nghệ pin": "Sạc nhanh 20W, Sạc MagSafe, Sạc không dây Qi"
+    },
+    "Tiện ích": {
+      "Tính năng đặc biệt": "Face ID, Chống nước IP68, SOS khẩn cấp qua vệ tinh",
+      "Ghi âm": "Có",
+      "Radio": "Không"
+    },
+    "Thông tin chung": {
+      "Thiết kế": "Nguyên khối",
+      "Chất liệu": "Khung nhôm, mặt lưng kính bóng",
+      "Kích thước, khối lượng": "Dài 160.8 mm - Ngang 78.1 mm - Dày 7.8 mm - Nặng 203 g",
+      "Thời điểm ra mắt": "09/2022"
+    }
+  },
+  "configurations": {
+    "128GB": {
+      "Đen": { "price": 21990000, "originalPrice": 24990000, "discount": 12 },
+      "Trắng": { "price": 21990000, "originalPrice": 24990000, "discount": 12 },
+      "Đỏ": { "price": 21990000, "originalPrice": 24990000, "discount": 12 },
+      "Tím": { "price": 21990000, "originalPrice": 24990000, "discount": 12 },
+      "Xanh Dương": { "price": 21990000, "originalPrice": 24990000, "discount": 12 }
+    },
+    "256GB": {
+      "Đen": { "price": 24990000, "originalPrice": 27990000, "discount": 11 },
+      "Trắng": { "price": 24990000, "originalPrice": 27990000, "discount": 11 },
+      "Đỏ": { "price": 24990000, "originalPrice": 27990000, "discount": 11 },
+      "Tím": { "price": 24990000, "originalPrice": 27990000, "discount": 11 },
+      "Xanh Dương": { "price": 24990000, "originalPrice": 27990000, "discount": 11 }
+    }
+  },
+  "images": {
+    "128GB": {
+      "Đen": "assets/products/iphone/iphone14plus_den_512v256v128.png",
+      "Trắng": "assets/products/iphone/iphone14plus_trang_512v256.png",
+      "Đỏ": "assets/products/iphone/iphone14plus_do_512GB.png",
+      "Tím": "assets/products/iphone/iphone14plus_timnhat_512v256.png",
+      "Xanh Dương": "assets/products/iphone/iphone14plus_xanhduong_512v256.png"
+    },
+    "256GB": {
+      "Đen": "assets/products/iphone/iphone14plus_den_512v256v128.png",
+      "Trắng": "assets/products/iphone/iphone14plus_trang_512v256.png",
+      "Đỏ": "assets/products/iphone/iphone14plus_do_512GB.png",
+      "Tím": "assets/products/iphone/iphone14plus_timnhat_512v256.png",
+      "Xanh Dương": "assets/products/iphone/iphone14plus_xanhduong_512v256.png"
+    }
+  },
+  "accessories": [
+    {
+      "id": "cap-sac-typeC",
+      "name": "Cáp sạc type-C",
+      "image": "assets/products/phukien/capsac_typeC.png",
+      "price": 2890000,
+      "originalPrice": 3290000,
+      "discount": 12
+    },
+    {
+      "id": "apple-watch-series-10",
+      "name": "Apple Watch Series 10",
+      "image": "assets/products/watch/applewatch_series10_bac.png",
+      "price": 10990000,
+      "originalPrice": 11990000,
+      "discount": 8
+    },
+    {
+      "id": "airpods-4",
+      "name": "AirPods-4",
+      "image": "assets/products/phukien/Airpod4.png",
+      "price": 2990000,
+      "originalPrice": 3490000,
+      "discount": 14
+    }
+  ],
+  "promotions": [
+    "Giảm ngay 500.000đ khi mua kèm Apple Watch",
+    "Tặng gói bảo hành 1 năm tại trung tâm ủy quyền Apple",
+    "Trả góp 0% lãi suất với thẻ tín dụng"
+  ]
+},
+{
+  "id": "iphone-14",
+  "name": "iPhone 14",
+  "defaultImage": "assets/products/iphone/iphone14_xanhduong_256v128.png",
+  "description": {
+    "paragraphs": [
+      "iPhone 14 mang đến thiết kế quen thuộc nhưng được cải tiến về hiệu năng và trải nghiệm camera, phù hợp với người dùng yêu thích sự ổn định và mượt mà trong sử dụng hằng ngày.",
+      "Màn hình Super Retina XDR 6.1 inch hiển thị sắc nét với độ sáng cao, hỗ trợ hiển thị nội dung sống động, thích hợp cho giải trí và làm việc.",
+      "Camera kép với cảm biến chính 12MP và camera Ultra Wide 12MP hỗ trợ chụp ảnh thiếu sáng tốt hơn, cùng chế độ Photonic Engine nâng cao chất lượng ảnh toàn diện.",
+      "Chip A15 Bionic với GPU 5 lõi mang lại hiệu năng mạnh mẽ, tiết kiệm pin, đồng thời hỗ trợ các tác vụ nặng và chơi game một cách mượt mà.",
+      "Thiết kế nguyên khối chắc chắn với mặt lưng kính cường lực và khung nhôm, tích hợp eSIM, 5G và Wi-Fi 6 cho kết nối tốc độ cao, cùng thời lượng pin đủ dùng cả ngày."
+    ]
+  },
+  "specs": {
+    "Màn hình": {
+      "Công nghệ màn hình": "Super Retina XDR OLED",
+      "Độ phân giải": "2532 x 1170 Pixels",
+      "Màn hình rộng": "6.1 inch",
+      "Độ sáng tối đa": "1200 nits (HDR)",
+      "Kính cảm ứng": "Kính cường lực Ceramic Shield"
+    },
+    "Camera": {
+      "Camera sau": "Chính 12MP, Ultra Wide 12MP",
+      "Camera trước": "12 MP"
+    },
+    "Hệ điều hành & CPU": {
+      "Hệ điều hành": "iOS 16",
+      "Chip xử lý (CPU)": "Apple A15 Bionic",
+      "Tốc độ CPU": "Không công bố",
+      "Chip đồ họa (GPU)": "Apple GPU 5 lõi"
+    },
+    "Bộ nhớ & Lưu trữ": {
+      "RAM": "6 GB",
+      "Bộ nhớ trong": "128 GB, 256 GB, 512 GB",
+      "Hỗ trợ thẻ nhớ ngoài": "Không"
+    },
+    "Kết nối": {
+      "Mạng di động": "5G, 4G, 3G",
+      "SIM": "Nano SIM và eSIM",
+      "Thực hiện cuộc gọi": "Có",
+      "Cổng kết nối": "Lightning",
+      "Jack tai nghe": "Không",
+      "Kết nối khác": "NFC, Ultra Wideband (UWB)"
+    },
+    "Pin & Sạc": {
+      "Loại pin": "Li-Ion",
+      "Dung lượng pin": "3279 mAh",
+      "Công nghệ pin": "Sạc nhanh 20W, Sạc MagSafe, Sạc không dây Qi"
+    },
+    "Tiện ích": {
+      "Tính năng đặc biệt": "Mở khóa bằng khuôn mặt Face ID, Photonic Engine",
+      "Ghi âm": "Có",
+      "Radio": "Không"
+    },
+    "Thông tin chung": {
+      "Thiết kế": "Nguyên khối",
+      "Chất liệu": "Khung nhôm, mặt lưng kính",
+      "Kích thước, khối lượng": "Dài 146.7 mm - Ngang 71.5 mm - Dày 7.8 mm - Nặng 172 g",
+      "Thời điểm ra mắt": "09/2022"
+    }
+  },
+  "configurations": {
+    "128GB": {
+      "Đen": { "price": 18990000, "originalPrice": 21990000, "discount": 14 },
+      "Trắng": { "price": 18990000, "originalPrice": 21990000, "discount": 14 },
+      "Xanh Dương": { "price": 18990000, "originalPrice": 21990000, "discount": 14 }
+    },
+    "256GB": {
+      "Đen": { "price": 21990000, "originalPrice": 24990000, "discount": 12 },
+      "Trắng": { "price": 21990000, "originalPrice": 24990000, "discount": 12 },
+      "Xanh Dương": { "price": 21990000, "originalPrice": 24990000, "discount": 12 }
+    },
+    "512GB": {
+      "Đen": { "price": 26990000, "originalPrice": 29990000, "discount": 10 },
+      "Trắng": { "price": 26990000, "originalPrice": 29990000, "discount": 10 },
+      "Xanh Dương": { "price": 26990000, "originalPrice": 29990000, "discount": 10 }
+    }
+  },
+  "images": {
+    "128GB": {
+      "Đen": "assets/products/iphone/iphone14_den_256v128.png",
+      "Trắng": "assets/products/iphone/iphone14_trang_256v128.png",
+      "Xanh Dương": "assets/products/iphone/iphone14_xanhduong_256v128.png"
+    },
+    "256GB": {
+      "Đen": "assets/products/iphone/iphone14_den_256v128.png",
+      "Trắng": "assets/products/iphone/iphone14_trang_256v128.png",
+      "Xanh Dương": "assets/products/iphone/iphone14_xanhduong_256v128.png"
+    },
+    "512GB": {
+      "Đen": "assets/products/iphone/iphone14_den_256v128.png",
+      "Trắng": "assets/products/iphone/iphone14_trang_256v128.png",
+      "Xanh Dương": "assets/products/iphone/iphone14_xanhduong_256v128.png"
+    }
+  },
+  "accessories": [
+    {
+      "id": "airpods-maxmax",
+      "name": "Airpod MaxMax",
+      "image": "assets/products/tainghe/AirpodsMax_Bac",
+      "price": 3290000,
+      "originalPrice": 3790000,
+      "discount": 13
+    },
+    {
+      "id": "apple-watch-se-2",
+      "name": "Apple Watch SE 2",
+      "image": "assets/products/watch/applewatch_se2_bac.png",
+      "price": 5890000,
+      "originalPrice": 6490000,
+      "discount": 9
+    }
+  ],
+  "promotions": [
+    "Tặng ốp lưng cao cấp trị giá 500.000đ",
+    "Giảm thêm 5% khi thanh toán qua ví điện tử liên kết",
+    "Hỗ trợ trả góp 0% lãi suất qua thẻ tín dụng"
+  ]
+},
+{
+  "id": "iphone-13-pro-max",
+  "name": "iPhone 13 Pro Max",
+  "defaultImage": "assets/products/iphone/iphone13prm_xam.png",
+  "description": {
+    "paragraphs": [
+      "iPhone 13 Pro Max là chiếc iPhone mạnh mẽ nhất năm 2021 với màn hình lớn 6.7 inch và pin cực trâu.",
+      "Tích hợp ProMotion 120Hz cho trải nghiệm cảm ứng mượt mà vượt trội, đặc biệt khi chơi game hay xem video tốc độ cao.",
+      "Camera 3 ống kính hỗ trợ Zoom quang học 3x, quay video chuẩn điện ảnh với Cinematic Mode, chụp đêm, Deep Fusion.",
+      "Hiệu năng đầu bảng nhờ chip A15 Bionic, RAM 6GB và GPU 5 nhân – mọi tác vụ đều siêu mượt.",
+      "Pin lớn nhất trên iPhone, dùng cả ngày thoải mái, hỗ trợ sạc nhanh, sạc không dây và MagSafe hiện đại."
+    ]
+  },
+  "specs": {
+    "Màn hình": {
+      "Công nghệ màn hình": "Super Retina XDR OLED, 120Hz ProMotion",
+      "Độ phân giải": "2778 x 1284 Pixels",
+      "Màn hình rộng": "6.7 inch",
+      "Kính cảm ứng": "Ceramic Shield"
+    },
+    "Camera": {
+      "Camera sau": "3 camera 12MP (Chính, Tele, Ultra Wide)",
+      "Camera trước": "12 MP"
+    },
+    "Hệ điều hành & CPU": {
+      "Hệ điều hành": "iOS 15 (hỗ trợ iOS 17)",
+      "Chip xử lý": "Apple A15 Bionic",
+      "Chip đồ họa": "Apple GPU 5 lõi"
+    },
+    "Bộ nhớ & Lưu trữ": {
+      "RAM": "6 GB",
+      "Bộ nhớ trong": "128 GB, 256 GB, 512 GB, 1 TB"
+    },
+    "Kết nối": {
+      "Mạng di động": "5G",
+      "SIM": "Nano SIM và eSIM",
+      "Cổng kết nối": "Lightning"
+    },
+    "Pin & Sạc": {
+      "Dung lượng pin": "4352 mAh",
+      "Công nghệ pin": "Sạc nhanh 20W, MagSafe"
+    },
+    "Tiện ích": {
+      "Tính năng đặc biệt": "Face ID, quay video 4K Dolby Vision"
+    },
+    "Thông tin chung": {
+      "Thiết kế": "Khung thép không gỉ",
+      "Thời điểm ra mắt": "09/2021"
+    }
+  },
+  "configurations": {
+    "128GB": {
+      "Xanh Dương": { "price": 27990000, "originalPrice": 30990000, "discount": 10 },
+      "Xám": { "price": 27990000, "originalPrice": 30990000, "discount": 10 },
+      "Xanh lá": { "price": 27990000, "originalPrice": 30990000, "discount": 10 },
+      "Bạc": { "price": 27990000, "originalPrice": 30990000, "discount": 10 },
+      "Vàng": { "price": 27990000, "originalPrice": 30990000, "discount": 10 }
+    },
+    "256GB": {
+      "Xanh Dương": { "price": 29990000, "originalPrice": 33990000, "discount": 12 },
+      "Xám": { "price": 29990000, "originalPrice": 33990000, "discount": 12 },
+      "Xanh lá": { "price": 29990000, "originalPrice": 33990000, "discount": 12 },
+      "Bạc": { "price": 29990000, "originalPrice": 33990000, "discount": 12 },
+      "Vàng": { "price": 29990000, "originalPrice": 33990000, "discount": 12 }
+    }
+  },
+  "images": {
+    "128GB": {
+      "Xanh Dương": "assets/products/iphone/iphone13prm_xanhduong.png",
+      "Xám": "assets/products/iphone/iphone13prm_xam.png",
+      "Xanh lá": "assets/products/iphone/iphone13prm_xanhla.png",
+      "Bạc":"assets/products/iphone/iphone13prm_bac.png",
+      "Vàng": "assets/products/iphone/iphone13prm_vangdong.png"
+    },
+    "256GB": {
+      "Xanh Dương": "assets/products/iphone/iphone13prm_xanhduong.png",
+      "Xám": "assets/products/iphone/iphone13prm_xam.png",
+      "Xanh lá": "assets/products/iphone/iphone13prm_xanhla.png",
+      "Bạc":"assets/products/iphone/iphone13prm_bac.png",
+      "Vàng": "assets/products/iphone/iphone13prm_vangdong.png"
+    }
+  },
+  "accessories": [
+    {
+      "id": "apple-watch-series-9",
+      "name": "Apple Watch Series 9",
+      "image": "assets/products/watch/applewatch_series9_do.png",
+      "price": 7990000,
+      "originalPrice": 8990000,
+      "discount": 11
+    },
+    {
+      "id": "cuongluc-Iphone",
+      "name": "Cuongluc iPhone",
+      "image": "assets/products/phukien/cuonglucIphone.png",
+      "price": 890000,
+      "originalPrice": 990000,
+      "discount": 10
+    }
+  ],
+  "promotions": [
+    "Tặng phiếu mua hàng 500.000đ cho lần mua tiếp theo",
+    "Giảm 7% khi mua kèm Apple Watch hoặc iPad",
+    "Tặng suất bảo hành rơi vỡ 6 tháng trị giá 800.000đ"
+  ]
+},
+{
+  "id": "iphone-13-pro",
+  "name": "iPhone 13 Pro",
+  "defaultImage": "assets/products/iphone/iphone13pro_xanhla.jpg",
+  "description": {
+    "paragraphs": [
+      "iPhone 13 Pro mang đến trải nghiệm cao cấp với thiết kế sang trọng, hiệu năng vượt trội và cụm 3 camera chuyên nghiệp.",
+      "Màn hình Super Retina XDR 6.1 inch với ProMotion 120Hz cho độ mượt mà tối đa khi cuộn và chơi game.",
+      "Trang bị chip A15 Bionic với GPU 5 nhân, iPhone 13 Pro xử lý mượt mọi tác vụ nặng, chơi game đồ họa cao hay quay dựng video chuyên nghiệp.",
+      "Camera 3 ống kính (Chính, Tele, Ultra Wide) hỗ trợ chụp đêm, xóa phông, quay video Dolby Vision, Cinematic Mode đầy ấn tượng.",
+      "iPhone 13 Pro sở hữu pin tốt hơn nhiều thế hệ trước, kết hợp cùng sạc nhanh, MagSafe và các công nghệ mới nhất của Apple."
+    ]
+  },
+  "specs": {
+    "Màn hình": {
+      "Công nghệ màn hình": "Super Retina XDR OLED, ProMotion 120Hz",
+      "Độ phân giải": "2532 x 1170 Pixels",
+      "Màn hình rộng": "6.1 inch",
+      "Kính cảm ứng": "Ceramic Shield"
+    },
+    "Camera": {
+      "Camera sau": "3 camera 12MP (Chính, Tele, Ultra Wide)",
+      "Camera trước": "12 MP"
+    },
+    "Hệ điều hành & CPU": {
+      "Hệ điều hành": "iOS 15 (nâng cấp được lên iOS 17)",
+      "Chip xử lý (CPU)": "Apple A15 Bionic",
+      "Chip đồ họa (GPU)": "Apple GPU 5 lõi"
+    },
+    "Bộ nhớ & Lưu trữ": {
+      "RAM": "6 GB",
+      "Bộ nhớ trong": "128 GB, 256 GB, 512 GB, 1 TB"
+    },
+    "Kết nối": {
+      "Mạng di động": "5G",
+      "SIM": "Nano SIM và eSIM",
+      "Cổng kết nối": "Lightning"
+    },
+    "Pin & Sạc": {
+      "Dung lượng pin": "3095 mAh",
+      "Công nghệ pin": "Sạc nhanh 20W, sạc MagSafe"
+    },
+    "Tiện ích": {
+      "Tính năng đặc biệt": "Face ID, quay video Dolby Vision"
+    },
+    "Thông tin chung": {
+      "Thiết kế": "Khung thép không gỉ",
+      "Thời điểm ra mắt": "09/2021"
+    }
+  },
+  "configurations": {
+    "128GB": {
+      "Xanh Lá": { "price": 24990000, "originalPrice": 28990000, "discount": 14 },
+      "Vàng": { "price": 24990000, "originalPrice": 28990000, "discount": 14 }
+    }
+  },
+  "images": {
+    "128GB": {
+      "Xanh Lá": "assets/products/iphone/iphone13pro_xanhla.jpg",
+      "Vàng": "assets/products/iphone/iphone13pro_vangdong.webp"
+      
+    }
+  },
+  "accessories": [
+    {
+      "id": "cuongluc-Iphone",
+      "name": "Cuongluc iPhone",
+      "image": "assets/products/phukien/cuonglucIphone.png",
+      "price": 990000,
+      "originalPrice": 1190000,
+      "discount": 17
+    },
+    {
+      "id": "airpods-pro-usb-C",
+      "name": "AirPods Pro (USB-C)",
+      "image": "assets/products/tainghe/Airpods_pro_usb_c.png",
+      "price": 5190000,
+      "originalPrice": 5990000,
+      "discount": 13
+    }
+  ],
+  "promotions": [
+    "Tặng ốp lưng Silicone chính hãng",
+    "Giảm thêm 5% khi thanh toán qua Apple Pay",
+    "Hỗ trợ đổi trả trong 30 ngày nếu lỗi kỹ thuật"
+  ]
+},
+{
+  "id": "iphone-13",
+  "name": "iPhone 13",
+  "defaultImage": "assets/products/iphone/iphone13_do.png",
+  "description": {
+    "paragraphs": [
+      "iPhone 13 mang đến hiệu năng mạnh mẽ nhờ chip A15 Bionic cùng thiết kế hiện đại và nhiều màu sắc trẻ trung. Đây là lựa chọn lý tưởng cho những ai muốn một chiếc iPhone mạnh mẽ nhưng vừa tay.",
+      "Màn hình Super Retina XDR 6.1 inch cho hình ảnh sắc nét và sống động, lý tưởng để xem video, chơi game và sử dụng hàng ngày.",
+      "Camera kép 12MP hỗ trợ chế độ chụp ảnh chân dung, Deep Fusion và Smart HDR 4 giúp bạn ghi lại mọi khoảnh khắc một cách rõ nét và chuyên nghiệp.",
+      "iPhone 13 sử dụng kết nối 5G, Wi-Fi 6 và hỗ trợ sạc không dây MagSafe, mang lại trải nghiệm hiện đại và tiện lợi.",
+      "Với thời lượng pin cả ngày, thiết kế bền bỉ cùng iOS mượt mà, iPhone 13 là người bạn đồng hành đáng tin cậy trong công việc lẫn giải trí."
+    ]
+  },
+  "specs": {
+    "Màn hình": {
+      "Công nghệ màn hình": "Super Retina XDR OLED",
+      "Độ phân giải": "2532 x 1170 Pixels",
+      "Màn hình rộng": "6.1 inch",
+      "Độ sáng tối đa": "1200 nits (HDR)",
+      "Kính cảm ứng": "Kính cường lực Ceramic Shield"
+    },
+    "Camera": {
+      "Camera sau": "2 camera 12MP (Chính, Ultra Wide)",
+      "Camera trước": "12 MP"
+    },
+    "Hệ điều hành & CPU": {
+      "Hệ điều hành": "iOS 15 (hỗ trợ nâng cấp đến iOS 17)",
+      "Chip xử lý (CPU)": "Apple A15 Bionic",
+      "Tốc độ CPU": "Không công bố",
+      "Chip đồ họa (GPU)": "Apple GPU 4 lõi"
+    },
+    "Bộ nhớ & Lưu trữ": {
+      "RAM": "4 GB",
+      "Bộ nhớ trong": "128 GB, 256 GB, 512 GB",
+      "Hỗ trợ thẻ nhớ ngoài": "Không"
+    },
+    "Kết nối": {
+      "Mạng di động": "5G, 4G, 3G",
+      "SIM": "Nano SIM và eSIM",
+      "Thực hiện cuộc gọi": "Có",
+      "Cổng kết nối": "Lightning",
+      "Jack tai nghe": "Không",
+      "Kết nối khác": "NFC"
+    },
+    "Pin & Sạc": {
+      "Loại pin": "Li-Ion",
+      "Dung lượng pin": "3240 mAh",
+      "Công nghệ pin": "Sạc nhanh 20W, MagSafe, sạc không dây Qi"
+    },
+    "Tiện ích": {
+      "Tính năng đặc biệt": "Mở khóa bằng khuôn mặt Face ID",
+      "Ghi âm": "Có",
+      "Radio": "Không"
+    },
+    "Thông tin chung": {
+      "Thiết kế": "Nguyên khối",
+      "Chất liệu": "Khung nhôm, mặt lưng kính",
+      "Kích thước, khối lượng": "Dài 146.7 mm - Ngang 71.5 mm - Dày 7.65 mm - Nặng 174 g",
+      "Thời điểm ra mắt": "09/2021"
+    }
+  },
+  "configurations": {
+    "128GB": {
+      "Xanh Lá": { "price": 16990000, "originalPrice": 19990000, "discount": 15 },
+      "Trắng": { "price": 16990000, "originalPrice": 19990000, "discount": 15 },
+      "Hồng": { "price": 16990000, "originalPrice": 19990000, "discount": 15 },
+      "Xanh Dương": { "price": 16990000, "originalPrice": 19990000, "discount": 15 },
+      "Đỏ": { "price": 16990000, "originalPrice": 19990000, "discount": 15 },
+      "Đen": { "price": 16990000, "originalPrice": 19990000, "discount": 15 }
+    },
+    "256GB": {
+      "Xanh Lá": { "price": 19990000, "originalPrice": 22990000, "discount": 13 },
+      "Trắng": { "price": 19990000, "originalPrice": 22990000, "discount": 13 },
+      "Hồng": { "price": 19990000, "originalPrice": 22990000, "discount": 13 }
+    },
+    "512GB": {
+      "Đỏ": { "price": 23990000, "originalPrice": 26990000, "discount": 11 },
+      "Trắng": { "price": 23990000, "originalPrice": 26990000, "discount": 11 },
+      "Đen": { "price": 23990000, "originalPrice": 26990000, "discount": 11 }
+    }
+  },
+  "images": {
+    "128GB": {
+      "Xanh Lá": "assets/products/iphone/iphone13_xanhla_512v256.png",
+      "Trắng": "assets/products/iphone/iphone13_trang_512v128.png",
+      "Hồng": "assets/products/iphone/iphone13_hong.png",
+      "Xanh Dương": "assets/products/iphone/iphone13_xanhduong_512v256v128.png",
+      "Đỏ": "assets/products/iphone/iphone13_do.png",
+      "Đen": "assets/products/iphone/iphone13_den_512v128.png"
+    },
+    "256GB": {
+      "Xanh Lá": "assets/products/iphone/iphone13_xanhla_512v256.png",
+      "Trắng": "assets/products/iphone/iphone13_trang_512v128.png",
+      "Hồng": "assets/products/iphone/iphone13_hong.png"
+    },
+    "512GB": {
+      "Đỏ": "assets/products/iphone/iphone13_do.png",
+      "Trắng": "assets/products/iphone/iphone13_trang_512v128.png",
+      "Đen": "assets/products/iphone/iphone13_den_512v128.png"
+    }
+  },
+  "accessories": [
+    {
+      "id": "airpods-4",
+      "name": "AirPods 4",
+      "image": "assets/products/phukien/Airpod4.png",
+      "price": 3090000,
+      "originalPrice": 3790000,
+      "discount": 18
+    },
+    {
+      "id": "apple-watch-se-2",
+      "name": "Apple Watch SE-2",
+      "image": "assets/products/watch/applewatch_se2_trangstarlight.png",
+      "price": 5690000,
+      "originalPrice": 6190000,
+      "discount": 8
+    }
+  ],
+  "promotions": [
+    "Tặng gói bảo hành 12 tháng tại trung tâm ủy quyền Apple",
+    "Giảm 10% khi mua kèm AirPods hoặc Apple Watch",
+    "Miễn phí vận chuyển toàn quốc"
+  ]
+},
+{
+  "id": "iphone-12-pro-max",
+  "name": "iPhone 12 Pro Max",
+  "defaultImage": "assets/products/iphone/iphone12prm_xanhduong.png",
+  "description": {
+    "paragraphs": [
+      "iPhone 12 Pro Max mang đến trải nghiệm cao cấp với màn hình lớn 6.7 inch và thiết kế thép không gỉ sang trọng. Máy sở hữu hiệu năng mạnh mẽ cùng khả năng chụp ảnh vượt trội.",
+      "Trang bị chip A14 Bionic tiên tiến, iPhone 12 Pro Max dễ dàng xử lý mọi tác vụ từ chơi game đến chỉnh sửa video 4K mượt mà.",
+      "Cụm 3 camera sau 12MP cùng cảm biến LiDAR hỗ trợ chụp ảnh chân dung trong điều kiện thiếu sáng và quay video Dolby Vision đỉnh cao.",
+      "Màn hình Super Retina XDR cho hình ảnh sắc nét, màu sắc chân thực và độ sáng cao lên đến 1200 nits.",
+      "Kết nối 5G tốc độ cao, sạc không dây MagSafe tiện lợi cùng thời lượng pin được cải thiện giúp bạn yên tâm sử dụng cả ngày dài."
+    ]
+  },
+  "specs": {
+    "Màn hình": {
+      "Công nghệ màn hình": "Super Retina XDR OLED",
+      "Độ phân giải": "2778 x 1284 Pixels",
+      "Màn hình rộng": "6.7 inch",
+      "Độ sáng tối đa": "1200 nits",
+      "Kính cảm ứng": "Ceramic Shield"
+    },
+    "Camera": {
+      "Camera sau": "Chính 12MP, Tele 12MP, Ultra Wide 12MP, LiDAR",
+      "Camera trước": "12 MP"
+    },
+    "Hệ điều hành & CPU": {
+      "Hệ điều hành": "iOS 14 (có thể nâng cấp)",
+      "Chip xử lý (CPU)": "Apple A14 Bionic",
+      "Tốc độ CPU": "Không công bố",
+      "Chip đồ họa (GPU)": "Apple GPU 4 lõi"
+    },
+    "Bộ nhớ & Lưu trữ": {
+      "RAM": "6 GB",
+      "Bộ nhớ trong": "128 GB, 256 GB, 512 GB",
+      "Hỗ trợ thẻ nhớ ngoài": "Không"
+    },
+    "Kết nối": {
+      "Mạng di động": "5G, 4G, 3G",
+      "SIM": "Nano SIM và eSIM",
+      "Thực hiện cuộc gọi": "Có",
+      "Cổng kết nối": "Lightning",
+      "Jack tai nghe": "Không",
+      "Kết nối khác": "NFC, Ultra Wideband"
+    },
+    "Pin & Sạc": {
+      "Loại pin": "Li-Ion",
+      "Dung lượng pin": "3687 mAh",
+      "Công nghệ pin": "Sạc nhanh 20W, Sạc MagSafe, Sạc không dây Qi"
+    },
+    "Tiện ích": {
+      "Tính năng đặc biệt": "Face ID, LiDAR Scanner",
+      "Ghi âm": "Có",
+      "Radio": "Không"
+    },
+    "Thông tin chung": {
+      "Thiết kế": "Nguyên khối",
+      "Chất liệu": "Khung thép không gỉ, mặt lưng kính nhám",
+      "Kích thước, khối lượng": "Dài 160.8 mm - Ngang 78.1 mm - Dày 7.4 mm - Nặng 226 g",
+      "Thời điểm ra mắt": "10/2020"
+    }
+  },
+  "configurations": {
+    "128GB": {
+      "Xanh Dương": { "price": 24990000, "originalPrice": 32990000, "discount": 24 },
+      "Vàng": { "price": 24990000, "originalPrice": 32990000, "discount": 24 },
+      "Bạc": { "price": 24990000, "originalPrice": 32990000, "discount": 24 },
+      "Xám": { "price": 24990000, "originalPrice": 32990000, "discount": 24 }
+    },
+    "256GB": {
+      "Xanh Dương": { "price": 27990000, "originalPrice": 35990000, "discount": 22 },
+      "Vàng": { "price": 27990000, "originalPrice": 35990000, "discount": 22 },
+      "Bạc": { "price": 27990000, "originalPrice": 35990000, "discount": 22 },
+      "Xám": { "price": 27990000, "originalPrice": 35990000, "discount": 22 }
+    }
+  },
+  "images": {
+    "128GB": {
+      "Xanh Dương": "assets/products/iphone/iphone12prm_xanhduong.png",
+      "Vàng": "assets/products/iphone/iphone12prm_vangdong.png",
+      "Bạc": "assets/products/iphone/iphone12prm_bac.png",
+      "Xám": "assets/products/iphone/iphone12prm_xam.png"
+    },
+    "256GB": {
+      "Xanh Dương": "assets/products/iphone/iphone12prm_xanhduong.png",
+      "Vàng": "assets/products/iphone/iphone12prm_vangdong.png",
+      "Bạc": "assets/products/iphone/iphone12prm_bac.png",
+      "Xám": "assets/products/iphone/iphone12prm_xam.png"
+    }
+  },
+  "accessories": [
+    {
+      "id": "cuongluc-Iphone",
+      "name": "Cuongluc iPhone",
+      "image": "assets/products/phukien/cuonglucIphone.png",
+      "price": 1090000,
+      "originalPrice": 1290000,
+      "discount": 16
+    },
+    {
+      "id": "usb-c-adapter",
+      "name": "Adapter USB-C",
+      "image": "assets/products/phukien/Adapter_sacusbC.png",
+      "price": 1290000,
+      "originalPrice": 1490000,
+      "discount": 13
+    }
+  ],
+  "promotions": [
+    "Giảm 10% khi mua kèm ốp lưng hoặc sạc Iphone",
+    "Tặng gói bảo hành mở rộng 6 tháng",
+    "Hỗ trợ trả góp 0% qua thẻ tín dụng"
+  ]
+},
+{
+  "id": "iphone-12-pro",
+  "name": "iPhone 12 Pro",
+  "defaultImage": "assets/products/iphone/iphone12pro_xam.png",
+  "description": {
+    "paragraphs": [
+      "iPhone 12 Pro là lựa chọn hoàn hảo cho người dùng muốn trải nghiệm thiết kế cao cấp, hiệu năng mạnh mẽ với chip A14 Bionic và cụm camera chuyên nghiệp.",
+      "Màn hình Super Retina XDR 6.1 inch với độ sáng cao, màu sắc chân thực, phù hợp cho việc giải trí và làm việc hiệu quả.",
+      "Hệ thống 3 camera sau: chính 12MP, tele 12MP, ultra wide 12MP, hỗ trợ chụp ảnh chân dung, zoom quang học và quay video chất lượng cao.",
+      "Thiết kế sang trọng với khung thép không gỉ và mặt kính Ceramic Shield chống trầy xước, độ bền vượt trội.",
+      "Hỗ trợ 5G, Wi-Fi 6, Face ID, sạc MagSafe tiện lợi và các tính năng bảo mật nâng cao."
+    ]
+  },
+  "specs": {
+    "Màn hình": {
+      "Công nghệ màn hình": "Super Retina XDR OLED",
+      "Độ phân giải": "2532 x 1170 Pixels",
+      "Màn hình rộng": "6.1 inch",
+      "Độ sáng tối đa": "1200 nits (HDR)",
+      "Kính cảm ứng": "Ceramic Shield"
+    },
+    "Camera": {
+      "Camera sau": "Chính 12MP, Tele 12MP, Ultra Wide 12MP",
+      "Camera trước": "12 MP"
+    },
+    "Hệ điều hành & CPU": {
+      "Hệ điều hành": "iOS 14 (có thể nâng cấp)",
+      "Chip xử lý (CPU)": "Apple A14 Bionic",
+      "Tốc độ CPU": "Không công bố",
+      "Chip đồ họa (GPU)": "Apple GPU 4 lõi"
+    },
+    "Bộ nhớ & Lưu trữ": {
+      "RAM": "6 GB",
+      "Bộ nhớ trong": "128 GB, 256 GB, 512 GB",
+      "Hỗ trợ thẻ nhớ ngoài": "Không"
+    },
+    "Kết nối": {
+      "Mạng di động": "5G, 4G, 3G",
+      "SIM": "Nano SIM và eSIM",
+      "Thực hiện cuộc gọi": "Có",
+      "Cổng kết nối": "Lightning",
+      "Jack tai nghe": "Không",
+      "Kết nối khác": "NFC, Ultra Wideband (UWB)"
+    },
+    "Pin & Sạc": {
+      "Loại pin": "Li-Ion",
+      "Dung lượng pin": "2815 mAh",
+      "Công nghệ pin": "Sạc nhanh 20W, Sạc MagSafe, Sạc không dây Qi"
+    },
+    "Tiện ích": {
+      "Tính năng đặc biệt": "Face ID, Dolby Vision HDR, MagSafe",
+      "Ghi âm": "Có",
+      "Radio": "Không"
+    },
+    "Thông tin chung": {
+      "Thiết kế": "Nguyên khối",
+      "Chất liệu": "Khung thép, mặt lưng kính",
+      "Kích thước, khối lượng": "Dài 146.7 mm - Ngang 71.5 mm - Dày 7.4 mm - Nặng 189 g",
+      "Thời điểm ra mắt": "10/2020"
+    }
+  },
+  "configurations": {
+    "128GB": {
+      "Xám": { "price": 21990000, "originalPrice": 25990000, "discount": 15 },
+      "Bạc": { "price": 21990000, "originalPrice": 25990000, "discount": 15 },
+      "Vàng": { "price": 21990000, "originalPrice": 25990000, "discount": 15 },
+      "Xanh Dương": { "price": 21990000, "originalPrice": 25990000, "discount": 15 }
+    },
+    "256GB": {
+      "Xám": { "price": 24990000, "originalPrice": 28990000, "discount": 14 },
+      "Bạc": { "price": 24990000, "originalPrice": 28990000, "discount": 14 },
+      "Vàng": { "price": 24990000, "originalPrice": 28990000, "discount": 14 },
+      "Xanh Dương": { "price": 24990000, "originalPrice": 28990000, "discount": 14 }
+    },
+    "512GB": {
+      "Xám": { "price": 29990000, "originalPrice": 33990000, "discount": 12 },
+      "Bạc": { "price": 29990000, "originalPrice": 33990000, "discount": 12 },
+      "Vàng": { "price": 29990000, "originalPrice": 33990000, "discount": 12 },
+      "Xanh Dương": { "price": 29990000, "originalPrice": 33990000, "discount": 12 }
+    }
+  },
+  "images": {
+    "128GB": {
+      "Xám": "assets/products/iphone/iphone12pro_xam.png",
+      "Bạc": "assets/products/iphone/iphone12pro_bac.png",
+      "Vàng": "assets/products/iphone/iphone12pro_vangdong.png",
+      "Xanh Dương": "assets/products/iphone/iphone12pro_xanhduong.png"
+    },
+    "256GB": {
+      "Xám": "assets/products/iphone/iphone12pro_xam.png",
+      "Bạc": "assets/products/iphone/iphone12pro_bac.png",
+      "Vàng": "assets/products/iphone/iphone12pro_vangdong.png",
+      "Xanh Dương": "assets/products/iphone/iphone12pro_xanhduong.png"
+    },
+    "512GB": {
+      "Xám": "assets/products/iphone/iphone12pro_xam.png",
+      "Bạc": "assets/products/iphone/iphone12pro_bac.png",
+      "Vàng": "assets/products/iphone/iphone12pro_vangdong.png",
+      "Xanh Dương": "assets/products/iphone/iphone12pro_xanhduong.png"
+    }
+  },
+  "accessories": [
+    {
+      "id": "airpods-3",
+      "name": "AirPods-3",
+      "image": "assets/products/tainghe/Airpod3_Lightning.png",
+      "price": 2990000,
+      "originalPrice": 3490000,
+      "discount": 14
+    },
+    {
+      "id": "cuongluc-Iphone",
+      "name": "Cuongluc iPhone",
+      "image": "assets/products/phukien/cuonglucIphone.png",
+      "price": 7990000,
+      "originalPrice": 8990000,
+      "discount": 11
+    }
+  ],
+  "promotions": [
+    "Tặng phiếu mua hàng trị giá 500.000đ",
+    "Giảm 10% khi mua kèm Apple Watch hoặc AirPods",
+    "Trả góp 0% lãi suất qua thẻ tín dụng"
+  ]
+},
+{
+  "id": "iphone-12",
+  "name": "iPhone 12",
+  "defaultImage": "assets/products/iphone/iphone12_tim.png",
+  "description": {
+    "paragraphs": [
+      "iPhone 12 là mẫu iPhone thế hệ mới với thiết kế mỏng nhẹ, hiệu năng mạnh mẽ và hệ thống camera chất lượng.",
+      "Màn hình Super Retina XDR 6.1 inch mang đến hình ảnh sắc nét, màu sắc chân thực, phù hợp cho nhu cầu sử dụng hàng ngày.",
+      "Camera kép 12MP hỗ trợ chụp ảnh xóa phông, chụp đêm và quay video 4K HDR.",
+      "Khung nhôm nguyên khối, mặt kính Ceramic Shield giúp chống trầy xước và tăng độ bền cho máy.",
+      "Hỗ trợ 5G, Face ID, sạc MagSafe và nhiều tính năng thông minh khác."
+    ]
+  },
+  "specs": {
+    "Màn hình": {
+      "Công nghệ màn hình": "Super Retina XDR OLED",
+      "Độ phân giải": "2532 x 1170 Pixels",
+      "Màn hình rộng": "6.1 inch",
+      "Độ sáng tối đa": "1200 nits (HDR)",
+      "Kính cảm ứng": "Ceramic Shield"
+    },
+    "Camera": {
+      "Camera sau": "Chính 12MP, Ultra Wide 12MP",
+      "Camera trước": "12 MP"
+    },
+    "Hệ điều hành & CPU": {
+      "Hệ điều hành": "iOS 14 (có thể nâng cấp)",
+      "Chip xử lý (CPU)": "Apple A14 Bionic",
+      "Tốc độ CPU": "Không công bố",
+      "Chip đồ họa (GPU)": "Apple GPU 4 lõi"
+    },
+    "Bộ nhớ & Lưu trữ": {
+      "RAM": "4 GB",
+      "Bộ nhớ trong": "64 GB, 128 GB, 256 GB",
+      "Hỗ trợ thẻ nhớ ngoài": "Không"
+    },
+    "Kết nối": {
+      "Mạng di động": "5G, 4G, 3G",
+      "SIM": "Nano SIM và eSIM",
+      "Thực hiện cuộc gọi": "Có",
+      "Cổng kết nối": "Lightning",
+      "Jack tai nghe": "Không",
+      "Kết nối khác": "NFC, Ultra Wideband (UWB)"
+    },
+    "Pin & Sạc": {
+      "Loại pin": "Li-Ion",
+      "Dung lượng pin": "2815 mAh",
+      "Công nghệ pin": "Sạc nhanh 20W, Sạc MagSafe, Sạc không dây Qi"
+    },
+    "Tiện ích": {
+      "Tính năng đặc biệt": "Face ID, Dolby Vision HDR, MagSafe",
+      "Ghi âm": "Có",
+      "Radio": "Không"
+    },
+    "Thông tin chung": {
+      "Thiết kế": "Nguyên khối",
+      "Chất liệu": "Khung nhôm, mặt lưng kính",
+      "Kích thước, khối lượng": "Dài 146.7 mm - Ngang 71.5 mm - Dày 7.4 mm - Nặng 164 g",
+      "Thời điểm ra mắt": "10/2020"
+    }
+  },
+  "configurations": {
+    "64GB": {
+      "Đen": { "price": 16990000, "originalPrice": 19990000, "discount": 15 },
+      "Trắng": { "price": 16990000, "originalPrice": 19990000, "discount": 15 },
+      "Xanh Lá": { "price": 16990000, "originalPrice": 19990000, "discount": 15 },
+      "Tím": { "price": 16990000, "originalPrice": 19990000, "discount": 15 }
+    },
+    "128GB": {
+      "Đen": { "price": 18990000, "originalPrice": 21990000, "discount": 14 },
+      "Trắng": { "price": 18990000, "originalPrice": 21990000, "discount": 14 },
+      "Xanh Lá": { "price": 18990000, "originalPrice": 21990000, "discount": 14 },
+      "Tím": { "price": 18990000, "originalPrice": 21990000, "discount": 14 }
+    },
+    "256GB": {
+      "Đen": { "price": 21990000, "originalPrice": 24990000, "discount": 12 },
+      "Trắng": { "price": 21990000, "originalPrice": 24990000, "discount": 12 },
+      "Xanh Lá": { "price": 21990000, "originalPrice": 24990000, "discount": 12 },
+      "Tím": { "price": 21990000, "originalPrice": 24990000, "discount": 12 }
+    }
+  },
+  "images": {
+    "64GB": {
+      "Đen": "assets/products/iphone/iphone12_den.png",
+      "Trắng": "assets/products/iphone/iphone12_trang.png",
+      "Xanh Lá": "assets/products/iphone/iphone12_xanhla.png",
+      "Tím": "assets/products/iphone/iphone12_tim.png"
+    },
+    "128GB": {
+      "Đen": "assets/products/iphone/iphone12_den.png",
+      "Trắng": "assets/products/iphone/iphone12_trang.png",
+      "Xanh Lá": "assets/products/iphone/iphone12_xanhla.png",
+      "Tím": "assets/products/iphone/iphone12_tim.png"
+    },
+    "256GB": {
+      "Đen": "assets/products/iphone/iphone12_den.png",
+      "Trắng": "assets/products/iphone/iphone12_trang.png",
+      "Xanh Lá": "assets/products/iphone/iphone12_xanhla.png",
+      "Tím": "assets/products/iphone/iphone12_tim.png"
+    }
+  },
+  "accessories": [
+    {
+      "id": "thiet-bi-cam-tay",
+      "name": "Thiết bị cầm tay chống rung", 
+      "image": "assets/products/phukien/thietbicamtaychongrung.png",
+      "price": 2990000,
+      "originalPrice": 3490000,
+      "discount": 14
+    },
+    {
+      "id": "cuongluc-Iphone",
+      "name": "Cuongluc iPhone",
+      "image": "assets/products/phukien/cuonglucIphone.png",
+      "price": 7990000,
+      "originalPrice": 8990000,
+      "discount": 11
+    }
+  ],
+  "promotions": [
+    "Tặng phiếu mua hàng trị giá 300.000đ",
+    "Giảm 10% khi mua kèm Apple Watch hoặc AirPods",
+    "Trả góp 0% lãi suất qua thẻ tín dụng"
+    ]
+  }
+]
+},
+{
+  "id": "ipad",
+  "products": [
+{
+  "id": "ipad-air-m3",
+  "name": "iPad Air M3 (2024)",
+  "defaultImage": "assets/products/ipad/ipad_AirM3_Tim.png",
+  "description": {
+    "paragraphs": [
+      "iPad Air M3 trang bị chip Apple M3 mạnh mẽ, mang lại hiệu năng vượt trội cho mọi tác vụ từ học tập đến làm việc chuyên nghiệp.",
+      "Màn hình Liquid Retina 10.9 inch với độ phân giải cao, hỗ trợ công nghệ True Tone và Wide Color (P3) cho màu sắc sống động.",
+      "Thiết kế mỏng nhẹ với viền màn hình mỏng, camera sau 12MP và camera trước Ultra Wide 12MP hỗ trợ Center Stage.",
+      "Hỗ trợ bút Apple Pencil 2 và bàn phím Magic Keyboard, biến iPad Air M3 thành công cụ sáng tạo và năng suất hiệu quả.",
+      "Kết nối 5G, Wi-Fi 6E, bảo mật Face ID và thời lượng pin dài lên đến 10 giờ."
+    ]
+  },
+  "specs": {
+    "Màn hình": {
+      "Loại màn hình": "Liquid Retina IPS LCD",
+      "Kích thước": "10.9 inch",
+      "Độ phân giải": "2360 x 1640 Pixels",
+      "Độ sáng tối đa": "500 nits",
+      "Công nghệ màn hình": "True Tone, P3 Wide Color"
+    },
+    "Camera": {
+      "Camera sau": "12 MP",
+      "Camera trước": "12 MP Ultra Wide với Center Stage"
+    },
+    "Hệ điều hành & CPU": {
+      "Hệ điều hành": "iPadOS 17",
+      "Chip": "Apple M3"
+    },
+    "Bộ nhớ & Lưu trữ": {
+      "RAM": "8 GB",
+      "Lưu trữ": "64 GB, 256 GB"
+    },
+    "Kết nối": {
+      "5G": "Có",
+      "Wi-Fi": "Wi-Fi 6E",
+      "Cổng kết nối": "USB-C"
+    },
+    "Pin & Sạc": {
+      "Pin": "Li-Ion 28.6 Wh",
+      "Thời lượng pin": "Khoảng 10 giờ sử dụng"
+    },
+    "Tiện ích": {
+      "Bảo mật": "Face ID",
+      "Phụ kiện hỗ trợ": "Apple Pencil 2, Magic Keyboard"
+    }
+  },
+  "configurations": {
+    "64GB": {
+      "Đen Xám": { "price": 16990000, "originalPrice": 18990000, "discount": 10 },
+      "Xanh Dương": { "price": 16990000, "originalPrice": 18990000, "discount": 10 },
+      "Tím": { "price": 16990000, "originalPrice": 18990000, "discount": 10 },
+      "Trắng": { "price": 16990000, "originalPrice": 18990000, "discount": 10 }
+    },
+    "256GB": {
+      "Đen Xám": { "price": 19990000, "originalPrice": 22990000, "discount": 13 },
+      "Xanh Dương": { "price": 19990000, "originalPrice": 22990000, "discount": 13 },
+      "Tím": { "price": 19990000, "originalPrice": 22990000, "discount": 13 },
+      "Trắng": { "price": 19990000, "originalPrice": 22990000, "discount": 13 }
+    }
+  },
+  "images": {
+    "64GB": {
+      "Đen Xám": "assets/products/ipad/ipad_AirM3_denxam.png",
+      "Xanh Dương": "assets/products/iapd/ipad_AirM3_Xanhduong.png",
+      "Tím": "assets/products/ipad/ipad_AirM3_Tim.png",
+      "Trắng": "assets/products/ipad/ipad_AirM3_TrangStarlight.png"
+    },
+    "256GB": {
+      "Đen Xám": "assets/products/ipad/ipad_AirM3_denxam.png",
+      "Xanh Dương": "assets/products/iapd/ipad_AirM3_Xanhduong.png",
+      "Tím": "assets/products/ipad/ipad_AirM3_Tim.png",
+      "Trắng": "assets/products/ipad/ipad_AirM3_TrangStarlight.png"
+    }
+  },
+  "accessories": [
+    {
+      "id": "Bao-da-iPad-Air",
+      "name": "Baoda iPad",
+      "image": "assets/products/phukien/baodaIpad.png",
+      "price": 3990000,
+      "originalPrice": 4490000,
+      "discount": 11
+    },
+    {
+      "id": "cuongluc-Ipad",
+      "name": "Cuongluc iPad Pro",
+      "image": "assets/products/phukien/cuongluc_iPadPro.png",
+      "price": 5990000,
+      "originalPrice": 6490000,
+      "discount": 8
+    }
+  ],
+  "promotions": [
+    "Giảm 5% khi mua kèm bao da hoặc cường lực",
+    "Trả góp 0% lãi suất qua thẻ tín dụng",
+    "Tặng phiếu mua hàng 500.000đ cho khách mua máy"
+  ]
+},
+{
+  "id": "ipad-10",
+  "name": "iPad 10 (A16 Bionic)",
+  "defaultImage": "assets/products/ipad/ipad_10_Hong.png",
+  "description": {
+    "paragraphs": [
+      "iPad 10 sử dụng chip A16 Bionic, cho hiệu năng mạnh mẽ, đáp ứng mọi nhu cầu học tập và giải trí.",
+      "Màn hình Retina 10.9 inch sắc nét, màu sắc trung thực với True Tone.",
+      "Camera sau 12MP và camera trước 12MP Ultra Wide hỗ trợ Center Stage giúp video call sống động.",
+      "Thiết kế mỏng nhẹ, hỗ trợ Apple Pencil 1 và bàn phím ngoài Smart Keyboard Folio.",
+      "Hỗ trợ kết nối 5G và Wi-Fi 6, thời lượng pin lên đến 10 giờ sử dụng."
+    ]
+  },
+  "specs": {
+    "Màn hình": {
+      "Loại màn hình": "Retina IPS LCD",
+      "Kích thước": "10.9 inch",
+      "Độ phân giải": "2360 x 1640 Pixels",
+      "Công nghệ màn hình": "True Tone, Wide Color (P3)"
+    },
+    "Camera": {
+      "Camera sau": "12 MP",
+      "Camera trước": "12 MP Ultra Wide với Center Stage"
+    },
+    "Hệ điều hành & CPU": {
+      "Hệ điều hành": "iPadOS 17",
+      "Chip": "Apple A16 Bionic"
+    },
+    "Bộ nhớ & Lưu trữ": {
+      "RAM": "4 GB",
+      "Lưu trữ": "64 GB, 256 GB"
+    },
+    "Kết nối": {
+      "5G": "Có",
+      "Wi-Fi": "Wi-Fi 6",
+      "Cổng kết nối": "USB-C"
+    },
+    "Pin & Sạc": {
+      "Pin": "Li-Ion 28.6 Wh",
+      "Thời lượng pin": "Khoảng 10 giờ sử dụng"
+    },
+    "Tiện ích": {
+      "Bảo mật": "Touch ID",
+      "Phụ kiện hỗ trợ": "Apple Pencil 1, Smart Keyboard Folio"
+    }
+  },
+  "configurations": {
+    "64GB": {
+      "Bạc": { "price": 12990000, "originalPrice": 14990000, "discount": 13 },
+      "Xanh Dương": { "price": 12990000, "originalPrice": 14990000, "discount": 13 },
+      "Hồng": { "price": 12990000, "originalPrice": 14990000, "discount": 13 },
+      "Vàng": { "price": 12990000, "originalPrice": 14990000, "discount": 13 }
+    },
+    "256GB": {
+      "Bạc": { "price": 15990000, "originalPrice": 17990000, "discount": 11 },
+      "Xanh Dương": { "price": 15990000, "originalPrice": 17990000, "discount": 11 },
+      "Hồng": { "price": 15990000, "originalPrice": 17990000, "discount": 11 },
+      "Vàng": { "price": 15990000, "originalPrice": 17990000, "discount": 11 }
+    }
+  },
+  "images": {
+    "64GB": {
+      "Bạc": "assets/products/ipad/ipad_10_Bac.png",
+      "Xanh Dương": "assets/products/ipad/ipad_10_Xanhduong.png",
+      "Hồng": "assets/products/ipad/ipad_10_Hong.png",
+      "Vàng": "assets/products/ipad/ipad_10_Vang.png"
+    },
+    "256GB": {
+      "Bạc": "assets/products/ipad/ipad_10_Bac.png",
+      "Xanh Dương": "assets/products/ipad/ipad_10_Xanhduong.png",
+      "Hồng": "assets/products/ipad/ipad_10_Hong.png",
+      "Vàng": "assets/products/ipad/ipad_10_Vang.png"
+    }
+  },
+  "accessories": [
+    {
+      "id": "apple-pencil-pro",
+      "name": "Apple Pencil Pro",
+      "image": "assets/products/phukien/apple_pencilpro.png",
+      "price": 2990000,
+      "originalPrice": 3490000,
+      "discount": 14
+    },
+    {
+      "id": "cuongluc-Ipad",
+      "name": "Cuongluc iPad Air",
+      "image": "assets/products/phukien/cuongluc_iPadAir.png",
+      "price": 3990000,
+      "originalPrice": 4490000,
+      "discount": 11
+    }
+  ],
+  "promotions": [
+    "Giảm 5% khi mua kèm Apple Pencil hoặc Smart Keyboard",
+    "Trả góp 0% lãi suất qua thẻ tín dụng",
+    "Tặng phiếu mua hàng 300.000đ"
+  ]
+},
+{
+  "id": "ipad-pro-m4",
+  "name": "iPad Pro M4 (2024)",
+  "defaultImage": "assets/products/ipad/ipad_proM4_bac.png",
+  "description": {
+    "paragraphs": [
+      "iPad Pro M4 là dòng iPad cao cấp nhất với chip Apple M4 mới, hiệu suất vượt trội và tiết kiệm năng lượng.",
+      "Màn hình Ultra Retina XDR 13 inch (hoặc 11 inch) sử dụng công nghệ OLED kép mang đến trải nghiệm hình ảnh tuyệt đẹp.",
+      "Thiết kế mỏng nhất từ trước đến nay của Apple, thân nhôm bền nhẹ.",
+      "Hỗ trợ Apple Pencil Pro và Magic Keyboard mới, mở ra trải nghiệm như laptop thực thụ.",
+      "Kết nối Wi-Fi 6E và 5G, thời lượng pin cả ngày với công nghệ sạc nhanh."
+    ]
+  },
+  "specs": {
+    "Màn hình": {
+      "Loại màn hình": "Ultra Retina XDR OLED",
+      "Kích thước": "11 inch / 13 inch",
+      "Độ phân giải": "2420 x 1668 / 2752 x 2064",
+      "Tần số quét": "120Hz ProMotion"
+    },
+    "Camera": {
+      "Camera sau": "12 MP + LiDAR",
+      "Camera trước": "12 MP Ultra Wide với Center Stage"
+    },
+    "Hệ điều hành & CPU": {
+      "Hệ điều hành": "iPadOS 17",
+      "Chip": "Apple M4"
+    },
+    "Bộ nhớ & Lưu trữ": {
+      "RAM": "8 GB / 16 GB",
+      "Lưu trữ": "256 GB, 512 GB, 1 TB, 2 TB"
+    },
+    "Kết nối": {
+      "5G": "Có",
+      "Wi-Fi": "Wi-Fi 6E",
+      "Cổng kết nối": "USB-C Thunderbolt 4"
+    },
+    "Pin & Sạc": {
+      "Pin": "Lên đến 10 giờ lướt web",
+      "Sạc nhanh": "Có"
+    },
+    "Tiện ích": {
+      "Face ID": "Có",
+      "Phụ kiện hỗ trợ": "Apple Pencil Pro, Magic Keyboard mới"
+    }
+  },
+  "configurations": {
+    "256GB": {
+      "Đen": { "price": 30990000, "originalPrice": 33990000, "discount": 9 },
+      "Bạc": { "price": 30990000, "originalPrice": 33990000, "discount": 9 }
+    }
+  },
+  "images": {
+    "256GB": {
+      "Đen": "assets/products/ipad/ipad_proM4_den.png",
+      "Bạc": "assets/products/ipad/ipad_proM4_bac.png"
+    }
+  },
+  "accessories": [
+    {
+      "id": "apple-pencil-pro",
+      "name": "Apple Pencil Pro",
+      "image": "assets/products/phukien/apple_pencilpro.png",
+      "price": 3890000,
+      "originalPrice": 4290000,
+      "discount": 9
+    },
+    {
+      "id": "magic-keyboard-2024",
+      "name": "Magic Keyboard (2024)",
+      "image": "assets/products/phukien/MagicKeyboard.png",
+      "price": 8490000,
+      "originalPrice": 8990000,
+      "discount": 6
+    }
+  ],
+  "promotions": [
+    "Tặng bao da trị giá 600.000đ",
+    "Giảm thêm 3% khi mua kèm phụ kiện",
+    "Trả góp 0% qua thẻ tín dụng"
+  ]
+},
+{
+  "id": "ipad-air-m2",
+  "name": "iPad Air M2 (2024)",
+  "defaultImage": "assets/products/ipad/ipad_Air6M2_TrangStarlight.png",
+  "description": {
+    "paragraphs": [
+      "iPad Air M2 mang đến hiệu suất vượt trội nhờ chip Apple M2, phục vụ tốt nhu cầu học tập, làm việc và sáng tạo.",
+      "Màn hình Liquid Retina 11 inch rực rỡ với công nghệ True Tone và P3 Color.",
+      "Camera sau 12MP và camera trước 12MP hỗ trợ Center Stage.",
+      "Hỗ trợ Apple Pencil 2 và Magic Keyboard giúp nâng cao trải nghiệm làm việc.",
+      "Kết nối Wi-Fi 6E và 5G giúp truy cập internet siêu nhanh."
+    ]
+  },
+  "specs": {
+    "Màn hình": {
+      "Loại màn hình": "Liquid Retina IPS LCD",
+      "Kích thước": "11 inch",
+      "Độ phân giải": "2360 x 1640 Pixels",
+      "Công nghệ": "True Tone, P3 Wide Color"
+    },
+    "Camera": {
+      "Camera sau": "12 MP",
+      "Camera trước": "12 MP Ultra Wide với Center Stage"
+    },
+    "Hệ điều hành & CPU": {
+      "Hệ điều hành": "iPadOS 17",
+      "Chip": "Apple M2"
+    },
+    "Bộ nhớ & Lưu trữ": {
+      "RAM": "8 GB",
+      "Lưu trữ": "128 GB, 256 GB"
+    },
+    "Kết nối": {
+      "5G": "Có",
+      "Wi-Fi": "Wi-Fi 6E",
+      "Cổng kết nối": "USB-C"
+    },
+    "Pin & Sạc": {
+      "Pin": "Lên đến 10 giờ sử dụng",
+      "Sạc nhanh": "Có"
+    },
+    "Tiện ích": {
+      "Bảo mật": "Touch ID",
+      "Phụ kiện hỗ trợ": "Apple Pencil 2, Magic Keyboard"
+    }
+  },
+  "configurations": {
+    "128GB": {
+      "Xanh Dương": { "price": 16990000, "originalPrice": 18990000, "discount": 11 },
+      "Tím": { "price": 16990000, "originalPrice": 18990000, "discount": 11 },
+      "Xám": { "price": 16990000, "originalPrice": 18990000, "discount": 11 },
+      "Trắng": { "price": 16990000, "originalPrice": 18990000, "discount": 11 }
+    }
+  },
+  "images": {
+    "128GB": {
+      "Xanh Dương": "assets/products/iapd/ipad_Air6M2_Xanhduong.png",
+      "Tím": "assets/products/ipad/ipad_Air6M2_Tim.png",
+      "Xám": "assets/products/ipad/ipad_Air6M2_Xam.png",
+      "Trắng": "assets/products/ipad/ipad_Air6M2_TrangStarlight.png"
+    }
+  },
+  "accessories": [
+    {
+      "id": "apple-pencil-pro",
+      "name": "Apple Pencil Pro",
+      "image": "assets/products/phukien/apple_pencilpro.png",
+      "price": 3590000,
+      "originalPrice": 3990000,
+      "discount": 10
+    },
+    {
+      "id": "magic-keyboard",
+      "name": "Magic Keyboard",
+      "image": "assets/products/phukien/MagicKeyboard.png",
+      "price": 7990000,
+      "originalPrice": 8490000,
+      "discount": 6
+    }
+  ],
+  "promotions": [
+    "Giảm 5% khi mua cùng phụ kiện Apple",
+    "Trả góp 0% lãi suất qua thẻ tín dụng"
+  ]
+},
+{
+  "id": "ipad-mini",
+  "name": "iPad Mini (Gen 6)",
+  "defaultImage": "assets/products/ipad/ipad_mini_trangstarlight.png",
+  "description": {
+    "paragraphs": [
+      "iPad Mini 6 nhỏ gọn nhưng mạnh mẽ, với chip A15 Bionic, lý tưởng cho công việc di động và giải trí.",
+      "Màn hình Liquid Retina 8.3 inch sắc nét với True Tone và P3 Wide Color.",
+      "Camera sau và trước đều 12MP, hỗ trợ Center Stage khi gọi video.",
+      "Hỗ trợ Apple Pencil 2 giúp ghi chú và vẽ dễ dàng.",
+      "Cổng USB-C và hỗ trợ Wi-Fi 6, 5G giúp kết nối nhanh chóng."
+    ]
+  },
+  "specs": {
+    "Màn hình": {
+      "Loại màn hình": "Liquid Retina IPS LCD",
+      "Kích thước": "8.3 inch",
+      "Độ phân giải": "2266 x 1488 Pixels",
+      "Công nghệ": "True Tone, P3 Wide Color"
+    },
+    "Camera": {
+      "Camera sau": "12 MP",
+      "Camera trước": "12 MP Ultra Wide với Center Stage"
+    },
+    "Hệ điều hành & CPU": {
+      "Hệ điều hành": "iPadOS 17",
+      "Chip": "Apple A15 Bionic"
+    },
+    "Bộ nhớ & Lưu trữ": {
+      "RAM": "4 GB",
+      "Lưu trữ": "64 GB, 256 GB"
+    },
+    "Kết nối": {
+      "5G": "Có",
+      "Wi-Fi": "Wi-Fi 6",
+      "Cổng kết nối": "USB-C"
+    },
+    "Pin & Sạc": {
+      "Pin": "Lên đến 10 giờ sử dụng",
+      "Sạc nhanh": "Có"
+    },
+    "Tiện ích": {
+      "Bảo mật": "Touch ID (nút nguồn)",
+      "Phụ kiện hỗ trợ": "Apple Pencil 2"
+    }
+  },
+  "configurations": {
+    "64GB": {
+      "Xám": { "price": 12990000, "originalPrice": 14990000, "discount": 13 },
+      "Xanh Dương": { "price": 12990000, "originalPrice": 14990000, "discount": 13 },
+      "Trắng": { "price": 12990000, "originalPrice": 14990000, "discount": 13 },
+      "Tím": { "price": 12990000, "originalPrice": 14990000, "discount": 13 }
+    }
+  },
+  "images": {
+    "64GB": {
+      "Xám": "assets/products/ipad/ipad_mini_denxam.png",
+      "Xanh Dương": "assets/products/iapd/ipad_mini_xanhduong.png",
+      "Trắng": "assets/products/ipad/ipad_mini_trangstarlight.png",
+      "Tím": "assets/products/ipad/ipad_mini_tim.png"
+    }
+  },
+  "accessories": [
+    {
+      "id": "apple-pencil-pro",
+      "name": "Apple Pencil Pro",
+      "image": "assets/products/phukien/apple_pencilpro.png",
+      "price": 3590000,
+      "originalPrice": 3990000,
+      "discount": 10
+    }
+  ],
+  "promotions": [
+    "Tặng phiếu mua hàng 200.000đ",
+    "Giảm 3% khi mua kèm Apple Pencil"
+  ]
+},
+{
+  "id": "ipad-9",
+  "name": "iPad 9 (2021)",
+  "defaultImage": "assets/products/ipad/ipad_9_Bac.png",
+  "description": {
+    "paragraphs": [
+      "iPad 9 là lựa chọn phổ thông phù hợp cho học sinh và người dùng cơ bản.",
+      "Sử dụng chip A13 Bionic, hiệu năng ổn định trong học tập, xem phim và lướt web.",
+      "Màn hình Retina 10.2 inch sắc nét, hỗ trợ True Tone.",
+      "Camera trước 12MP Ultra Wide với Center Stage, camera sau 8MP.",
+      "Hỗ trợ Apple Pencil 1 và Smart Keyboard thông qua cổng Lightning."
+    ]
+  },
+  "specs": {
+    "Màn hình": {
+      "Loại màn hình": "Retina IPS LCD",
+      "Kích thước": "10.2 inch",
+      "Độ phân giải": "2160 x 1620 Pixels",
+      "Công nghệ": "True Tone"
+    },
+    "Camera": {
+      "Camera sau": "8 MP",
+      "Camera trước": "12 MP Ultra Wide với Center Stage"
+    },
+    "Hệ điều hành & CPU": {
+      "Hệ điều hành": "iPadOS 17",
+      "Chip": "Apple A13 Bionic"
+    },
+    "Bộ nhớ & Lưu trữ": {
+      "RAM": "3 GB",
+      "Lưu trữ": "64 GB, 256 GB"
+    },
+    "Kết nối": {
+      "Wi-Fi": "Wi-Fi 5",
+      "Cổng kết nối": "Lightning"
+    },
+    "Pin & Sạc": {
+      "Pin": "Lên đến 10 giờ sử dụng",
+      "Sạc nhanh": "Không"
+    },
+    "Tiện ích": {
+      "Bảo mật": "Touch ID",
+      "Phụ kiện hỗ trợ": "Apple Pencil 1, Smart Keyboard"
+    }
+  },
+  "configurations": {
+    "64GB": {
+      "Bạc": { "price": 8990000, "originalPrice": 9990000, "discount": 10 }
+    }
+  },
+  "images": {
+    "64GB": {
+      "Bạc": "assets/products/ipad/ipad_9_Bac.png"
+    }
+  },
+  "accessories": [
+    {
+      "id": "apple-pencil-pro",
+      "name": "Apple Pencil Pro",
+      "image": "assets/products/phukien/apple_pencilpro.png",
+      "price": 2990000,
+      "originalPrice": 3490000,
+      "discount": 14
+    },
+    {
+      "id": "magic-keyboard",
+      "name": "Magic Keyboard (phím số)",
+      "image": "assets/products/phukien/MagicKeyboard.png",
+      "price": 3990000,
+      "originalPrice": 4490000,
+      "discount": 11
+    }
+  ],
+  "promotions": [
+    "Giảm thêm 3% khi mua kèm Apple Pencil",
+    "Tặng voucher 200.000đ cho đơn hàng phụ kiện"
+  ]
+},
+{
+  "id": "ipad-10-a14",
+  "name": "iPad 10 (A14 Bionic)",
+  "defaultImage": "assets/products/ipad/ipad_10_Bac.png",
+  "description": {
+    "paragraphs": [
+      "iPad 10 phiên bản dùng chip A14 Bionic mang đến hiệu năng ổn định cho học tập và giải trí.",
+      "Thiết kế mới với màn hình Liquid Retina 10.9 inch viền mỏng, hỗ trợ True Tone và độ sáng cao.",
+      "Camera trước 12MP Ultra Wide đặt ngang giúp gọi video thuận tiện, hỗ trợ Center Stage.",
+      "Tương thích với Apple Pencil (Gen 1) qua adapter USB-C và bàn phím Smart Keyboard Folio.",
+      "Hỗ trợ Wi-Fi 6 và tùy chọn 5G giúp kết nối tốc độ cao mọi lúc mọi nơi."
+    ]
+  },
+  "specs": {
+    "Màn hình": {
+      "Loại màn hình": "Liquid Retina IPS LCD",
+      "Kích thước": "10.9 inch",
+      "Độ phân giải": "2360 x 1640 Pixels",
+      "Công nghệ màn hình": "True Tone, P3 Wide Color"
+    },
+    "Camera": {
+      "Camera sau": "12 MP",
+      "Camera trước": "12 MP Ultra Wide với Center Stage"
+    },
+    "Hệ điều hành & CPU": {
+      "Hệ điều hành": "iPadOS 17",
+      "Chip": "Apple A14 Bionic"
+    },
+    "Bộ nhớ & Lưu trữ": {
+      "RAM": "4 GB",
+      "Lưu trữ": "64 GB, 256 GB"
+    },
+    "Kết nối": {
+      "5G": "Có",
+      "Wi-Fi": "Wi-Fi 6",
+      "Cổng kết nối": "USB-C"
+    },
+    "Pin & Sạc": {
+      "Pin": "Li-Ion ~28.6 Wh",
+      "Thời lượng pin": "Khoảng 10 giờ sử dụng"
+    },
+    "Tiện ích": {
+      "Bảo mật": "Touch ID (nút nguồn)",
+      "Phụ kiện hỗ trợ": "Apple Pencil 1 (qua adapter), Smart Keyboard Folio"
+    }
+  },
+  "configurations": {
+    "64GB": {
+      "Bạc": { "price": 10990000, "originalPrice": 12990000, "discount": 15 },
+      "Vàng": { "price": 10990000, "originalPrice": 12990000, "discount": 15 }
+    },
+    "256GB": {
+      "Bạc": { "price": 14490000, "originalPrice": 16490000, "discount": 12 },
+      "Vàng": { "price": 14490000, "originalPrice": 16490000, "discount": 12 }
+    }
+  },
+  "images": {
+    "64GB": {
+      "Bạc": "assets/products/ipad/ipad_10_Bac.png",
+      "Vàng": "assets/products/ipad/ipad_10_Vang.png"
+    },
+    "256GB": {
+      "Bạc": "assets/products/ipad/ipad_10_Bac.png",
+      "Vàng": "assets/products/ipad/ipad_10_Vang.png"
+    }
+  },
+  "accessories": [
+    {
+      "id": "apple-pencil-pro",
+      "name": "Apple Pencil Pro",
+      "image": "assets/products/phukien/apple_pencilpro.png",
+      "price": 2990000,
+      "originalPrice": 3490000,
+      "discount": 14
+    },
+    {
+      "id": "usb-c-adapter",
+      "name": "Adapter Apple Pencil USB-C",
+      "image": "assets/products/phukien/Adapter_sacusbC.png",
+      "price": 490000,
+      "originalPrice": 690000,
+      "discount": 29
+    },
+    {
+      "id": "magic-keyboard",
+      "name": "Magic Keyboard",
+      "image": "assets/products/phukien/MagicKeyboard.png",
+      "price": 3990000,
+      "originalPrice": 4490000,
+      "discount": 11
+    }
+  ],
+  "promotions": [
+    "Giảm 5% khi mua kèm Apple Pencil hoặc Magic Keyboard",
+    "Tặng phiếu mua hàng 300.000đ",
+    "Trả góp 0% lãi suất qua thẻ tín dụng"
+  ]
+}
+]
+},
+{
+  "id": "macbook",
+  "products": [
+ {
+      "id": "macbook-air",
+      "name": "MacBook Air",
+      "defaultImage": "assets/products/macbook/MacbookAir_Vang.png",
+      "description": {
+        "paragraphs": [
+          "MacBook Air với chip Apple mang lại hiệu năng vượt trội cho cả công việc và giải trí.",
+          "Thiết kế siêu mỏng nhẹ, màn hình Liquid Retina 13.6 inch sắc nét, pin sử dụng đến 18 giờ.",
+          "Tích hợp webcam 1080p, Touch ID, và hệ thống loa 4 loa sống động.",
+          "Hỗ trợ Wi-Fi 6E, Thunderbolt 3, và sạc nhanh qua MagSafe 3."
+        ]
+      },
+      "specs": {
+        "Màn hình": {
+          "Loại màn hình": "Liquid Retina",
+          "Kích thước": "13.6 inch",
+          "Độ phân giải": "2560 x 1664",
+          "Công nghệ màn hình": "True Tone, Wide Color (P3)"
+        },
+        "CPU & RAM": {
+          "Chip": "Apple M4",
+          "RAM": "8 GB / 16 GB / 24 GB"
+        },
+        "Lưu trữ": {
+          "SSD": "256 GB / 512 GB / 1 TB / 2 TB"
+        },
+        "Kết nối": {
+          "Cổng": "2 x Thunderbolt 3, MagSafe 3",
+          "Wi-Fi": "Wi-Fi 6E",
+          "Bluetooth": "5.3"
+        },
+        "Tiện ích": {
+          "Bảo mật": "Touch ID",
+          "Webcam": "1080p FaceTime HD",
+          "Loa": "Hệ thống 4 loa, Spatial Audio"
+        },
+        "Pin": {
+          "Dung lượng": "52.6 Wh",
+          "Thời lượng": "Lên đến 18 giờ"
+        }
+      },
+      "configurations": {
+        "256GB": {
+          "Xanh Da Trời": { "price": 27990000, "originalPrice": 30990000, "discount": 10 },
+          "Bạc": { "price": 27990000, "originalPrice": 30990000, "discount": 10 },
+          "Vàng": { "price": 27990000, "originalPrice": 30990000, "discount": 10 },
+          "Xanh Đen": { "price": 27990000, "originalPrice": 30990000, "discount": 10 }
+        },
+        "512GB": {
+          "Xanh Da Trời": { "price": 32990000, "originalPrice": 35990000, "discount": 8 },
+          "Bạc": { "price": 32990000, "originalPrice": 35990000, "discount": 8 },
+          "Vàng": { "price": 32990000, "originalPrice": 35990000, "discount": 8 },
+          "Xanh Đen": { "price": 32990000, "originalPrice": 35990000, "discount": 8 }
+        }
+      },
+      "images": {
+        "256GB": {
+          "Xanh Da Trời": "assets/products/macbook/MacbookAir_Xanhdatroinhat",
+          "Bạc": "assets/products/macbook/MacbookAir_Bac.png",
+          "Vàng": "assets/products/macbook/MacbookAir_Vang.png",
+          "Xanh Đen": "assets/products/macbook/MacbookAir_Xanhden.png"
+        },
+        "512GB": {
+          "Xanh Da Trời": "assets/products/macbook/MacbookAir_Xanhdatroinhat",
+          "Bạc": "assets/products/macbook/MacbookAir_Bac.png",
+          "Vàng": "assets/products/ipad/MacbookAir_Vang.png",
+          "Xanh Đen": "assets/products/macbook/MacbookAir_Xanhden.png"
+        }
+      },
+      "accessories": [
+        {
+          "id": "cuongluc-macbook",
+          "name": "Cường lực MacBook",
+          "image": "assets/products/phukien/cuonglucMac.png",
+          "price": 1790000,
+          "originalPrice": 1990000,
+          "discount": 10
+        },
+        {
+          "id": "Chuot-Macbook",
+          "name": "Chuot Macbook",
+          "image": "assets/products/phukien/chuotlaptop.png",
+          "price": 1990000,
+          "originalPrice": 2290000,
+          "discount": 13
+        }
+      ],
+      "promotions": [
+        "Tặng phiếu mua hàng trị giá 500.000đ",
+        "Trả góp 0% qua thẻ tín dụng",
+        "Giảm 5% khi mua kèm phụ kiện Apple"
+      ]
+    },
+{
+  "id": "macbook-pro",
+  "name": "MacBook Pro",
+  "defaultImage": "assets/products/macbook/MacbookPro_Bac.png",
+  "description": {
+    "paragraphs": [
+      "MacBook Pro là cỗ máy mạnh mẽ với chip Apple , tối ưu cho đồ họa, lập trình và xử lý video.",
+      "Màn hình Liquid Retina XDR 14 inch, độ sáng cao và hỗ trợ ProMotion 120Hz.",
+      "Hệ thống tản nhiệt hiệu quả, thời lượng pin lên đến 17 giờ.",
+      "Nhiều cổng kết nối chuyên nghiệp: HDMI, SDXC, MagSafe, 3 cổng Thunderbolt 4."
+    ]
+  },
+  "specs": {
+    "Màn hình": {
+      "Loại màn hình": "Liquid Retina XDR",
+      "Kích thước": "14 inch",
+      "Độ phân giải": "3024 x 1964",
+      "Tần số quét": "120Hz ProMotion"
+    },
+    "CPU & RAM": {
+      "Chip": "Apple M4 Pro / M4 Max",
+      "RAM": "18 GB / 36 GB / 64 GB"
+    },
+    "Lưu trữ": {
+      "SSD": "512 GB / 1 TB / 2 TB / 4 TB"
+    },
+    "Kết nối": {
+      "Cổng": "MagSafe 3, HDMI, SDXC, 3 x Thunderbolt 4",
+      "Wi-Fi": "Wi-Fi 6E",
+      "Bluetooth": "5.3"
+    },
+    "Pin": {
+      "Dung lượng": "70 Wh",
+      "Thời lượng": "Tối đa 17 giờ"
+    }
+  },
+  "configurations": {
+    "512GB": {
+      "Xám": { "price": 46990000, "originalPrice": 51990000, "discount": 10 },
+      "Bạc": { "price": 46990000, "originalPrice": 51990000, "discount": 10 },
+      "Đen": { "price": 46990000, "originalPrice": 51990000, "discount": 10 }
+    },
+    "1TB": {
+      "Xám": { "price": 51990000, "originalPrice": 56990000, "discount": 9 },
+      "Bạc": { "price": 51990000, "originalPrice": 56990000, "discount": 9 },
+      "Đen": { "price": 51990000, "originalPrice": 56990000, "discount": 9 }
+    }
+  },
+  "images": {
+    "512GB": {
+      "Xám": "assets/products/macbook/MacbookPro_Xam.png",
+      "Bạc": "assets/products/macbook/MacbookPro_Bac.png",
+      "Đen": "assets/products/macbook/MacbookPro_Den.png"
+    },
+    "1TB": {
+      "Xám": "assets/products/macbook/MacbookPro_Xam.png",
+      "Bạc": "assets/products/macbook/MacbookPro_Bac.png",
+      "Đen": "assets/products/macbook/MacbookPro_Den.png"
+    }
+  },
+  "accessories": [
+    {
+      "id": "cap-sac-typeC",
+      "name": "Capsac Type-C",
+      "image": "assets/products/phukien/capsac_typeC.png",
+      "price": 990000,
+      "originalPrice": 1290000,
+      "discount": 23
+    }
+  ],
+  "promotions": [
+    "Tặng chuột Magic Mouse khi mua MacBook Pro",
+    "Trả góp 0% lãi suất trong 12 tháng"
+  ]
+},
+{
+  "id": "imac",
+  "name": "iMac 24 inch",
+  "defaultImage": "assets/products/macbook/iMac24_M3_Hong.png",
+  "description": {
+    "paragraphs": [
+      "iMac thiết kế siêu mỏng, chip Apple mang lại hiệu suất đáng kinh ngạc.",
+      "Màn hình Retina 4.5K 24 inch sống động, hỗ trợ 1 tỷ màu.",
+      "Camera FaceTime HD 1080p và hệ thống 6 loa cao cấp.",
+      "Tích hợp Touch ID trên bàn phím và nhiều lựa chọn màu sắc bắt mắt."
+    ]
+  },
+  "specs": {
+    "Màn hình": {
+      "Loại màn hình": "Retina 4.5K",
+      "Kích thước": "24 inch",
+      "Độ phân giải": "4480 x 2520",
+      "Độ sáng": "500 nits"
+    },
+    "CPU & RAM": {
+      "Chip": "Apple M3",
+      "RAM": "8 GB / 16 GB / 24 GB"
+    },
+    "Lưu trữ": {
+      "SSD": "256 GB / 512 GB / 1 TB"
+    },
+    "Tiện ích": {
+      "Bàn phím": "Magic Keyboard với Touch ID",
+      "Camera": "FaceTime HD 1080p",
+      "Loa": "6 loa với Spatial Audio"
+    }
+  },
+  "configurations": {
+    "256GB": {
+      "Xanh Dương": { "price": 35990000, "originalPrice": 38990000, "discount": 8 },
+      "Hồng": { "price": 35990000, "originalPrice": 38990000, "discount": 8 }
+    }
+  },
+  "images": {
+    "256GB": {
+      "Xanh Dương": "assets/products/macbook/iMac24_M3_Xanhduong.png",
+      "Hồng": "assets/products/macbook/iMac24_M3_Hong.png"
+    }
+  },
+  "accessories": [
+    {
+      "id": "magic-keyboard",
+      "name": "Magic Keyboard with Touch ID",
+      "image": "assets/products/phukien/MagicKeyboard.png",
+      "price": 3490000,
+      "originalPrice": 3990000,
+      "discount": 13
+    }
+  ],
+  "promotions": [
+    "Giảm 5% khi mua kèm bàn phím hoặc chuột Magic",
+    "Trả góp 0% qua thẻ tín dụng"
+  ]
+},
+{
+  "id": "mac-mini",
+  "name": "Mac mini",
+  "defaultImage": "assets/products/macbook/Macmini_M4_Bac.png",
+  "description": {
+    "paragraphs": [
+      "Mac mini nhỏ gọn nhưng mạnh mẽ với chip Apple, phù hợp làm việc đa nhiệm và giải trí.",
+      "Thiết kế tối giản, dễ dàng đặt ở bất kỳ không gian nào.",
+      "Trang bị nhiều cổng kết nối hiện đại: Thunderbolt 4, HDMI, USB-A, Ethernet.",
+      "Hỗ trợ RAM lên đến 16GB và lưu trữ SSD nhanh chóng."
+    ]
+  },
+  "specs": {
+    "CPU & RAM": {
+      "Chip": "Apple M2",
+      "RAM": "8 GB / 16 GB"
+    },
+    "Lưu trữ": {
+      "SSD": "256 GB / 512 GB"
+    },
+    "Cổng kết nối": {
+      "Thunderbolt 4": "2 cổng",
+      "HDMI": "1 cổng",
+      "USB-A": "2 cổng",
+      "Ethernet": "1 cổng",
+      "Jack tai nghe": "3.5mm"
+    }
+  },
+  "configurations": {
+    "256GB": {
+      "Bạc": { "price": 14990000, "originalPrice": 16990000, "discount": 12 }
+    },
+    "512GB": {
+      "Bạc": { "price": 17990000, "originalPrice": 19990000, "discount": 10 }
+    }
+  },
+  "images": {
+    "256GB": {
+      "Bạc": "assets/products/macbook/Macmini_M4_Bac.png"
+    },
+    "512GB": {
+      "Bạc": "assets/products/macbook/Macmini_M4_Bac.png"
+    }
+  },
+  "accessories": [
+    {
+      "id": "magic-keyboard",
+      "name": "Magic Keyboard (phím số)",
+      "image": "assets/products/phukien/MagicKeyboard.png",
+      "price": 2790000,
+      "originalPrice": 3290000,
+      "discount": 15
+    },
+    {
+      "id": "magic-mouse",
+      "name": "Magic Mouse",
+      "image": "assets/products/phukien/chuotlaptop.png",
+      "price": 2190000,
+      "originalPrice": 2690000,
+      "discount": 19
+    }
+  ],
+  "promotions": [
+    "Tặng cáp HDMI 4K trị giá 500.000đ",
+    "Giảm thêm 300.000đ khi mua combo phụ kiện",
+    "Trả góp 0%"
+  ]
+},
+{
+  "id": "mac-studio",
+  "name": "Mac Studio M2 Ultra",
+  "defaultImage": "assets/products/macbook/MacStudio_M2Ultra.png",
+  "description": {
+    "paragraphs": [
+      "Mac Studio M2 Ultra mạnh mẽ, tối ưu cho công việc sáng tạo chuyên sâu như biên tập video, thiết kế đồ họa.",
+      "Trang bị chip Apple M2 Ultra với hiệu năng vượt trội.",
+      "Hỗ trợ RAM lên tới 128GB, lưu trữ SSD tốc độ cao.",
+      "Nhiều cổng kết nối đa dạng, thích hợp cho môi trường làm việc chuyên nghiệp."
+    ]
+  },
+  "specs": {
+    "CPU & RAM": {
+      "Chip": "Apple M2 Ultra",
+      "RAM": "64 GB / 128 GB"
+    },
+    "Lưu trữ": {
+      "SSD": "1 TB / 2 TB"
+    },
+    "Cổng kết nối": {
+      "Thunderbolt 4": "4 cổng",
+      "USB-A": "2 cổng",
+      "HDMI": "1 cổng",
+      "Ethernet": "1 cổng 10Gb",
+      "Jack tai nghe": "3.5mm",
+      "SDXC": "1 khe"
+    }
+  },
+  "configurations": {
+    "1TB": {
+      "Xám": { "price": 87990000, "originalPrice": 92990000, "discount": 5 }
+    },
+    "2TB": {
+      "Xám": { "price": 99990000, "originalPrice": 104990000, "discount": 4 }
+    }
+  },
+  "images": {
+    "1TB": {
+      "Xám": "assets/products/macbook/MacStudio_M2Ultra.png"
+    },
+    "2TB": {
+      "Xám": "assets/products/macbook/MacStudio_M2Ultra.png"
+    }
+  },
+  "accessories": [
+    {
+      "id": "studio-display",
+      "name": "Apple Studio Display 5K",
+      "image": "assets/products/macbook/AppleStudioDisplay_Bac.png",
+      "price": 43990000,
+      "originalPrice": 49990000,
+      "discount": 12
+    },
+    {
+      "id": "thu_am",
+      "name": "Thu-Am",
+      "image": "assets/products/phukien/thuam.png",
+      "price": 3290000,
+      "originalPrice": 3790000,
+      "discount": 13
+    }
+  ],
+  "promotions": [
+    "Giảm 1.500.000đ khi mua kèm Apple Studio Display",
+    "Tặng AppleCare+ 1 năm",
+    "Trả góp 0% lãi suất"
+  ]
+  }
+]
+},
+{
+  "id":"applewatch",
+  "products": [
+{
+    "id": "applewatch-series10",
+    "name": "Apple Watch Series 10",
+    "defaultImage": "assets/products/watch/applewatch_series10_vanghong.png",
+    "description": {
+      "paragraphs": [
+        "Apple Watch Series 10 với thiết kế mỏng nhẹ, viền màn hình siêu mỏng.",
+        "Màn hình Always-On Retina LTPO OLED sắc nét, hỗ trợ cảm biến sức khỏe nâng cao.",
+        "Chip S10 siêu mạnh, tối ưu hiệu năng và tiết kiệm pin.",
+        "Hỗ trợ đo nhịp tim, ECG, theo dõi oxy trong máu và nhiều chế độ luyện tập."
+      ]
+    },
+    "specs": {
+      "Màn hình": {
+        "Loại màn hình": "Always-On Retina LTPO OLED",
+        "Kích thước": "41mm / 45mm",
+        "Độ phân giải": "430 x 352 Pixels"
+      },
+      "CPU & RAM": {
+        "Chip": "Apple S10",
+        "RAM": "1 GB"
+      },
+      "Pin & Sạc": {
+        "Dung lượng pin": "Khoảng 18 giờ",
+        "Sạc": "Sạc nhanh MagSafe"
+      },
+      "Chống nước": "50 mét",
+      "Cảm biến": [
+        "ECG",
+        "Nhịp tim",
+        "Oxy trong máu",
+        "Gia tốc kế, con quay hồi chuyển"
+      ],
+      "Hệ điều hành": "watchOS 10"
+    },
+    "configurations": {
+      "41mm": {
+        "Bạc": { "price": 10990000, "originalPrice": 12990000, "discount": 15 },
+        "Đen bóng": { "price": 17990000, "originalPrice": 19990000, "discount": 10 },
+        "Vàng hồng": { "price": 11990000, "originalPrice": 13990000, "discount": 14 }
+      },
+      "45mm": {
+        "Bạc": { "price": 11990000, "originalPrice": 13990000, "discount": 14 },
+        "Đen bóng": { "price": 18990000, "originalPrice": 20990000, "discount": 10 },
+        "Vàng hồng": { "price": 12990000, "originalPrice": 14990000, "discount": 13 }
+      }
+    },
+    "images": {
+      "41mm": {
+        "Bạc": "assets/products/watch/applewatch_series10_bac.png",
+        "Đen bóng": "assets/products/watch/applewatch_series10_denbong.png",
+        "Vàng hồng": "assets/products/watch/applewatch_series10_vanghong.png"
+      },
+      "45mm": {
+        "Bạc": "assets/products/watch/applewatch_series10_bac.png",
+        "Đen bóng": "assets/products/watch/applewatch_series10_denbong.png",
+        "Vàng hồng": "assets/products/watch/applewatch_series10_vanghong.png"
+      }
+    },
+    "accessories": [
+      {
+        "id": "daythepkhonggi",
+        "name": "Daythephkhong ggi Apple Watch",
+        "image": "assets/products/phukien/daythepkhonggiAppleWatch.png",
+        "price": 900000,
+        "originalPrice": 1200000,
+        "discount": 25
+      },
+      {
+        "id": "daycaosu",
+        "name": "Daycaosu Apple Watch",
+        "image": "assets/products/phukien/daycaosuAppleWatch.png",
+        "price": 1900000,
+        "originalPrice": 2300000,
+        "discount": 17
+      }
+    ],
+    "promotions": [
+      "Giảm 5% khi mua kèm dây đeo chính hãng",
+      "Trả góp 0% qua thẻ tín dụng",
+      "Bảo hành chính hãng 2 năm"
+    ]
+  },
+{
+    "id": "applewatch-ultra2",
+    "name": "Apple Watch Ultra 2",
+    "defaultImage": "assets/products/watch/applewatch_ultra2_dayocean.png",
+    "description": {
+      "paragraphs": [
+        "Apple Watch Ultra 2 dành cho người dùng yêu thích thể thao mạo hiểm, với thiết kế bền bỉ, chịu va đập tốt.",
+        "Màn hình lớn 49mm Retina LTPO OLED, độ sáng cực cao, dễ dàng nhìn ngoài trời nắng.",
+        "Chip S10 Ultra cải tiến, tối ưu cho các hoạt động ngoài trời và thể thao.",
+        "Tích hợp GPS đa băng tần, đo độ sâu, la bàn nâng cao và các cảm biến sinh học tiên tiến."
+      ]
+    },
+    "specs": {
+      "Màn hình": {
+        "Loại màn hình": "Retina LTPO OLED",
+        "Kích thước": "49mm",
+        "Độ phân giải": "502 x 410 Pixels",
+        "Độ sáng": "2000 nits"
+      },
+      "CPU & RAM": {
+        "Chip": "Apple S10 Ultra",
+        "RAM": "2 GB"
+      },
+      "Pin & Sạc": {
+        "Dung lượng pin": "Khoảng 36 giờ",
+        "Sạc": "Sạc nhanh MagSafe"
+      },
+      "Chống nước": "100 mét (ISO 22810:2010)",
+      "Cảm biến": [
+        "ECG",
+        "Nhịp tim",
+        "Oxy trong máu",
+        "Đo độ sâu",
+        "Gia tốc kế, con quay hồi chuyển, la bàn"
+      ],
+      "Hệ điều hành": "watchOS 10"
+    },
+    "configurations": {
+      "49mm": {
+        "Alpine": { "price": 30990000, "originalPrice": 33990000, "discount": 9 },
+        "Trail": { "price": 32990000, "originalPrice": 35990000, "discount": 8 },
+        "Ocean": { "price": 34990000, "originalPrice": 37990000, "discount": 8 }
+      }
+    },
+    "images": {
+      "49mm": {
+        "Alpine": "assets/products/watch/applewatch_ultra2_dayalpine.png",
+        "Trail": "assets/products/watch/applewatch_ultra2_daytrail.png",
+        "Ocean": "assets/products/watch/applewatch_ultra2_dayocean.png"
+      }
+    },
+    "accessories": [
+      {
+        "id": "daynylon",
+        "name": "Daynylon Apple Watch",
+        "image": "assets/products/phukien/dayNylonAppleWatch.png",
+        "price": 2500000,
+        "originalPrice": 2800000,
+        "discount": 11
+      },
+      {
+        "id": "daycaosu",
+        "name": "Daycaosu Apple Watch",
+        "image": "assets/products/phukien/daycaosuAppleWatch.png",
+        "price": 2700000,
+        "originalPrice": 3000000,
+        "discount": 10
+      }
+    ],
+    "promotions": [
+      "Tặng kèm bộ dán màn hình cao cấp",
+      "Giảm 7% khi mua cùng dây đeo chính hãng",
+      "Trả góp 0% qua thẻ tín dụng"
+    ]
+  },
+ {
+    "id": "applewatch-series9",
+    "name": "Apple Watch Series 9",
+    "defaultImage": "assets/products/watch/applewatch_series9_do.png",
+    "description": {
+      "paragraphs": [
+        "Apple Watch Series 9 cải tiến với chip S9 mạnh mẽ, thời lượng pin lâu hơn.",
+        "Màn hình Always-On Retina với độ sáng được nâng cấp.",
+        "Nhiều chế độ luyện tập và cảm biến sức khỏe tích hợp.",
+        "Hỗ trợ đo điện tâm đồ (ECG), nhịp tim và oxy trong máu."
+      ]
+    },
+    "specs": {
+      "Màn hình": {
+        "Loại màn hình": "Always-On Retina LTPO OLED",
+        "Kích thước": "41mm / 45mm",
+        "Độ phân giải": "430 x 352 Pixels"
+      },
+      "CPU & RAM": {
+        "Chip": "Apple S9",
+        "RAM": "1 GB"
+      },
+      "Pin & Sạc": {
+        "Dung lượng pin": "Khoảng 18 giờ",
+        "Sạc": "Sạc MagSafe"
+      },
+      "Chống nước": "50 mét",
+      "Cảm biến": [
+        "ECG",
+        "Nhịp tim",
+        "Oxy trong máu",
+        "Gia tốc kế, con quay hồi chuyển"
+      ],
+      "Hệ điều hành": "watchOS 9"
+    },
+    "configurations": {
+      "41mm": {
+        "Đỏ": { "price": 9990000, "originalPrice": 11990000, "discount": 17 },
+        "Xanh đen": { "price": 16990000, "originalPrice": 18990000, "discount": 11 }
+      },
+      "45mm": {
+        "Đỏ": { "price": 10990000, "originalPrice": 12990000, "discount": 15 },
+        "Xanh đen": { "price": 17990000, "originalPrice": 19990000, "discount": 10 }
+      }
+    },
+    "images": {
+      "41mm": {
+        "Đỏ": "assets/products/watch/applewatch_series9_do.png",
+        "Xanh đen": "assets/products/watch/applewatch_series9_xanhdendam.png"
+      },
+      "45mm": {
+        "Đỏ": "assets/products/watch/applewatch_series9_do.png",
+        "Xanh đen": "assets/products/watch/applewatch_series9_xanhdendam.png"
+      }
+    },
+    "accessories": [
+      {
+        "id": "Op-Apple-Watch",
+        "name": "Ốp Apple Watch",
+        "image": "assets/products/phukien/OpAppleWatch.png",
+        "price": 900000,
+        "originalPrice": 1200000,
+        "discount": 25
+      },
+      {
+        "id": "thu_am",
+        "name": "Thu-Am",
+        "image": "assets/products/phukien/thuam.png",
+        "price": 2200000,
+        "originalPrice": 2600000,
+        "discount": 15
+      }
+    ],
+    "promotions": [
+      "Giảm 5% khi mua kèm dây đeo chính hãng",
+      "Trả góp 0% qua thẻ tín dụng",
+      "Bảo hành chính hãng 2 năm"
+    ]
+  },
+  {
+    "id": "applewatch-se2",
+    "name": "Apple Watch SE 2",
+    "defaultImage": "assets/products/watch/applewatch_se2_xanhden.png",
+    "description": {
+      "paragraphs": [
+        "Apple Watch SE 2 phù hợp cho người mới dùng, với nhiều tính năng cơ bản và giá cả phải chăng.",
+        "Chip S8 cho hiệu năng mượt mà, hỗ trợ đa dạng các chế độ luyện tập.",
+        "Màn hình Retina lớn, cảm biến nhịp tim và theo dõi sức khỏe cơ bản.",
+        "Hỗ trợ chống nước 50 mét và nhiều màu sắc trẻ trung."
+      ]
+    },
+    "specs": {
+      "Màn hình": {
+        "Loại màn hình": "Retina OLED",
+        "Kích thước": "40mm / 44mm",
+        "Độ phân giải": "394 x 324 Pixels"
+      },
+      "CPU & RAM": {
+        "Chip": "Apple S8",
+        "RAM": "1 GB"
+      },
+      "Pin & Sạc": {
+        "Dung lượng pin": "Khoảng 18 giờ",
+        "Sạc": "Sạc MagSafe"
+      },
+      "Chống nước": "50 mét",
+      "Cảm biến": [
+        "Nhịp tim",
+        "Gia tốc kế, con quay hồi chuyển"
+      ],
+      "Hệ điều hành": "watchOS 10"
+    },
+    "configurations": {
+      "40mm": {
+        "Bạc": { "price": 6990000, "originalPrice": 7990000, "discount": 13 },
+        "Xanh đen": { "price": 10990000, "originalPrice": 11990000, "discount": 8 },
+        "Trắng": { "price": 7490000, "originalPrice": 8490000, "discount": 11 }
+      },
+      "44mm": {
+        "Bạc": { "price": 7990000, "originalPrice": 8990000, "discount": 11 },
+        "Xanh đen": { "price": 11990000, "originalPrice": 12990000, "discount": 8 },
+        "Trắng": { "price": 8490000, "originalPrice": 9490000, "discount": 10 }
+      }
+    },
+    "images": {
+      "40mm": {
+        "Bạc": "assets/products/watch/applewatch_se2_bac.png",
+        "Xanh đen": "assets/products/watch/applewatch_se2_xanhden.png",
+        "Trắng": "assets/products/watch/applewatch_se2_trangstarlight.png"
+      },
+      "44mm": {
+        "Bạc": "assets/products/watch/applewatch_se2_bac.png",
+        "Xanh đen": "assets/products/watch/applewatch_se2_xanhden.png",
+        "Trắng": "assets/products/watch/applewatch_se2_trangstarlight.png"
+      }
+    },
+    "accessories": [
+      {
+        "id": "Op-Apple-Watch",
+        "name": "Op Apple Watch",
+        "image": "assets/products/phukien/OpAppleWatch.png",
+        "price": 700000,
+        "originalPrice": 900000,
+        "discount": 22
+      }
+    ],
+    "promotions": [
+      "Giảm 5% khi mua kèm dây đeo chính hãng",
+      "Trả góp 0% qua thẻ tín dụng",
+      "Bảo hành chính hãng 1 năm"
+    ]
+  }
+  ]
+},
+{
+  "id": "airpod",
+  "products": [
+  {
+    "id": "earpods-lightning",
+    "name": "EarPods Lightning",
+    "defaultImage": "assets/products/tainghe/Earpods_lightning.png",
+    "description": {
+      "paragraphs": [
+        "Tai nghe EarPods với đầu kết nối Lightning tương thích với iPhone và iPad.",
+        "Thiết kế gọn nhẹ, vừa vặn tai, mang lại âm thanh rõ ràng và chân thực.",
+        "Tích hợp micro và điều khiển từ xa để điều chỉnh âm lượng, phát/tạm dừng nhạc."
+      ]
+    },
+    "specs": {
+      "Kết nối": "Lightning",
+      "Loại tai nghe": "Có dây",
+      "Trở kháng": "32 Ω",
+      "Dải tần số": "20 Hz – 20 kHz",
+      "Microphone": "Có"
+    },
+    "configurations": {
+      "standard": {
+        "Trắng": { "price": 390000, "originalPrice": 450000, "discount": 13 }
+      }
+    },
+    "images": {
+      "standard": {
+        "Trắng": "assets/products/tainghe/Earpods_lightning.png"
+      }
+    },
+    "accessories": [],
+    "promotions": [
+      "Miễn phí vận chuyển khi mua online",
+      "Bảo hành chính hãng 1 năm"
+    ]
+  },
+  {
+    "id": "earpods-usb-c",
+    "name": "EarPods USB-C",
+    "defaultImage": "assets/products/tainghe/earpods_usb_c.png",
+    "description": {
+      "paragraphs": [
+        "Tai nghe EarPods với đầu kết nối USB-C dành cho các thiết bị Apple và Android hỗ trợ USB-C.",
+        "Thiết kế tương tự EarPods Lightning, âm thanh trong trẻo, độ bền cao.",
+        "Điều khiển âm lượng và micro tích hợp."
+      ]
+    },
+    "specs": {
+      "Kết nối": "USB-C",
+      "Loại tai nghe": "Có dây",
+      "Trở kháng": "32 Ω",
+      "Dải tần số": "20 Hz – 20 kHz",
+      "Microphone": "Có"
+    },
+    "configurations": {
+      "standard": {
+        "Trắng": { "price": 450000, "originalPrice": 490000, "discount": 8 }
+      }
+    },
+    "images": {
+      "standard": {
+        "Trắng": "assets/products/tainghe/earpods_usb_c.png"
+      }
+    },
+    "accessories": [],
+    "promotions": [
+      "Miễn phí vận chuyển khi mua online",
+      "Bảo hành chính hãng 1 năm"
+    ]
+  },
+  {
+    "id": "airpods-3",
+    "name": "AirPods 3",
+    "defaultImage": "assets/products/tainghe/Airpod3_lightning.png",
+    "description": {
+      "paragraphs": [
+        "AirPods 3 với thiết kế tai nghe mở, vừa vặn thoải mái cho nhiều kích cỡ tai.",
+        "Hỗ trợ âm thanh không gian Spatial Audio, Adaptive EQ và cảm biến lực.",
+        "Thời lượng pin lên đến 6 giờ nghe liên tục, hộp sạc MagSafe hỗ trợ sạc không dây."
+      ]
+    },
+    "specs": {
+      "Kết nối": "Bluetooth 5.0",
+      "Chip": "Apple H1",
+      "Thời lượng pin": "6 giờ nghe, 30 giờ với hộp sạc",
+      "Kháng nước": "IPX4",
+      "Tính năng": [
+        "Spatial Audio",
+        "Adaptive EQ",
+        "Sạc không dây MagSafe"
+      ]
+    },
+    "configurations": {
+      "standard": {
+        "Trắng": { "price": 3990000, "originalPrice": 4290000, "discount": 7 }
+      }
+    },
+    "images": {
+      "standard": {
+        "Trắng": "assets/products/tainghe/Airpod3_lightning.png"
+      }
+    },
+    "accessories": [
+      {
+        "id": "earpods-usb-c",
+        "name": "EarPods USB-C",
+        "image": "assets/products/tainghe/earpods_usb_c",
+        "price": 350000,
+        "originalPrice": 400000,
+        "discount": 13
+      }
+    ],
+    "promotions": [
+      "Giảm 5% khi mua kèm phụ kiện chính hãng",
+      "Trả góp 0% qua thẻ tín dụng",
+      "Bảo hành chính hãng 1 năm"
+    ]
+  },
+  {
+    "id": "airpods-pro",
+    "name": "AirPods Pro",
+    "defaultImage": "assets/products/tainghe/Airpods_pro_usb_c.png",
+    "description": {
+      "paragraphs": [
+        "AirPods Pro với tính năng chống ồn chủ động (ANC) vượt trội.",
+        "Thiết kế in-ear với 3 kích cỡ đệm tai silicon giúp cách âm tốt hơn.",
+        "Hỗ trợ Spatial Audio, Adaptive EQ và chế độ Transparency.",
+        "Thời lượng pin đến 4.5 giờ nghe, hộp sạc hỗ trợ sạc không dây MagSafe."
+      ]
+    },
+    "specs": {
+      "Kết nối": "Bluetooth 5.0",
+      "Chip": "Apple H1",
+      "Thời lượng pin": "4.5 giờ nghe, 24 giờ với hộp sạc",
+      "Kháng nước": "IPX4",
+      "Tính năng": [
+        "Chống ồn chủ động ANC",
+        "Transparency Mode",
+        "Spatial Audio",
+        "Adaptive EQ",
+        "Sạc không dây MagSafe"
+      ]
+    },
+    "configurations": {
+      "standard": {
+        "Trắng": { "price": 6990000, "originalPrice": 7490000, "discount": 7 }
+      }
+    },
+    "images": {
+      "standard": {
+        "Trắng": "assets/products/tainghe/Airpods_pro_usb_c.png"
+      }
+    },
+    "accessories": [
+      {
+        "id": "earpods_lightning",
+        "name": "EarPods Lightning",
+        "image": "assets/products/tainghe/Earpods_lightning.png",
+        "price": 350000,
+        "originalPrice": 400000,
+        "discount": 13
+      }
+    ],
+    "promotions": [
+      "Giảm 7% khi mua kèm phụ kiện chính hãng",
+      "Trả góp 0% qua thẻ tín dụng",
+      "Bảo hành chính hãng 1 năm"
+    ]
+  },
+  {
+    "id": "airpods-max",
+    "name": "AirPods Max",
+    "defaultImage": "assets/products/tainghe/AirpodsMax_Hong.png",
+    "description": {
+      "paragraphs": [
+        "AirPods Max là tai nghe chụp đầu cao cấp với âm thanh Hi-Fi chất lượng cao.",
+        "Thiết kế khung nhôm và đệm tai memory foam sang trọng, thoải mái khi đeo lâu.",
+        "Tích hợp công nghệ chống ồn chủ động ANC và Transparency mode.",
+        "Thời lượng pin lên đến 20 giờ nghe liên tục, hỗ trợ sạc nhanh."
+      ]
+    },
+    "specs": {
+      "Kết nối": "Bluetooth 5.0",
+      "Chip": "Apple H1 (2 chip mỗi bên tai nghe)",
+      "Thời lượng pin": "20 giờ nghe liên tục",
+      "Kháng nước": "Không",
+      "Tính năng": [
+        "Chống ồn chủ động ANC",
+        "Transparency Mode",
+        "Spatial Audio",
+        "Adaptive EQ"
+      ]
+    },
+    "configurations": {
+      "standard": {
+        "Bạc": { "price": 15990000, "originalPrice": 16990000, "discount": 6 },
+        "Hồng": { "price": 15990000, "originalPrice": 16990000, "discount": 6 }
+      }
+    },
+    "images": {
+      "standard": {
+        "Bạc": "assets/products/tainghe/AirpodsMax_Bac.png",
+        "Hồng": "assets/products/tainghe/AirpodsMax_Hong.png"
+      }
+    },
+    "accessories": [
+      {
+        "id": "cap-sac-typeC",
+        "name": "Capsac Type-C",
+        "image": "assets/products/phukien/capsac_typeC.png",
+        "price": 1500000,
+        "originalPrice": 1800000,
+        "discount": 17
+      }
+    ],
+    "promotions": [
+      "Giảm 5% khi mua kèm phụ kiện chính hãng",
+      "Trả góp 0% qua thẻ tín dụng",
+      "Bảo hành chính hãng 2 năm"
+    ]
+  },
+  {
+  "id": "airpods-4",
+  "name": "AirPods 4",
+  "defaultImage": "assets/products/tainghe/Airpods4_chongon.png",
+  "description": {
+    "paragraphs": [
+      "AirPods 4 kế thừa thiết kế nhỏ gọn, cải tiến khả năng chống ồn và âm thanh Spatial Audio sống động.",
+      "Tích hợp chip Apple H2 mới nhất giúp kết nối nhanh và ổn định hơn.",
+      "Thời lượng pin cải thiện lên đến 8 giờ nghe liên tục, hỗ trợ sạc không dây MagSafe.",
+      "Tính năng nâng cao như Adaptive EQ, Transparency Mode và cảm biến lực nhạy bén."
+    ]
+  },
+  "specs": {
+    "Kết nối": "Bluetooth 5.3",
+    "Chip": "Apple H2",
+    "Thời lượng pin": "8 giờ nghe, 36 giờ với hộp sạc",
+    "Kháng nước": "IPX4",
+    "Tính năng": [
+      "Chống ồn chủ động ANC",
+      "Transparency Mode",
+      "Spatial Audio",
+      "Adaptive EQ",
+      "Cảm biến lực mới"
+    ]
+  },
+  "configurations": {
+    "standard": {
+      "Trắng": { "price": 4990000, "originalPrice": 5490000, "discount": 9 }
+    }
+  },
+  "images": {
+    "standard": {
+      "Trắng": "assets/products/tainghe/Airpods4_chongon.png"
+    }
+  },
+  "accessories": [
+    {
+      "id": "airpods-4",
+      "name": "AirPods 4",
+      "image": "assets/products/phukien/Airpod4.png",
+      "price": 400000,
+      "originalPrice": 450000,
+      "discount": 11
+    }
+  ],
+  "promotions": [
+    "Giảm 5% khi mua kèm phụ kiện chính hãng",
+    "Trả góp 0% qua thẻ tín dụng",
+    "Bảo hành chính hãng 1 năm"
+  ]
+}
+]
+},
+{
+  "id": "phukien",
+  "products": [
+{
+  "id": "cap-sac-typeC",
+  "name": "Adapter sạc sbC",
+  "defaultImage": "assets/products/phukien/Adapter_sacusbC.png",
+  "description": {
+    "paragraphs": [
+      "Adapter sạc USB-C với công suất cao, tương thích với nhiều thiết bị Apple như iPhone, iPad và MacBook.",
+      "Thiết kế nhỏ gọn, an toàn với công nghệ sạc nhanh và bảo vệ quá tải."
+    ]
+  },
+  "specs": {
+    "Công suất": "20W",
+    "Cổng kết nối": "USB-C",
+    "Tương thích": "iPhone, iPad, MacBook"
+  },
+  "price": 590000,
+  "originalPrice": 690000,
+  "discount": 14,
+  "configurations": {
+    "Standard": {
+      "White": { "price": 590000, "originalPrice": 690000, "discount": 14 }
+    }
+  },
+  "images": {
+    "Standard": {
+      "White": "assets/products/phukien/Adapter_sacusbC.png"
+    }
+  },
+  "accessories": [],
+  "promotions": [
+    "Giảm 5% khi mua kèm cáp Type-C"
+  ]
+},
+{
+  "id": "airtag",
+  "name": "Airtag",
+  "defaultImage": "assets/products/phukien/Airtag.png",
+  "description": {
+    "paragraphs": [
+      "Thiết bị theo dõi thông minh từ Apple, sử dụng với ứng dụng Find My để định vị đồ vật.",
+      "Tích hợp chip U1 Ultra Wideband cho độ chính xác cao."
+    ]
+  },
+  "specs": {
+    "Kết nối": "Bluetooth, Ultra Wideband",
+    "Dung lượng pin": "Pin CR2032 (thay thế được)",
+    "Độ bền": "Chống nước và bụi IP67"
+  },
+  "price": 790000,
+  "originalPrice": 890000,
+  "discount": 11,
+  "configurations": {
+    "Standard": {
+      "Silver": { "price": 790000, "originalPrice": 890000, "discount": 11 }
+    }
+  },
+  "images": {
+    "Standard": {
+      "Silver": "assets/products/phukien/Airtag.png"
+    }
+  },
+  "accessories": [],
+  "promotions": [
+    "Mua 4 tặng 1 Airtag"
+  ]
+},
+{
+  "id": "apple_pencilpro",
+  "name": "Apple Pencil Pro",
+  "defaultImage": "assets/products/phukien/apple_pencilpro.png",
+  "description": {
+    "paragraphs": [
+      "Bút stylus cao cấp cho iPad, hỗ trợ các tính năng chuyên nghiệp như nghiêng và cảm ứng lực.",
+      "Tích hợp sạc không dây và cảm biến áp suất mới."
+    ]
+  },
+  "specs": {
+    "Tương thích": "iPad Pro, iPad Air (thế hệ mới)",
+    "Kết nối": "Không dây (sạc qua iPad)",
+    "Độ trễ": "<1ms"
+  },
+  "price": 3290000,
+  "originalPrice": 3490000,
+  "discount": 6,
+  "configurations": {
+    "Standard": {
+      "White": { "price": 3290000, "originalPrice": 3490000, "discount": 6 }
+    }
+  },
+  "images": {
+    "Standard": {
+      "White": "assets/products/phukien/apple_pencilpro.png"
+    }
+  },
+  "accessories": [],
+  "promotions": [
+    "Giảm 10% khi mua kèm iPad"
+  ]
+},
+{
+  "id": "bandichuot",
+  "name": "Bandichuot",
+  "defaultImage": "assets/products/phukien/bandichuot.png",
+  "description": {
+    "paragraphs": [
+      "Dây đeo chuột không dây, thiết kế tiện lợi cho người dùng máy tính.",
+      "Tăng cường độ chính xác và thoải mái khi sử dụng."
+    ]
+  },
+  "specs": {
+    "Kết nối": "Bluetooth",
+    "DPI": "1600",
+    "Pin": "Pin sạc 500mAh"
+  },
+  "price": 490000,
+  "originalPrice": 590000,
+  "discount": 17,
+  "configurations": {
+    "Standard": {
+      "Pink": { "price": 490000, "originalPrice": 590000, "discount": 17 }
+    }
+  },
+  "images": {
+    "Standard": {
+      "Pink": "assets/products/phukien/bandichuot.png"
+    }
+  },
+  "accessories": [],
+  "promotions": [
+    "Tặng bàn di chuột khi mua từ 2 sản phẩm"
+  ]
+},
+{
+  "id": "baodaIpad",
+  "name": "Baoda iPad",
+  "defaultImage": "assets/products/phukien/baodaIpad.png",
+  "description": {
+    "paragraphs": [
+      "Ốp lưng bảo vệ dành riêng cho iPad, làm từ chất liệu cao cấp.",
+      "Thiết kế mỏng nhẹ, hỗ trợ sạc không dây."
+    ]
+  },
+  "specs": {
+    "Chất liệu": "Da tổng hợp",
+    "Tương thích": "iPad Air, iPad Pro",
+    "Độ dày": "2mm"
+  },
+  "price": 990000,
+  "originalPrice": 1190000,
+  "discount": 17,
+  "configurations": {
+    "Standard": {
+      "Gray": { "price": 990000, "originalPrice": 1190000, "discount": 17 }
+    }
+  },
+  "images": {
+    "Standard": {
+      "Gray": "assets/products/phukien/baodaIpad.png"
+    }
+  },
+  "accessories": [],
+  "promotions": [
+    "Giảm 5% khi mua kèm bút Apple Pencil"
+  ]
+},
+{
+  "id": "cap_typeC",
+  "name": "Cáp Type-C",
+  "defaultImage": "assets/products/phukien/cap_typeC.png",
+  "description": {
+    "paragraphs": [
+      "Cáp sạc và truyền dữ liệu Type-C, tương thích với nhiều thiết bị.",
+      "Hỗ trợ sạc nhanh và truyền dữ liệu tốc độ cao."
+    ]
+  },
+  "specs": {
+    "Độ dài": "1m",
+    "Tốc độ": "USB 2.0",
+    "Chất liệu": "Dây nylon bện"
+  },
+  "price": 290000,
+  "originalPrice": 390000,
+  "discount": 26,
+  "configurations": {
+    "Standard": {
+      "Black": { "price": 290000, "originalPrice": 390000, "discount": 26 }
+    }
+  },
+  "images": {
+    "Standard": {
+      "Black": "assets/products/phukien/cap_typeC.png"
+    }
+  },
+  "accessories": [],
+  "promotions": [
+    "Mua 2 tặng 1 cáp ngắn"
+  ]
+},
+{
+  "id": "capsac_typeC",
+  "name": "Capsac Type-C",
+  "defaultImage": "assets/products/phukien/capsac_typeC.png",
+  "description": {
+    "paragraphs": [
+      "Bao da sạc không dây Type-C, tiện lợi cho việc bảo vệ và sạc.",
+      "Thiết kế chắc chắn, hỗ trợ sạc nhanh."
+    ]
+  },
+  "specs": {
+    "Công suất": "15W",
+    "Chất liệu": "Da PU",
+    "Tương thích": "Thiết bị Type-C"
+  },
+  "price": 690000,
+  "originalPrice": 790000,
+  "discount": 13,
+  "configurations": {
+    "Standard": {
+      "Black": { "price": 690000, "originalPrice": 790000, "discount": 13 }
+    }
+  },
+  "images": {
+    "Standard": {
+      "Black": "assets/products/phukien/capsac_typeC.png"
+    }
+  },
+  "accessories": [],
+  "promotions": [
+    "Giảm 10% khi mua kèm adapter"
+  ]
+},
+{
+  "id": "chuotlaptop",
+  "name": "Chuot Laptop",
+  "defaultImage": "assets/products/phukien/chuotlaptop.png",
+  "description": {
+    "paragraphs": [
+      "Chuột không dây dành cho laptop, thiết kế nhỏ gọn và tiện dụng.",
+      "Phù hợp cho công việc và giải trí."
+    ]
+  },
+  "specs": {
+    "Kết nối": "Bluetooth 5.0",
+    "DPI": "1200",
+    "Pin": "Pin AA"
+  },
+  "price": 390000,
+  "originalPrice": 490000,
+  "discount": 20,
+  "configurations": {
+    "Standard": {
+      "Pink": { "price": 390000, "originalPrice": 490000, "discount": 20 }
+    }
+  },
+  "images": {
+    "Standard": {
+      "Pink": "assets/products/phukien/chuotlaptop.png"
+    }
+  },
+  "accessories": [],
+  "promotions": [
+    "Tặng bàn di chuột khi mua từ 2 sản phẩm"
+  ]
+},
+{
+  "id": "cuongluc_iPadAir",
+  "name": "Cuongluc iPad Air",
+  "defaultImage": "assets/products/phukien/cuongluc_iPadAir.png",
+  "description": {
+    "paragraphs": [
+      "Miếng dán cường lực dành cho iPad Air, bảo vệ màn hình khỏi trầy xước.",
+      "Độ trong suốt cao, chống vân tay hiệu quả."
+    ]
+  },
+  "specs": {
+    "Độ cứng": "9H",
+    "Tương thích": "iPad Air",
+    "Độ dày": "0.33mm"
+  },
+  "price": 290000,
+  "originalPrice": 390000,
+  "discount": 26,
+  "configurations": {
+    "Standard": {
+      "Clear": { "price": 290000, "originalPrice": 390000, "discount": 26 }
+    }
+  },
+  "images": {
+    "Standard": {
+      "Clear": "assets/products/phukien/cuongluc_iPadAir.png"
+    }
+  },
+  "accessories": [],
+  "promotions": [
+    "Miễn phí lắp đặt tại cửa hàng"
+  ]
+},
+{
+  "id": "cuongluc_iPadPro",
+  "name": "Cuongluc iPad Pro",
+  "defaultImage": "assets/products/phukien/cuongluc_iPadPro.png",
+  "description": {
+    "paragraphs": [
+      "Miếng dán cường lực dành cho iPad Pro, bảo vệ màn hình khỏi trầy xước và va đập.",
+      "Độ trong suốt cao, chống vân tay và bám bẩn hiệu quả."
+    ]
+  },
+  "specs": {
+    "Độ cứng": "9H",
+    "Tương thích": "iPad Pro (11 inch và 12.9 inch)",
+    "Độ dày": "0.33mm"
+  },
+  "price": 350000,
+  "originalPrice": 450000,
+  "discount": 22,
+  "configurations": {
+    "Standard": {
+      "Clear": { "price": 350000, "originalPrice": 450000, "discount": 22 }
+    }
+  },
+  "images": {
+    "Standard": {
+      "Clear": "assets/products/phukien/cuongluc_iPadPro.png"
+    }
+  },
+  "accessories": [],
+  "promotions": [
+    "Miễn phí lắp đặt tại cửa hàng"
+  ]
+},
+{
+  "id": "cuongluc_AppleWatch",
+  "name": "Cuongluc Apple Watch",
+  "defaultImage": "assets/products/phukien/cuonglucAppleWatch.png",
+  "description": {
+    "paragraphs": [
+      "Miếng dán cường lực dành cho Apple Watch, bảo vệ màn hình khỏi trầy xước.",
+      "Thiết kế mỏng nhẹ, không ảnh hưởng đến cảm ứng."
+    ]
+  },
+  "specs": {
+    "Độ cứng": "9H",
+    "Tương thích": "Apple Watch (Series 4 trở lên)",
+    "Độ dày": "0.2mm"
+  },
+  "price": 200000,
+  "originalPrice": 250000,
+  "discount": 20,
+  "configurations": {
+    "Standard": {
+      "Clear": { "price": 200000, "originalPrice": 250000, "discount": 20 }
+    }
+  },
+  "images": {
+    "Standard": {
+      "Clear": "assets/products/phukien/cuonglucAppleWatch.png"
+    }
+  },
+  "accessories": [],
+  "promotions": [
+    "Miễn phí lắp đặt tại cửa hàng"
+  ]
+},
+{
+  "id": "cuongluc_iPhone",
+  "name": "Cuongluc iPhone",
+  "defaultImage": "assets/products/phukien/cuonglucIphone.png",
+  "description": {
+    "paragraphs": [
+      "Miếng dán cường lực dành cho iPhone, bảo vệ màn hình khỏi trầy xước và va đập mạnh.",
+      "Công nghệ chống bám vân tay và độ trong suốt cao."
+    ]
+  },
+  "specs": {
+    "Độ cứng": "9H",
+    "Tương thích": "iPhone 12 trở lên",
+    "Độ dày": "0.33mm"
+  },
+  "price": 300000,
+  "originalPrice": 400000,
+  "discount": 25,
+  "configurations": {
+    "Standard": {
+      "Clear": { "price": 300000, "originalPrice": 400000, "discount": 25 }
+    }
+  },
+  "images": {
+    "Standard": {
+      "Clear": "assets/products/phukien/cuonglucIphone.png"
+    }
+  },
+  "accessories": [],
+  "promotions": [
+    "Miễn phí lắp đặt tại cửa hàng"
+  ]
+},
+{
+  "id": "cuonglucMac",
+  "name": "Cuongluc Mac",
+  "defaultImage": "assets/products/phukien/cuonglucMac.png",
+  "description": {
+    "paragraphs": [
+      "Miếng dán cường lực dành cho MacBook, bảo vệ màn hình khỏi trầy xước.",
+      "Độ trong suốt cao, dễ dàng lắp đặt."
+    ]
+  },
+  "specs": {
+    "Độ cứng": "9H",
+    "Tương thích": "MacBook Air, MacBook Pro",
+    "Độ dày": "0.3mm"
+  },
+  "price": 500000,
+  "originalPrice": 600000,
+  "discount": 17,
+  "configurations": {
+    "Standard": {
+      "Clear": { "price": 500000, "originalPrice": 600000, "discount": 17 }
+    }
+  },
+  "images": {
+    "Standard": {
+      "Clear": "assets/products/phukien/cuonglucMac.png"
+    }
+  },
+  "accessories": [],
+  "promotions": [
+    "Miễn phí lắp đặt tại cửa hàng"
+  ]
+},
+{
+  "id": "Dayda-Apple-Watch",
+  "name": "Daycaosu Apple Watch",
+  "defaultImage": "assets/products/phukien/daycaosuAppleWatch.png",
+  "description": {
+    "paragraphs": [
+      "Dây đeo cao su chính hãng cho Apple Watch, mềm mại và bền bỉ.",
+      "Thiết kế thể thao, phù hợp cho mọi hoạt động."
+    ]
+  },
+  "specs": {
+    "Chất liệu": "Cao su cao cấp",
+    "Tương thích": "Apple Watch (38mm đến 45mm)",
+    "Màu sắc": "Hồng"
+  },
+  "price": 790000,
+  "originalPrice": 990000,
+  "discount": 20,
+  "configurations": {
+    "Standard": {
+      "Pink": { "price": 790000, "originalPrice": 990000, "discount": 20 }
+    }
+  },
+  "images": {
+    "Standard": {
+      "Pink": "assets/products/phukien/daycaosuAppleWatch.png"
+    }
+  },
+  "accessories": [],
+  "promotions": [
+    "Giảm 10% khi mua kèm Apple Watch"
+  ]
+},
+{
+  "id": "Daynylon-Apple-Watch",
+  "name": "Daynylon Apple Watch",
+  "defaultImage": "assets/products/phukien/dayNylonAppleWatch.png",
+  "description": {
+    "paragraphs": [
+      "Dây đeo nylon cho Apple Watch, nhẹ và thoáng khí.",
+      "Thiết kế thời trang, dễ dàng thay đổi."
+    ]
+  },
+  "specs": {
+    "Chất liệu": "Nylon dệt",
+    "Tương thích": "Apple Watch (38mm đến 45mm)",
+    "Màu sắc": "Nâu"
+  },
+  "price": 890000,
+  "originalPrice": 1090000,
+  "discount": 18,
+  "configurations": {
+    "Standard": {
+      "Brown": { "price": 890000, "originalPrice": 1090000, "discount": 18 }
+    }
+  },
+  "images": {
+    "Standard": {
+      "Brown": "assets/products/phukien/dayNylonAppleWatch.png"
+    }
+  },
+  "accessories": [],
+  "promotions": [
+    "Giảm 10% khi mua kèm Apple Watch"
+  ]
+},
+{
+  "id": "Daysilicone-Apple-Watch",
+  "name": "Daysilicone Aggi Apple Watch",
+  "defaultImage": "assets/products/phukien/daysiliconeAppleWatch.png",
+  "description": {
+    "paragraphs": [
+      "Dây đeo silicone cao cấp cho Apple Watch, chống thấm nước.",
+      "Thiết kế trẻ trung, phù hợp với mọi phong cách."
+    ]
+  },
+  "specs": {
+    "Chất liệu": "Silicone",
+    "Tương thích": "Apple Watch (38mm đến 45mm)",
+    "Màu sắc": "Đen"
+  },
+  "price": 690000,
+  "originalPrice": 890000,
+  "discount": 22,
+  "configurations": {
+    "Standard": {
+      "Black": { "price": 690000, "originalPrice": 890000, "discount": 22 }
+    }
+  },
+  "images": {
+    "Standard": {
+      "Black": "assets/products/phukien/daysiliconeAppleWatch.png"
+    }
+  },
+  "accessories": [],
+  "promotions": [
+    "Giảm 10% khi mua kèm Apple Watch"
+  ]
+},
+{
+  "id": "daythepkhonggiAppleWatch",
+  "name": "Daythephkhong ggi Apple Watch",
+  "defaultImage": "assets/products/phukien/daythepkhonggiAppleWatch.png",
+  "description": {
+    "paragraphs": [
+      "Dây đeo thép không gỉ cho Apple Watch, sang trọng và bền bỉ.",
+      "Phù hợp với phong cách chuyên nghiệp."
+    ]
+  },
+  "specs": {
+    "Chất liệu": "Thép không gỉ",
+    "Tương thích": "Apple Watch (38mm đến 45mm)",
+    "Màu sắc": "Bạc"
+  },
+  "price": 1490000,
+  "originalPrice": 1690000,
+  "discount": 12,
+  "configurations": {
+    "Standard": {
+      "Silver": { "price": 1490000, "originalPrice": 1690000, "discount": 12 }
+    }
+  },
+  "images": {
+    "Standard": {
+      "Silver": "assets/products/phukien/daythepkhonggiAppleWatch.png"
+    }
+  },
+  "accessories": [],
+  "promotions": [
+    "Giảm 10% khi mua kèm Apple Watch"
+  ]
+},
+{
+  "id": "desackhongday_TypeC",
+  "name": "Desachkhongday Type-C",
+  "defaultImage": "assets/products/phukien/desackhongday_TypeC.png",
+  "description": {
+    "paragraphs": [
+      "Đế sạc không dây Type-C, hỗ trợ sạc nhanh cho nhiều thiết bị.",
+      "Thiết kế tối giản, dễ dàng sử dụng."
+    ]
+  },
+  "specs": {
+    "Công suất": "15W",
+    "Cổng kết nối": "Type-C",
+    "Tương thích": "iPhone, AirPods, Apple Watch"
+  },
+  "price": 990000,
+  "originalPrice": 1190000,
+  "discount": 17,
+  "configurations": {
+    "Standard": {
+      "White": { "price": 990000, "originalPrice": 1190000, "discount": 17 }
+    }
+  },
+  "images": {
+    "Standard": {
+      "White": "assets/products/phukien/desackhongday_TypeC.png"
+    }
+  },
+  "accessories": [],
+  "promotions": [
+    "Giảm 5% khi mua kèm cáp Type-C"
+  ]
+},
+{
+  "id": "GiadoLaptop",
+  "name": "Giado Laptop",
+  "defaultImage": "assets/products/phukien/GiadoLaptop.png",
+  "description": {
+    "paragraphs": [
+      "Giá đỡ laptop, giúp điều chỉnh góc nhìn và tản nhiệt hiệu quả.",
+      "Thiết kế gấp gọn, dễ dàng mang theo."
+    ]
+  },
+  "specs": {
+    "Chất liệu": "Nhôm",
+    "Tương thích": "Laptop 13-16 inch",
+    "Trọng lượng": "300g"
+  },
+  "price": 490000,
+  "originalPrice": 590000,
+  "discount": 17,
+  "configurations": {
+    "Standard": {
+      "Silver": { "price": 490000, "originalPrice": 590000, "discount": 17 }
+    }
+  },
+  "images": {
+    "Standard": {
+      "Silver": "assets/products/phukien/GiadoLaptop.png"
+    }
+  },
+  "accessories": [],
+  "promotions": [
+    "Giảm 5% khi mua kèm laptop"
+  ]
+},
+{
+  "id": "MagicKeyboard",
+  "name": "Magic Keyboard",
+  "defaultImage": "assets/products/phukien/MagicKeyboard.png",
+  "description": {
+    "paragraphs": [
+      "Bàn phím Magic Keyboard từ Apple, thiết kế mỏng nhẹ và sang trọng.",
+      "Hỗ trợ kết nối không dây, tích hợp cảm ứng đa điểm."
+    ]
+  },
+  "specs": {
+    "Kết nối": "Bluetooth",
+    "Pin": "Pin sạc, dùng được 1 tháng",
+    "Tương thích": "MacBook, iPad, iPhone"
+  },
+  "price": 2990000,
+  "originalPrice": 3290000,
+  "discount": 9,
+  "configurations": {
+    "Standard": {
+      "White": { "price": 2990000, "originalPrice": 3290000, "discount": 9 }
+    }
+  },
+  "images": {
+    "Standard": {
+      "White": "assets/products/phukien/MagicKeyboard.png"
+    }
+  },
+  "accessories": [],
+  "promotions": [
+    "Giảm 10% khi mua kèm iPad hoặc MacBook"
+  ]
+},
+{
+  "id": "OpAppleWatch",
+  "name": "Op Apple Watch",
+  "defaultImage": "assets/products/phukien/OpAppleWatch.png",
+  "description": {
+    "paragraphs": [
+      "Ốp bảo vệ dành cho Apple Watch, chống va đập và trầy xước.",
+      "Thiết kế trong suốt, không che khuất vẻ đẹp của đồng hồ."
+    ]
+  },
+  "specs": {
+    "Chất liệu": "TPU",
+    "Tương thích": "Apple Watch (38mm đến 45mm)",
+    "Độ dày": "1mm"
+  },
+  "price": 200000,
+  "originalPrice": 250000,
+  "discount": 20,
+  "configurations": {
+    "Standard": {
+      "Clear": { "price": 200000, "originalPrice": 250000, "discount": 20 }
+    }
+  },
+  "images": {
+    "Standard": {
+      "Clear": "assets/products/phukien/OpAppleWatch.png"
+    }
+  },
+  "accessories": [],
+  "promotions": [
+    "Miễn phí lắp đặt tại cửa hàng"
+  ]
+},
+{
+  "id": "thiet-bi-cam-tay",
+  "name": "Thietbicamtay chongrung",
+  "defaultImage": "assets/products/phukien/thietbicamtaychongrung.png",
+  "description": {
+    "paragraphs": [
+      "Thiết bị cầm tay chống rung, hỗ trợ quay video mượt mà.",
+      "Tương thích với iPhone và các thiết bị khác."
+    ]
+  },
+  "specs": {
+    "Chất liệu": "Nhôm và nhựa",
+    "Tương thích": "iPhone, camera nhỏ",
+    "Trọng lượng": "500g"
+  },
+  "price": 2490000,
+  "originalPrice": 2790000,
+  "discount": 11,
+  "configurations": {
+    "Standard": {
+      "Black": { "price": 2490000, "originalPrice": 2790000, "discount": 11 }
+    }
+  },
+  "images": {
+    "Standard": {
+      "Black": "assets/products/phukien/thietbicamtaychongrung.png"
+    }
+  },
+  "accessories": [],
+  "promotions": [
+    "Giảm 5% khi mua kèm iPhone"
+  ]
+},
+{
+  "id": "thuam",
+  "name": "Thuam",
+  "defaultImage": "assets/products/phukien/thuam.png",
+  "description": {
+    "paragraphs": [
+      "Thiết bị thu âm chuyên nghiệp, hỗ trợ ghi âm chất lượng cao.",
+      "Tương thích với iPhone, MacBook và các thiết bị khác."
+    ]
+  },
+  "specs": {
+    "Kết nối": "USB-C",
+    "Tần số đáp ứng": "20Hz - 20kHz",
+    "Tương thích": "iPhone, MacBook, iPad"
+  },
+  "price": 1990000,
+  "originalPrice": 2290000,
+  "discount": 13,
+  "configurations": {
+    "Standard": {
+      "Black": { "price": 1990000, "originalPrice": 2290000, "discount": 13 }
+    }
+  },
+  "images": {
+    "Standard": {
+      "Black": "assets/products/phukien/thuam.png"
+    }
+  },
+  "accessories": [],
+  "promotions": [
+    "Giảm 5% khi mua kèm MacBook"
+  ]
+}
+  ]
+}
+  ]
+}

@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chi Tiết Tin Tức | Anh Em Rọt</title>
+    <link rel="icon" href="assets/logo/logo.png" type="image/png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/chatbot.css">
+    <style>
+        :root {
+            --color-accent-blue: #1969A6;
+            --color-primary-bg: #FFFFFF;
+            --color-text-dark: #1A1A1A;
+            --color-text-light: #6E7B91;
+            --color-border-light: #E0E0E0;
+        }
+
+        /* News Detail Styles */
+        #news-detail {
+            padding: 40px 0;
+        }
+
+        .news-image {
+            width: 100%;
+            max-height: 500px;
+            object-fit: cover;
+            border-radius: 12px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .news-content {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: var(--color-text-dark);
+        }
+
+        .news-content p {
+            margin-bottom: 1.5rem;
+        }
+
+        .news-meta {
+            display: flex;
+            align-items: center;
+            margin-bottom: 25px;
+        }
+
+        .news-date {
+            color: var(--color-text-light);
+            margin-right: 20px;
+        }
+
+        .news-category {
+            background-color: var(--color-accent-blue);
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+        }
+
+        .share-buttons .btn {
+            margin-right: 10px;
+        }
+
+        /* Related News */
+        .related-news-title {
+            margin: 40px 0 25px;
+            font-weight: 600;
+        }
+
+        .news-card {
+            border: none;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+            transition: all 0.3s ease;
+            height: 100%;
+            cursor: pointer;
+        }
+
+        .news-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+        }
+
+        .news-card img {
+            height: 180px;
+            object-fit: cover;
+            width: 100%;
+        }
+
+        .news-card-body {
+            padding: 20px;
+        }
+
+        .news-card-title {
+            font-weight: 600;
+            font-size: 1.1rem;
+            margin-bottom: 10px;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+        .news-card-date {
+            color: var(--color-text-light);
+            font-size: 0.9rem;
+        }
+
+        /* Back button */
+        .back-button {
+            margin-bottom: 30px;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .news-image {
+                max-height: 350px;
+            }
+
+            .news-content {
+                font-size: 1rem;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .news-image {
+                max-height: 250px;
+            }
+
+            .news-meta {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .news-date {
+                margin-bottom: 10px;
+                margin-right: 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+  <div class="top-bar">
+    <div class="top-bar-container">
+      <div class="top-bar-left">
+        <span><i class="fas fa-envelope"></i> anhemrotstore12chuaboc@hvnh.edu.vn</span>
+        <span><i class="fas fa-phone"></i> (+84) 827592304</span>
+      </div>
+      <div class="top-bar-center">
+        <span id="typewriter"></span>
+        <span id="weather" class="weather-info">⛅ Đang tải thời tiết...</span>
+      </div>
+      <div class="top-bar-right">
+        <a href="https://www.instagram.com/_yud.gnauq/"><i class="fab fa-instagram"></i> Instagram</a>
+        <a href="https://web.facebook.com/quys.hokage"><i class="fab fa-facebook"></i> Facebook</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Header -->
+  <header class="main-header">
+    <div class="header-container">
+      <div class="header-left">
+        <div class="logo">
+          <a href="index.html">
+            <img src="assets/logo/logo.png" alt="Anh Em Rọt Store Logo"
+              style="transition: transform 0.3s ease; display: block;" onmouseover="this.style.transform='scale(1.05)'"
+              onmouseout="this.style.transform='scale(1)'">
+          </a>
+        </div>
+        <nav class="desktop-nav">
+          <ul>
+            <li><a href="index.html">Trang chủ</a></li>
+            <li class="has-dropdown">
+              <a href="product.html">Sản Phẩm</a>
+              <div id="products-dropdown">
+                <div class="products-inner-content">
+                  <div class="mega-menu-column main-categories-column">
+                    <div class="category-item">
+                      <a href="iphone.html" data-target-category="iphone-series">
+                        <i class="fab fa-apple" style="margin-right: 8px;"></i>iPhone Series</a>
+                      <div class="subcategory-content" id="iphone-series-content">
+                        <div class="subcategory-title">iPhone Series</div>
+                        <div class="subcategory-grid-links">
+                          <a href="#">iPhone 16</a>
+                          <a href="#">iPhone 15</a>
+                          <a href="#">iPhone 14</a>
+                          <a href="#">iPhone 13</a>
+                          <a href="#">iPhone 12 Pro</a>
+                          <a href="#">iPhone SE</a>
+                          <a href="#">So sánh iPhone</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="category-item">
+                      <a href="ipad.html" data-target-category="ipad-models">
+                        <i class="fas fa-tablet-alt" style="margin-right: 8px;"></i>iPad Models
+                      </a>
+                      <div class="subcategory-content" id="ipad-models-content">
+                        <div class="subcategory-title">iPad Models</div>
+                        <div class="subcategory-grid-links">
+                          <a href="#">iPad Pro"</a>
+                          <a href="#">iPad Air</a>
+                          <a href="#">iPad</a>
+                          <a href="#">iPad mini</a>
+                          <a href="#">Apple Pencil</a>
+                          <a href="#">Magic Keyboard</a>
+                          <a href="#">So sánh iPad</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="category-item">
+                      <a href="macbook.html" data-target-category="mac-devices">
+                        <i class="fas fa-laptop" style="margin-right: 8px;"></i>Mac Devices
+                      </a>
+                      <div class="subcategory-content" id="mac-devices-content">
+                        <div class="subcategory-title">Mac Devices</div>
+                        <div class="subcategory-grid-links">
+                          <a href="#">MacBook Air</a>
+                          <a href="#">MacBook Pro</a>
+                          <a href="#">iMac</a>
+                          <a href="#">Mac mini</a>
+                          <a href="#">Mac Studio</a>
+                          <a href="#">Mac Pro</a>
+                          <a href="#">So sánh Mac</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="category-item">
+                      <a href="watch.html" data-target-category="apple-watch">
+                        <i class="fas fa-clock" style="margin-right: 8px;"></i>Apple Watch
+                      </a>
+                      <div class="subcategory-content" id="apple-watch-content">
+                        <div class="subcategory-title">Apple Watch</div>
+                        <div class="subcategory-grid-links">
+                          <a href="#">Apple Watch Ultra</a>
+                          <a href="#">Apple Watch SE</a>
+                          <a href="#">Apple Watch Nike</a>
+                          <a href="#">Dây đeo Sport</a>
+                          <a href="#">Dây đeo Leather</a>
+                          <a href="#">Dây đeo Milanese</a>
+                          <a href="#">So sánh Apple Watch</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="category-item">
+                      <a href="accessory.html" data-target-category="accessories">
+                        <i class="fas fa-headphones" style="margin-right: 8px;"></i>Accessories
+                      </a>
+                      <div class="subcategory-content" id="accessories-content">
+                        <div class="subcategory-title">Accessories</div>
+                        <div class="subcategory-grid-links">
+                          <a href="tainghe.html">AirPods</a>
+                          <a href="#">Apple TV 4K</a>
+                          <a href="#">MagSafe Charger</a>
+                          <a href="#">Ốp lưng iPhone</a>
+                          <a href="#">Magic Keyboard</a>
+                          <a href="#">Magic Mouse</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="mega-menu-column subcategory-display-column">
+                    <div class="subcategory-content-placeholder">
+                      <p>🖱️ Di chuột qua danh mục để xem chi tiết</p>
+                    </div>
+                  </div>
+                  <div class="mega-menu-column promo-column">
+                    <img src="assets/logo/logo.png" alt="Hot Products">
+                    <p>🔥 Khám phá các sản phẩm hot nhất</p>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li><a href="promotion.html">Khuyến Mại</a></li>
+            <li><a href="about.html">Về chúng tôi</a></li>
+            <li><a href="news.html" aria-current="page">Tin Tức</a></li>
+            <li><a href="contact.html">Liên hệ</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="header-right">
+        <div class="search-box">
+          <i class="fas fa-search search-icon" aria-label="Mở tìm kiếm"></i>
+          <div class="search-input-container">
+            <input type="text" class="search-input" placeholder="Tìm kiếm sản phẩm..." aria-label="Tìm kiếm sản phẩm">
+            <button class="close-search-btn" aria-label="Đóng tìm kiếm">×</button>
+          </div>
+          <div class="search-results-container" role="listbox" style="display: none;"></div>
+        </div>
+        <div class="cart-icon">
+          <i class="fas fa-shopping-cart"></i>
+          <span class="cart-count">0</span>
+        </div>
+        <div id="user-section">
+          <!-- Dynamically updated by JavaScript -->
+        </div>
+        <div class="hamburger-menu">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Cart Modal Overlay -->
+  <div class="cart-modal-overlay"></div>
+
+  <!-- Cart Modal -->
+  <div class="cart-modal">
+    <div class="cart-modal-header">
+      <h3>Giỏ hàng của bạn</h3>
+      <button class="close-cart-modal"><i class="fas fa-times"></i></button>
+    </div>
+    <div class="cart-modal-body">
+      <div class="cart-empty">
+        <i class="fas fa-shopping-cart"></i>
+        <p>Giỏ hàng trống</p>
+      </div>
+      <!-- Cart items will be dynamically added here -->
+    </div>
+    <div class="cart-modal-footer">
+      <button class="view-cart-btn">Xem giỏ hàng</button>
+      <button class="checkout-btn">Thanh toán</button>
+    </div>
+  </div>
+
+  <!-- Mobile Overlay -->
+  <div class="mobile-overlay"></div>
+
+  <!-- Mobile Navigation -->
+  <nav class="mobile-nav">
+    <button class="close-mobile-nav"><i class="fas fa-times"></i></button>
+    <ul>
+      <li><a href="index.html">🏠 Trang chủ</a></li>
+      <li class="has-submenu">
+        <a href="#">📱 Products</a>
+        <ul class="submenu">
+          <li><a href="iphone.html">📱 iPhone Series</a></li>
+          <li class="has-submenu">
+            <a href="macbook.html">💻 Mac Devices</a>
+            <ul class="submenu">
+              <li><a href="#">MacBook Air</a></li>
+              <li><a href="#">MacBook Pro</a></li>
+              <li><a href="#">iMac</a></li>
+            </ul>
+          </li>
+          <li><a href="ipad.html">🎯 iPad Models</a></li>
+          <li><a href="watch.html">⌚ Apple Watch</a></li>
+          <li><a href="accessory.html">🎧 Accessories</a></li>
+        </ul>
+      </li>
+      <li><a href="about.html">ℹ️ Về chúng tôi</a></li>
+      <li><a href="promotion.html">🛠️ Khuyến mại</a></li>
+      <li><a href="news.html">📝 Tin tức</a></li>
+      <li><a href="contact.html">📞 Contact</a></li>
+    </ul>
+  </nav>
+
+    <main class="container my-5">
+        <div id="news-detail">
+            <!-- Nội dung tin tức sẽ được thêm bằng JavaScript -->
+            <div class="text-center py-5">
+                <div class="spinner-border text-primary" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+                <p class="mt-3">Đang tải nội dung...</p>
+            </div>
+        </div>
+    </main>
+    <div id="footer-placeholder"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Lấy tham số ID từ URL
+        function getParameterFromUrl(paramName) {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get(paramName);
+        }
+
+        // Hiển thị chi tiết tin tức
+        async function displayNewsDetail() {
+            const newsId = getParameterFromUrl('id');
+
+            if (!newsId) {
+                document.getElementById('news-detail').innerHTML = `
+                    <div class="text-center py-5">
+                        <i class="fas fa-exclamation-circle text-danger fa-3x mb-3"></i>
+                        <h3 class="mb-3">Không tìm thấy tin tức</h3>
+                        <p>Vui lòng kiểm tra lại đường dẫn hoặc quay lại trang tin tức.</p>
+                        <a href="news.html" class="btn btn-primary mt-3">Quay lại trang tin tức</a>
+                    </div>
+                `;
+                return;
+            }
+
+            try {
+                // Tải dữ liệu từ news.json
+                const response = await fetch('data/news.json');
+                const newsData = await response.json();
+
+                // Tìm tin tức theo ID
+                const newsItem = newsData.find(item => item.id === newsId);
+
+                if (!newsItem) {
+                    throw new Error('Không tìm thấy tin tức');
+                }
+
+                // Cập nhật tiêu đề trang
+                document.title = `${newsItem.title} | Anh Em Rọt`;
+
+                // Xác định category từ title (đơn giản)
+                let category = 'Tin tức';
+                if (newsItem.title.includes('iPhone')) category = 'iPhone';
+                else if (newsItem.title.includes('Apple Watch')) category = 'Apple Watch';
+                else if (newsItem.title.includes('iPad')) category = 'iPad';
+                else if (newsItem.title.includes('Apple Music')) category = 'Apple Music';
+                else if (newsItem.title.includes('Apple TV')) category = 'Apple TV';
+                else if (newsItem.title.includes('iOS')) category = 'iOS';
+
+                // Hiển thị chi tiết tin tức
+                document.getElementById('news-detail').innerHTML = `
+                    <div class="back-button">
+                        <a href="news.html" class="btn btn-outline-primary">
+                            <i class="fas fa-arrow-left me-2"></i> Quay lại tin tức
+                        </a>
+                    </div>
+                    
+                    <h1 class="mb-4">${newsItem.title}</h1>
+                    
+                    <div class="news-meta">
+                        <span class="news-date"><i class="far fa-calendar-alt me-2"></i>${newsItem.startDate}</span>
+                        <span class="news-category">${category}</span>
+                    </div>
+                    
+                    <img src="${newsItem.image}" alt="${newsItem.title}" class="news-image">
+                    
+                    <div class="news-content">
+                        ${newsItem.details}
+                    </div>
+                    
+                    <div class="share-section mt-5">
+                        <h5 class="mb-3">Chia sẻ bài viết</h5>
+                        <div class="share-buttons">
+                            <a href="#" class="btn btn-outline-primary btn-sm">
+                                <i class="fab fa-facebook-f me-2"></i> Facebook
+                            </a>
+                            <a href="#" class="btn btn-outline-info btn-sm">
+                                <i class="fab fa-twitter me-2"></i> Twitter
+                            </a>
+                            <a href="#" class="btn btn-outline-success btn-sm">
+                                <i class="fab fa-whatsapp me-2"></i> WhatsApp
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="related-news mt-5">
+                        <h4 class="related-news-title">Tin tức liên quan</h4>
+                        <div class="row" id="related-news">
+                            <!-- Tin tức liên quan sẽ được thêm bằng JavaScript -->
+                        </div>
+                    </div>
+                `;
+
+                // Hiển thị tin tức liên quan
+                displayRelatedNews(newsData, newsItem, category);
+
+            } catch (error) {
+                console.error('Lỗi khi tải tin tức:', error);
+                document.getElementById('news-detail').innerHTML = `
+                    <div class="text-center py-5">
+                        <i class="fas fa-exclamation-circle text-danger fa-3x mb-3"></i>
+                        <h3 class="mb-3">Đã xảy ra lỗi</h3>
+                        <p>Không thể tải nội dung tin tức. Vui lòng thử lại sau.</p>
+                        <a href="news.html" class="btn btn-primary mt-3">Quay lại trang tin tức</a>
+                    </div>
+                `;
+            }
+        }
+
+        function displayRelatedNews(newsData, currentNews, currentCategory) {
+            // Lọc tin tức cùng danh mục, loại bỏ tin tức hiện tại
+            let relatedNews = newsData.filter(item =>
+                item.title.toLowerCase().includes(currentCategory.toLowerCase()) && // Case-insensitive comparison
+                item.id !== currentNews.id
+            ).slice(0, 3); // Apply slice after filter
+
+            // If not enough 3 same category news, add more from others
+            if (relatedNews.length < 3) {
+                const otherNews = newsData.filter(item =>
+                    !item.title.toLowerCase().includes(currentCategory.toLowerCase()) && // Case-insensitive comparison
+                    item.id !== currentNews.id
+                ).slice(0, 3 - relatedNews.length);
+
+                relatedNews = [...relatedNews, ...otherNews];
+            }
+
+            // Create HTML for related news
+            let relatedNewsHTML = '';
+
+            relatedNews.forEach(item => {
+                let category = 'Tin tức';
+                // More robust category determination based on keywords
+                if (item.title.toLowerCase().includes('iphone')) category = 'iPhone';
+                else if (item.title.toLowerCase().includes('apple watch')) category = 'Apple Watch';
+                else if (item.title.toLowerCase().includes('ipad')) category = 'iPad';
+                else if (item.title.toLowerCase().includes('apple music')) category = 'Apple Music';
+                else if (item.title.toLowerCase().includes('apple tv')) category = 'Apple TV';
+                else if (item.title.toLowerCase().includes('ios')) category = 'iOS';
+                else if (item.title.toLowerCase().includes('apple pay')) category = 'Apple Pay';
+                else if (item.title.toLowerCase().includes('môi trường')) category = 'Môi trường';
+                else if (item.title.toLowerCase().includes('macos')) category = 'macOS';
+                else if (item.title.toLowerCase().includes('wwdc')) category = 'WWDC';
+                else if (item.title.toLowerCase().includes('apple arcade')) category = 'Apple Arcade';
+
+
+                relatedNewsHTML += `
+                    <div class="col-md-4 mb-4">
+                        <div class="news-card" onclick="location.href='news_detail.html?id=${item.id}'">
+                            <img src="${item.image}" class="card-img-top" alt="${item.title}">
+                            <div class="news-card-body">
+                                <h5 class="news-card-title">${item.title}</h5>
+                                <div class="news-card-date">
+                                    <i class="far fa-calendar-alt me-2"></i>${item.startDate}
+                                </div>
+                                <span class="badge bg-primary mt-2">${category}</span>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            });
+
+            document.getElementById('related-news').innerHTML = relatedNewsHTML;
+        }
+        // Khởi tạo khi trang được tải
+        document.addEventListener('DOMContentLoaded', function () {
+            displayNewsDetail();
+
+            // Mobile menu toggle
+            const hamburgerMenu = document.querySelector('.hamburger-menu');
+            const mobileNav = document.querySelector('.mobile-nav');
+            const mobileOverlay = document.querySelector('.mobile-overlay');
+            const closeMobileNav = document.querySelector('.close-mobile-nav');
+
+            hamburgerMenu.addEventListener('click', function () {
+                mobileNav.classList.add('active');
+                mobileOverlay.classList.add('active');
+                document.body.style.overflow = 'hidden';
+            });
+
+            closeMobileNav.addEventListener('click', function () {
+                mobileNav.classList.remove('active');
+                mobileOverlay.classList.remove('active');
+                document.body.style.overflow = '';
+            });
+
+            mobileOverlay.addEventListener('click', function () {
+                mobileNav.classList.remove('active');
+                mobileOverlay.classList.remove('active');
+                document.body.style.overflow = '';
+            });
+
+            // Search toggle
+            const searchIcon = document.querySelector('.search-icon');
+            const searchInputContainer = document.querySelector('.search-input-container');
+            const closeSearchBtn = document.querySelector('.close-search-btn');
+
+            searchIcon.addEventListener('click', function () {
+                searchInputContainer.classList.add('active');
+            });
+
+            closeSearchBtn.addEventListener('click', function () {
+                searchInputContainer.classList.remove('active');
+            });
+        });
+    </script>
+    <script src="scripts/page_loader.js"></script>
+    <script src="scripts/navbar.js"></script>
+    <script src="scripts/loadfooter.js"></script>
+    <script src="scripts/chatbot.js"></script>
+</body>
+
+</html>

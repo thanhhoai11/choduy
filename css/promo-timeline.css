@@ -1,0 +1,424 @@
+/* promo-timeline.css - Thêm vào thư mục css */
+
+/**
+ * CSS cho Timeline khuyến mãi
+ */
+
+/* Section Timeline */
+.promo-timeline-section {
+  padding: 40px 0;
+  background-color: var(--body-bg);
+  margin-bottom: 30px;
+}
+
+/* Container */
+.promo-timeline-container {
+  background-color: var(--card-bg);
+  border-radius: 15px;
+  box-shadow: 0 5px 15px var(--shadow-color);
+  overflow: hidden;
+  width: 100%;
+  margin: 0 auto;
+  transition: all 0.3s ease;
+}
+
+/* Header */
+.promo-timeline-header {
+  padding: 20px;
+  border-bottom: 1px solid var(--border-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.promo-timeline-header h3 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--text-color);
+  display: flex;
+  align-items: center;
+}
+
+.promo-timeline-header h3 i {
+  color: var(--primary-color);
+  margin-right: 10px;
+}
+
+/* Filters */
+.promo-timeline-filters {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.filter-item {
+  padding: 6px 12px;
+  background-color: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 20px;
+  font-size: 0.85rem;
+  color: var(--text-color);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.filter-item:hover {
+  background-color: var(--hover-bg);
+  border-color: var(--primary-color);
+}
+
+.filter-item.active {
+  background-color: var(--primary-color);
+  color: white;
+  border-color: var(--primary-color);
+}
+
+/* Scroll container */
+.promo-timeline-scroll {
+  max-height: 500px;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding: 20px;
+  scroll-behavior: smooth;
+}
+
+/* Scrollbar */
+.promo-timeline-scroll::-webkit-scrollbar {
+  width: 6px;
+}
+
+.promo-timeline-scroll::-webkit-scrollbar-track {
+  background: var(--card-bg);
+}
+
+.promo-timeline-scroll::-webkit-scrollbar-thumb {
+  background-color: var(--border-color);
+  border-radius: 10px;
+}
+
+.promo-timeline-scroll::-webkit-scrollbar-thumb:hover {
+  background-color: var(--primary-color);
+}
+
+/* Events */
+.promo-timeline-events {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Empty Timeline */
+.empty-timeline {
+  padding: 30px;
+  text-align: center;
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+/* Timeline event */
+.timeline-event {
+  display: flex;
+  gap: 20px;
+  background-color: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px var(--shadow-color);
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.timeline-event:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px var(--shadow-color);
+  border-color: var(--primary-color);
+}
+
+/* Hidden event (để làm hiệu ứng show more) */
+.timeline-event.hidden-event {
+  display: none;
+}
+
+.timeline-event.visible-event {
+  animation: fadeIn 0.5s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Event image */
+.event-image {
+  flex: 0 0 150px;
+  position: relative;
+  overflow: hidden;
+}
+
+.event-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.timeline-event:hover .event-image img {
+  transform: scale(1.05);
+}
+
+/* Event type badge */
+.event-type {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  padding: 4px 10px;
+  font-size: 0.7rem;
+  font-weight: bold;
+  color: white;
+  border-radius: 0 20px 20px 0;
+  text-transform: uppercase;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.event-type.flash-sale {
+  background-color: #e74c3c;
+}
+
+.event-type.promotion {
+  background-color: #3498db;
+}
+
+.event-type.special {
+  background-color: #9b59b6;
+}
+
+.event-type.clearance {
+  background-color: #e67e22;
+}
+
+.event-type.new-arrival {
+  background-color: #2ecc71;
+}
+
+/* Event content */
+.event-content {
+  flex: 1;
+  padding: 15px 15px 15px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Event header */
+.event-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  gap: 10px;
+}
+
+.event-status {
+  font-size: 0.7rem;
+  padding: 3px 8px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.event-status.upcoming {
+  background-color: #3498db;
+  color: white;
+}
+
+.event-status.active {
+  background-color: #2ecc71;
+  color: white;
+}
+
+.event-status.ended {
+  background-color: #95a5a6;
+  color: white;
+}
+
+.event-title {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--text-color);
+}
+
+/* Event description */
+.event-description {
+  margin: 0 0 10px;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+
+/* Event time */
+.event-time {
+  margin-bottom: 10px;
+}
+
+.time-row {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.85rem;
+  color: var(--text-color);
+  margin-bottom: 5px;
+}
+
+.time-row i {
+  color: var(--primary-color);
+  width: 16px;
+}
+
+/* Event footer */
+.event-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto;
+}
+
+/* Event countdown */
+.event-countdown {
+  flex: 1;
+}
+
+.countdown-label {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin-bottom: 3px;
+}
+
+.countdown-timer {
+  font-size: 1rem;
+  font-weight: bold;
+  color: var(--primary-color);
+}
+
+/* Event link */
+.event-link {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 12px;
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 0.85rem;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.event-link:hover {
+  background-color: var(--primary-color);
+  opacity: 0.9;
+  transform: translateY(-2px);
+  color: white;
+  text-decoration: none;
+}
+
+.event-link i {
+  margin-left: 5px;
+  font-size: 0.75rem;
+}
+
+/* Timeline footer */
+.promo-timeline-footer {
+  padding: 15px;
+  text-align: center;
+  border-top: 1px solid var(--border-color);
+}
+
+.btn-show-more {
+  padding: 6px 15px;
+  background-color: transparent;
+  border: 1px solid var(--border-color);
+  border-radius: 20px;
+  color: var(--text-color);
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn-show-more:hover {
+  background-color: var(--hover-bg);
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+}
+
+.btn-show-more i {
+  margin-left: 5px;
+  font-size: 0.8rem;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .promo-timeline-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .timeline-event {
+    flex-direction: column;
+  }
+  
+  .event-image {
+    flex: 0 0 auto;
+    height: 150px;
+    width: 100%;
+  }
+  
+  .event-content {
+    padding: 15px;
+  }
+  
+  .event-footer {
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+  }
+  
+  .event-countdown {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .event-link {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .promo-timeline-filters {
+    width: 100%;
+    justify-content: space-between;
+  }
+  
+  .filter-item {
+    font-size: 0.75rem;
+    padding: 5px 10px;
+  }
+  
+  .event-type {
+    font-size: 0.65rem;
+    padding: 3px 8px;
+  }
+  
+  .event-status {
+    font-size: 0.65rem;
+    padding: 2px 6px;
+  }
+  
+  .event-title {
+    font-size: 1rem;
+  }
+  
+  .countdown-timer {
+    font-size: 0.9rem;
+  }
+}

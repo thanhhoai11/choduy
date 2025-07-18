@@ -1,0 +1,646 @@
+/* popup.css - Thêm vào thư mục css */
+/* Styles cho hệ thống popup */
+
+/* Overlay nền */
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 9998;
+  display: none;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.popup-overlay.active {
+  opacity: 1;
+}
+
+/* Container chứa popup */
+.popup-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  pointer-events: none;
+}
+
+/* Style chung cho tất cả popup */
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.9);
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+  display: none;
+  opacity: 0;
+  transition: all 0.3s ease;
+  max-width: 90%;
+  max-height: 90vh;
+  overflow: auto;
+  pointer-events: auto;
+}
+
+.popup.show {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+/* Nút đóng popup */
+.popup-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 30px;
+  height: 30px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: none;
+  border-radius: 50%;
+  font-size: 20px;
+  color: #fff;
+  cursor: pointer;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+}
+
+.popup-close:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+  transform: scale(1.1);
+}
+
+/* Fix body khi popup hiển thị */
+body.popup-open {
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+
+/* Animation cho các phần tử */
+.animate-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.5s ease;
+}
+
+.animate-in.animated {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ===== WELCOME POPUP STYLES ===== */
+.welcome-popup .popup-content {
+  width: 450px;
+  padding: 25px;
+  background-color: #fff;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.welcome-popup .popup-close {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: #333;
+}
+
+.welcome-header {
+  margin-bottom: 20px;
+}
+
+.logo-container {
+  margin-bottom: 15px;
+}
+
+.welcome-logo {
+  width: 100px;
+  height: auto;
+}
+
+.welcome-header h2 {
+  font-size: 24px;
+  margin: 0;
+  color: #333;
+}
+
+.welcome-header .highlight {
+  color: #0071e3;
+}
+
+.welcome-body {
+  text-align: left;
+}
+
+.welcome-body p {
+  font-size: 16px;
+  margin-bottom: 15px;
+  color: #555;
+}
+
+.benefits-list {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.benefits-list li {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  color: #555;
+}
+
+.benefits-list i {
+  color: #27ae60;
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.subscribe-form {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.email-input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px 0 0 4px;
+  font-size: 14px;
+}
+
+.subscribe-btn {
+  padding: 10px 15px;
+  background-color: #0071e3;
+  color: white;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.2s;
+}
+
+.subscribe-btn:hover {
+  background-color: #005bbc;
+}
+
+.no-thanks {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.close-popup {
+  color: #777;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.2s;
+}
+
+.close-popup:hover {
+  color: #333;
+  text-decoration: underline;
+}
+
+.success-message {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.success-icon {
+  font-size: 48px;
+  color: #27ae60;
+  margin-bottom: 15px;
+}
+
+.success-message h3 {
+  color: #27ae60;
+  margin-bottom: 15px;
+}
+
+.close-success-btn {
+  padding: 10px 20px;
+  background-color: #0071e3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 15px;
+  transition: background-color 0.2s;
+}
+
+.close-success-btn:hover {
+  background-color: #005bbc;
+}
+
+/* ===== DEAL POPUP STYLES ===== */
+.deal-popup .popup-content {
+  width: 480px;
+  padding: 0;
+  background-color: #fff;
+  border-radius: 15px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+}
+
+.deal-header {
+  background: linear-gradient(135deg, #ff5e00, #ff0062);
+  color: white;
+  padding: 15px 20px;
+  position: relative;
+}
+
+.popup-date {
+  display: inline-block;
+  background-color: #e50019;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.deal-title {
+  font-size: 26px;
+  font-weight: 800;
+  margin: 5px 0;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+}
+
+.deal-subtitle {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 5px 0 15px;
+}
+
+.deal-price {
+  margin-top: 10px;
+}
+
+.price-tag {
+  display: inline-block;
+  background-color: #ffd700;
+  color: #e50019;
+  font-size: 24px;
+  font-weight: 800;
+  padding: 5px 15px;
+  border-radius: 8px;
+  position: relative;
+}
+
+.price-tag::before {
+  content: '';
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  border: 2px dashed #ffd700;
+  border-radius: 10px;
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.05); opacity: 0.8; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+.deal-products {
+  padding: 20px;
+  position: relative;
+  background-color: #f9f9f9;
+}
+
+.deal-products-img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.deal-badge {
+  position: absolute;
+  top: -15px;
+  right: 20px;
+  width: 80px;
+  height: 80px;
+  animation: bounce 2s infinite;
+}
+
+.gift-badge {
+  width: 100%;
+  height: 100%;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+.deal-footer {
+  padding: 15px 20px;
+  background-color: white;
+}
+
+.deal-button {
+  display: inline-block;
+  background-color: #ff3a2d;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px 30px;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 15px rgba(255, 58, 45, 0.3);
+  border: none;
+  cursor: pointer;
+}
+
+.deal-button:hover {
+  background-color: #e02b20;
+  transform: translateY(-2px);
+  box-shadow: 0 7px 20px rgba(255, 58, 45, 0.4);
+  color: white;
+  text-decoration: none;
+}
+
+.deal-assistant {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  width: 100px;
+  height: 100px;
+}
+
+.assistant-img {
+  width: 100%;
+  height: auto;
+}
+
+.discount-bubble {
+  position: absolute;
+  top: -40px;
+  right: 60px;
+  background-color: white;
+  border: 2px solid #e50019;
+  border-radius: 8px;
+  padding: 5px 10px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.discount-bubble::after {
+  content: '';
+  position: absolute;
+  bottom: -8px;
+  right: 15px;
+  width: 15px;
+  height: 15px;
+  background-color: white;
+  border-right: 2px solid #e50019;
+  border-bottom: 2px solid #e50019;
+  transform: rotate(45deg);
+}
+
+.discount-text {
+  font-size: 12px;
+  color: #e50019;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+/* ===== PROMOTION POPUP STYLES ===== */
+.promotion-popup .popup-content {
+  width: 600px;
+  padding: 0;
+  background-color: #fff;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.promo-header {
+  background: linear-gradient(135deg, #0071e3, #00c6ff);
+  color: white;
+  padding: 15px 20px;
+  text-align: center;
+}
+
+.promo-header h3 {
+  margin: 0;
+  font-size: 22px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.promo-body {
+  display: flex;
+  padding: 20px;
+}
+
+.promo-image {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.promo-product-img {
+  max-width: 100%;
+  max-height: 280px;
+  object-fit: contain;
+}
+
+.promo-info {
+  flex: 1;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.promo-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.promo-price {
+  margin-bottom: 15px;
+}
+
+.current-price {
+  font-size: 22px;
+  font-weight: bold;
+  color: #ff3a2d;
+}
+
+.old-price {
+  font-size: 16px;
+  color: #999;
+  text-decoration: line-through;
+  margin-left: 10px;
+}
+
+.promo-benefits {
+  margin-bottom: 20px;
+}
+
+.benefit {
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #555;
+}
+
+.benefit i {
+  margin-right: 10px;
+  color: #0071e3;
+  font-size: 16px;
+}
+
+.promo-countdown {
+  margin-bottom: 20px;
+  background-color: #f8f8f8;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.countdown-label {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+.countdown-timer {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ff3a2d;
+}
+
+.promo-button {
+  display: inline-block;
+  background-color: #ff3a2d;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 12px 25px;
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
+  transition: all 0.3s ease;
+  margin-top: auto;
+}
+
+.promo-button:hover {
+  background-color: #e02b20;
+  color: white;
+  text-decoration: none;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .welcome-popup .popup-content {
+    width: 90%;
+    max-width: 400px;
+  }
+  
+  .deal-popup .popup-content {
+    width: 90%;
+    max-width: 400px;
+  }
+  
+  .promotion-popup .popup-content {
+    width: 90%;
+    max-width: 500px;
+  }
+  
+  .promo-body {
+    flex-direction: column;
+  }
+  
+  .promo-image, .promo-info {
+    width: 100%;
+  }
+  
+  .subscribe-form {
+    flex-direction: column;
+  }
+  
+  .email-input, .subscribe-btn {
+    width: 100%;
+    border-radius: 4px;
+  }
+  
+  .email-input {
+    margin-bottom: 10px;
+  }
+  
+  .subscribe-btn {
+    padding: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .welcome-popup .popup-content,
+  .deal-popup .popup-content,
+  .promotion-popup .popup-content {
+    width: 95%;
+  }
+  
+  .deal-title {
+    font-size: 20px;
+  }
+  
+  .deal-subtitle {
+    font-size: 16px;
+  }
+  
+  .deal-assistant {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .discount-bubble {
+    top: -30px;
+    right: 40px;
+    padding: 3px 8px;
+  }
+  
+  .discount-text {
+    font-size: 10px;
+  }
+  
+  .price-tag {
+    font-size: 20px;
+  }
+  
+  .promo-title {
+    font-size: 20px;
+  }
+  
+  .current-price {
+    font-size: 18px;
+  }
+  
+  .old-price {
+    font-size: 14px;
+  }
+  
+  .countdown-timer {
+    font-size: 20px;
+  }
+}

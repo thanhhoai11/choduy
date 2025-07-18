@@ -1,0 +1,106 @@
+[
+    {
+      "id": "promo06",
+      "title": "iPhone 14 Pro Max - Giảm 5 triệu đồng + Trả góp 0%",
+      "image": "assets/promotions/promo06.png",
+      "description": "Cơ hội sở hữu flagship giá tốt nhất năm!",
+      "startDate": "2025-05-01",
+      "details": "<style>table {width: 100%; border-collapse: collapse; margin-top: 10px;} table th, table td {padding: 10px; text-align: left; border: 1px solid #ddd;} table th {background-color: #f4f4f4; font-weight: bold;} tr:nth-child(even) {background-color: #f9f9f9;} tr:hover {background-color: #f1f1f1;}</style><table><tr><th>Điều kiện</th><th>Thông tin</th></tr><tr><td>Giảm giá</td><td>Giảm ngay 5.000.000đ</td></tr><tr><td>Trả góp</td><td>0% lãi suất trong 12 tháng</td></tr><tr><td>Áp dụng</td><td>Từ 01/05 đến 15/05/2025</td></tr><tr><td>Quà tặng</td><td>Tặng kèm 1 đế sạc không dây MagSafe</td></tr></table>"
+    },
+    {
+      "id": "promo07",
+      "title": "MacBook Pro 16-inch M3 Max - Ưu đãi đặc biệt",
+      "image": "assets/promotions/promo07.png",
+      "description": "Dành cho doanh nhân và creative pro",
+      "startDate": "2025-04-25",
+      "details": "<style>table {width: 100%; border-collapse: collapse; margin-top: 10px;} table th, table td {padding: 10px; text-align: left; border: 1px solid #ddd;} table th {background-color: #f4f4f4; font-weight: bold;} tr:nth-child(even) {background-color: #f9f9f9;} tr:hover {background-color: #f1f1f1;}</style><table><tr><th>Điều kiện</th><th>Thông tin</th></tr><tr><td>Giảm giá</td><td>Giảm 8% + Tặng Apple Care+ 1 năm</td></tr><tr><td>Bảo hành</td><td>Mở rộng bảo hành lên 3 năm</td></tr><tr><td>Áp dụng</td><td>Phiên bản 36GB RAM/1TB SSD trở lên</td></tr><tr><td>Ưu đãi</td><td>Miễn phí cài đặt phần mềm chuyên nghiệp</td></tr></table>"
+    },
+    {
+      "id": "promo08",
+      "title": "Apple One - Gói combo dịch vụ tiết kiệm 25%",
+      "image": "assets/promotions/promo08.png",
+      "description": "Tất cả dịch vụ Apple trong một gói",
+      "startDate": "2025-04-18",
+      "details": "<style>table {width: 100%; border-collapse: collapse; margin-top: 10px;} table th, table td {padding: 10px; text-align: left; border: 1px solid #ddd;} table th {background-color: #f4f4f4; font-weight: bold;} tr:nth-child(even) {background-color: #f9f9f9;} tr:hover {background-color: #f1f1f1;}</style><table><tr><th>Điều kiện</th><th>Thông tin</th></tr><tr><td>Tiết kiệm</td><td>25% so với đăng ký riêng lẻ</td></tr><tr><td>Bao gồm</td><td>Apple Music, TV+, Arcade, iCloud 2TB</td></tr><tr><td>Thời hạn</td><td>Áp dụng 3 tháng đầu cho khách hàng mới</td></tr><tr><td>Lưu ý</td><td>Tự động gia hạn với giá gốc sau khuyến mãi</td></tr></table>"
+    },
+    {
+      "id": "promo09",
+      "title": "iPad Mini 6 - Giảm 15% + Tặng Pencil 2",
+      "image": "assets/promotions/promo09.png",
+      "description": "Hoàn hảo cho công việc di động",
+      "startDate": "2025-05-05",
+      "details": "<style>table {width: 100%; border-collapse: collapse; margin-top: 10px;} table th, table td {padding: 10px; text-align: left; border: 1px solid #ddd;} table th {background-color: #f4f4f4; font-weight: bold;} tr:nth-child(even) {background-color: #f9f9f9;} tr:hover {background-color: #f1f1f1;}</style><table><tr><th>Điều kiện</th><th>Thông tin</th></tr><tr><td>Giảm giá</td><td>15% giá niêm yết</td></tr><tr><td>Quà tặng</td><td>Apple Pencil 2 trị giá 3.500.000đ</td></tr><tr><td>Áp dụng</td><td>Phiên bản WiFi 256GB trở lên</td></tr><tr><td>Chú ý</td><td>Không áp dụng trả góp</td></tr></table>"
+    },
+    {
+      "id": "promo10",
+      "title": "HomePod Mini - Mua 1 tặng 1",
+      "image": "assets/promotions/promo10.png",
+      "description": "Trải nghiệm âm thanh vòm đỉnh cao",
+      "startDate": "2025-04-22",
+      "details": "<style>table {width: 100%; border-collapse: collapse; margin-top: 10px;} table th, table td {padding: 10px; text-align: left; border: 1px solid #ddd;} table th {background-color: #f4f4f4; font-weight: bold;} tr:nth-child(even) {background-color: #f9f9f9;} tr:hover {background-color: #f1f1f1;}</style><table><tr><th>Điều kiện</th><th>Thông tin</th></tr><tr><td>Ưu đãi</td><td>Mua 1 HomePod Mini tặng 1 HomePod Mini</td></tr><tr><td>Màu sắc</td><td>Tùy chọn theo kho hàng</td></tr><tr><td>Áp dụng</td><td>Chỉ tại cửa hàng Apple Store</td></tr><tr><td>Thời gian</td><td>Đến khi hết hàng</td></tr></table>"
+    },
+    {
+      "id": "promo11",
+      "title": "iMac 24-inch - Giảm 10% + Tặng Magic Trackpad",
+      "image": "assets/promotions/promo11.png",
+      "description": "All-in-one mạnh mẽ, màu sắc cá tính",
+      "startDate": "2025-05-10",
+      "details": "<style>table {width: 100%; border-collapse: collapse; margin-top: 10px;} table th, table td {padding: 10px; text-align: left; border: 1px solid #ddd;} table th {background-color: #f4f4f4; font-weight: bold;} tr:nth-child(even) {background-color: #f9f9f9;} tr:hover {background-color: #f1f1f1;}</style><table><tr><th>Điều kiện</th><th>Thông tin</th></tr><tr><td>Giảm giá</td><td>10% toàn bộ cấu hình</td></tr><tr><td>Quà tặng</td><td>Magic Trackpad 2 trị giá 2.900.000đ</td></tr><tr><td>Bảo hành</td><td>Tặng thêm 1 năm bảo hành</td></tr><tr><td>Lưu ý</td><td>Không áp dụng cho phiên bản custom</td></tr></table>"
+    },
+    {
+      "id": "promo12",
+      "title": "Apple Trade In - Đổi cũ lấy mới giá cao",
+      "image": "assets/promotions/promo12.png",
+      "description": "Nâng cấp thiết bị với giá tốt nhất",
+      "startDate": "2025-04-30",
+      "details": "<style>table {width: 100%; border-collapse: collapse; margin-top: 10px;} table th, table td {padding: 10px; text-align: left; border: 1px solid #ddd;} table th {background-color: #f4f4f4; font-weight: bold;} tr:nth-child(even) {background-color: #f9f9f9;} tr:hover {background-color: #f1f1f1;}</style><table><tr><th>Điều kiện</th><th>Thông tin</th></tr><tr><td>Giá trị</td><td>iPhone cũ giá lên đến 15 triệu đồng</td></tr><tr><td>Áp dụng</td><td>Cho tất cả iPhone từ XS trở lên</td></tr><tr><td>Ưu đãi</td><td>Thêm 5% khi mua kèm Apple Care+</td></tr><tr><td>Địa điểm</td><td>Tất cả cửa hàng ủy quyền Apple</td></tr></table>"
+    },
+    {
+      "id": "promo13",
+      "title": "AirTag 4 Pack - Giảm 30% chỉ hôm nay",
+      "image": "assets/promotions/promo13.png",
+      "description": "Theo dõi đồ vật chưa bao giờ dễ dàng hơn",
+      "startDate": "2025-05-15",
+      "details": "<style>table {width: 100%; border-collapse: collapse; margin-top: 10px;} table th, table td {padding: 10px; text-align: left; border: 1px solid #ddd;} table th {background-color: #f4f4f4; font-weight: bold;} tr:nth-child(even) {background-color: #f9f9f9;} tr:hover {background-color: #f1f1f1;}</style><table><tr><th>Điều kiện</th><th>Thông tin</th></tr><tr><td>Giảm giá</td><td>30% combo 4 AirTag</td></tr><tr><td>Thời gian</td><td>Chỉ trong ngày 15/05</td></tr><tr><td>Số lượng</td><td>Giới hạn 100 combo</td></tr><tr><td>Kênh bán</td><td>Chỉ áp dụng online qua App Store</td></tr></table>"
+    },
+    {
+      "id": "promo14",
+      "title": "Pro Display XDR - Trả góp 0% 24 tháng",
+      "image": "assets/promotions/promo14.png",
+      "description": "Màn hình chuyên nghiệp cho creative",
+      "startDate": "2025-05-08",
+      "details": "<style>table {width: 100%; border-collapse: collapse; margin-top: 10px;} table th, table td {padding: 10px; text-align: left; border: 1px solid #ddd;} table th {background-color: #f4f4f4; font-weight: bold;} tr:nth-child(even) {background-color: #f9f9f9;} tr:hover {background-color: #f1f1f1;}</style><table><tr><th>Điều kiện</th><th>Thông tin</th></tr><tr><td>Trả góp</td><td>0% lãi suất trong 24 tháng</td></tr><tr><td>Quà tặng</td><td>Tặng kèm giá đỡ Pro Stand trị giá 10 triệu</td></tr><tr><td>Áp dụng</td><td>Khi mua cùng Mac Studio</td></tr><tr><td>Bảo hành</td><td>3 năm tại Apple Store</td></tr></table>"
+    },
+    {
+      "id": "promo15",
+      "title": "Apple Pencil Ultimate Bundle",
+      "image": "assets/promotions/promo15.png",
+      "description": "Tất cả phụ kiện bạn cần cho sáng tạo",
+      "startDate": "2025-05-20",
+      "details": "<style>table {width: 100%; border-collapse: collapse; margin-top: 10px;} table th, table td {padding: 10px; text-align: left; border: 1px solid #ddd;} table th {background-color: #f4f4f4; font-weight: bold;} tr:nth-child(even) {background-color: #f9f9f9;} tr:hover {background-color: #f1f1f1;}</style><table><tr><th>Điều kiện</th><th>Thông tin</th></tr><tr><td>Combo</td><td>Apple Pencil 2 + 3 đầu tip + Bảo vệ</td></tr><tr><td>Tiết kiệm</td><td>25% so với mua lẻ</td></tr><tr><td>Áp dụng</td><td>Cho khách mua cùng iPad Pro</td></tr><tr><td>Khuyến mãi</td><td>Tặng thêm ứng dụng Procreate</td></tr></table>"
+    },
+    {
+      "id": "promo16",
+      "title": "Mac Studio - Ưu đãi doanh nghiệp",
+      "image": "assets/promotions/promo16.png",
+      "description": "Giải pháp workstation cho công ty",
+      "startDate": "2025-05-03",
+      "details": "<style>table {width: 100%; border-collapse: collapse; margin-top: 10px;} table th, table td {padding: 10px; text-align: left; border: 1px solid #ddd;} table th {background-color: #f4f4f4; font-weight: bold;} tr:nth-child(even) {background-color: #f9f9f9;} tr:hover {background-color: #f1f1f1;}</style><table><tr><th>Điều kiện</th><th>Thông tin</th></tr><tr><td>Giảm giá</td><td>12% cho đơn hàng từ 5 máy</td></tr><tr><td>Hỗ trợ</td><td>Cài đặt mạng doanh nghiệp miễn phí</td></tr><tr><td>Bảo hành</td><td>4 năm với dịch vụ ưu tiên</td></tr><tr><td>Yêu cầu</td><td>Xuất trình giấy phép kinh doanh</td></tr></table>"
+    },
+    {
+      "id": "promo17",
+      "title": "Apple Watch SE - Giảm 25% cuối tuần",
+      "image": "assets/promotions/promo17.png",
+      "description": "Smartwatch giá tốt nhất Apple",
+      "startDate": "2025-05-22",
+      "details": "<style>table {width: 100%; border-collapse: collapse; margin-top: 10px;} table th, table td {padding: 10px; text-align: left; border: 1px solid #ddd;} table th {background-color: #f4f4f4; font-weight: bold;} tr:nth-child(even) {background-color: #f9f9f9;} tr:hover {background-color: #f1f1f1;}</style><table><tr><th>Điều kiện</th><th>Thông tin</th></tr><tr><td>Giảm giá</td><td>25% chỉ thứ 7, chủ nhật</td></tr><tr><td>Phiên bản</td><td>Áp dụng cho cả GPS và Cellular</td></tr><tr><td>Số lượng</td><td>Giới hạn 50 máy/ngày</td></tr><tr><td>Địa điểm</td><td>Tất cả cửa hàng ủy quyền</td></tr></table>"
+    },
+    {
+      "id": "promo18",
+      "title": "Final Cut Pro + Logic Pro - Combo 50%",
+      "image": "assets/promotions/promo18.png",
+      "description": "Dành cho nhà sáng tạo chuyên nghiệp",
+      "startDate": "2025-05-18",
+      "details": "<style>table {width: 100%; border-collapse: collapse; margin-top: 10px;} table th, table td {padding: 10px; text-align: left; border: 1px solid #ddd;} table th {background-color: #f4f4f4; font-weight: bold;} tr:nth-child(even) {background-color: #f9f9f9;} tr:hover {background-color: #f1f1f1;}</style><table><tr><th>Điều kiện</th><th>Thông tin</th></tr><tr><td>Giảm giá</td><td>50% khi mua combo 2 ứng dụng</td></tr><tr><td>Hỗ trợ</td><td>Tặng khoá học online trị giá 2 triệu</td></tr><tr><td>Áp dụng</td><td>Cho người dùng Mac mới</td></tr><tr><td>Thời hạn</td><td>Đến hết 31/05/2025</td></tr></table>"
+    }
+]
